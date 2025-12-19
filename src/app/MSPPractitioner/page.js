@@ -73,7 +73,7 @@ const courseData = {
       duration: "2 Days",
       level: "Foundation",
       badge: "MSP",
-      badgeColor: "bg-blue-600"
+      badgeColor: "bg-[#9F2D2D]"
     },
     {
       title: "PRINCE2 Practitioner",
@@ -84,7 +84,7 @@ const courseData = {
       duration: "3 Days",
       level: "Advanced",
       badge: "PRINCE2",
-      badgeColor: "bg-blue-600"
+      badgeColor: "bg-[#9F2D2D]"
     },
     {
       title: "MoP Practitioner",

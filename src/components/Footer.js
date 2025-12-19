@@ -34,8 +34,8 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gray-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+    <footer className="bg-[#4C0519] text-white">
+      <div className="w-full px-6 sm:px-10 lg:px-20 py-12 sm:py-16">
         <Grid container spacing={4}>
           
           {/* Popular Courses - Column 1 */}
@@ -117,7 +117,7 @@ export default function Footer() {
               <p className="text-gray-300 text-sm mb-4">Cash, Cheque, Online Transfer & Credit Cards</p>
               <div className="flex gap-2 flex-wrap">
                 <div className="w-12 h-8 bg-white rounded flex items-center justify-center shadow-sm">
-                  <SiVisa className="w-8 h-5 text-blue-600" />
+                  <SiVisa className="w-8 h-5 text-[#9F2D2D]" />
                 </div>
                 <div className="w-12 h-8 bg-white rounded flex items-center justify-center shadow-sm">
                   <SiMastercard className="w-8 h-5 text-red-500" />
@@ -126,7 +126,7 @@ export default function Footer() {
                   <FaUniversity className="w-5 h-4 text-gray-700" />
                 </div>
                 <div className="w-12 h-8 bg-white rounded flex items-center justify-center shadow-sm">
-                  <FaPaypal className="w-6 h-4 text-blue-600" />
+                  <FaPaypal className="w-6 h-4 text-[#9F2D2D]" />
                 </div>
               </div>
             </div>
@@ -140,7 +140,7 @@ export default function Footer() {
                 href="https://www.facebook.com/quicklearnsystems"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-all duration-300"
+                className="w-10 h-10 bg-gray-800 hover:bg-[#9F2D2D] rounded-lg flex items-center justify-center transition-all duration-300"
                 aria-label="Facebook"
               >
                 <FaFacebookF className="w-4 h-4 text-white" />
@@ -199,9 +199,28 @@ export default function Footer() {
 
 
         </Grid>
+        {/* Disclaimer */}
+<div className="border-t border-gray-300 mt-10 pt-6">
+  <h4 className="text-sm font-semibold text-gray-200 mb-2">
+    DISCLAIMER
+  </h4>
+  <p className="text-gray-400 text-xs leading-relaxed max-w-4xl">
+    All trademarks, service marks, and registered trademarks mentioned herein the website
+    are the property of their respective owners.
+    <br />
+    Any potential violation may be reported to{" "}
+    <a
+      href="mailto:info@quicklearnsys.com"
+      className="text-gray-300 hover:text-white underline"
+    >
+      info@quicklearnsys.com
+    </a>{" "}
+    for correction.
+  </p>
+</div>
 
         {/* Copyright */}
-        <div className="border-t border-gray-800 mt-12 pt-8">
+        <div className="border-t border-gray-300 mt-12 pt-8">
           <p className="text-gray-400 text-sm text-center">
             © 2018-2025 QuickLearn Systems. All Rights Reserved. The certification names are the trademarks of their respective owners.
           </p>

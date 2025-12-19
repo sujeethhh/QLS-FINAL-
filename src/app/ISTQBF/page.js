@@ -68,7 +68,7 @@ const courseData = {
       duration: "4 Days",
       level: "Professional",
       badge: "ISTQB",
-      badgeColor: "bg-blue-600"
+      badgeColor: "bg-[#9F2D2D]"
     },
     {
       title: "DevOps Foundation",

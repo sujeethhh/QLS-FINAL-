@@ -487,7 +487,7 @@ export default function CoursePageClient({ courseData }) {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                   <div className="absolute bottom-0 left-0 p-4">
-                    <span className="bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                    <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                     <h3 className="text-xl font-bold text-white mt-2">{course.title}</h3>
                   </div>
                 </div>
@@ -504,7 +504,7 @@ export default function CoursePageClient({ courseData }) {
                         <span className="font-medium text-sm">{course.level}</span>
                       </div>
                     </div>
-                    <Link href={course.href} className="text-blue-600 hover:text-blue-800 font-medium text-sm flex items-center">
+                    <Link href={course.href} className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
                       Details
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

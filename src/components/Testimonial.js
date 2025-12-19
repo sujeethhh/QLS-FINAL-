@@ -30,7 +30,7 @@ export default function Testimonial({ testimonials }) {
   const currentItem = testimonials[current];
 
   return (
-    <div className="py-12 bg-gray-50">
+    <div className="py-12 from-rose-50 via-white to-rose-100">
       <Container maxWidth="lg">
         
         {/* Section Title */}
@@ -42,11 +42,11 @@ export default function Testimonial({ testimonials }) {
           <h2 className="text-3xl font-bold text-gray-900 mb-2">
             What Our Students Say
           </h2>
-          <div className="w-16 h-1 bg-blue-600 mx-auto" />
+          <div className="w-16 h-1 bg-[#9F2D2D] mx-auto" />
         </motion.div>
 
         {/* Testimonial Card */}
-        <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <div className="from-rose-50 via-white to-rose-100 rounded-2xl shadow-lg overflow-hidden">
           <AnimatePresence mode="wait">
             <motion.div
               key={current}
@@ -122,7 +122,7 @@ export default function Testimonial({ testimonials }) {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={prevSlide}
-                className="bg-gray-100 hover:bg-blue-600 hover:text-white text-gray-700 rounded-full p-2 transition-colors duration-300"
+                className="bg-gray-100 hover:bg-[#9F2D2D] hover:text-white text-gray-700 rounded-full p-2 transition-colors duration-300"
               >
                 <ChevronLeft className="w-5 h-5" />
               </motion.button>
@@ -131,7 +131,7 @@ export default function Testimonial({ testimonials }) {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={nextSlide}
-                className="bg-gray-100 hover:bg-blue-600 hover:text-white text-gray-700 rounded-full p-2 transition-colors duration-300"
+                className="bg-gray-100 hover:bg-[#9F2D2D] hover:text-white text-gray-700 rounded-full p-2 transition-colors duration-300"
               >
                 <ChevronRight className="w-5 h-5" />
               </motion.button>
@@ -145,7 +145,7 @@ export default function Testimonial({ testimonials }) {
                   onClick={() => setCurrent(i)}
                   className={`h-2 rounded-full transition-all duration-300 ${
                     i === current
-                      ? "w-8 bg-blue-600"
+                      ? "w-8 bg-[#9F2D2D]"
                       : "w-2 bg-gray-300 hover:bg-gray-400"
                   }`}
                 />

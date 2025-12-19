@@ -162,7 +162,7 @@ ${emailForm.message}
               console.log('Simple button clicked!');
               setIsOpen(true);
             }}
-            className="bg-blue-600 text-white w-16 h-16 rounded-full shadow-lg flex items-center justify-center text-2xl hover:bg-blue-700 transition-colors"
+            className="bg-[#9F2D2D] text-white w-16 h-16 rounded-full shadow-lg flex items-center justify-center text-2xl hover:bg-blue-700 transition-colors"
             style={{
               WebkitTapHighlightColor: 'transparent',
               touchAction: 'manipulation',
@@ -260,7 +260,7 @@ ${emailForm.message}
                 e.preventDefault();
                 console.log('Touch started on chat button'); // Debug log
               }}
-              className="relative bg-gradient-to-br from-blue-500 via-blue-600 to-indigo-700 text-white p-4 rounded-full shadow-2xl hover:shadow-blue-500/40 transition-all duration-300 group overflow-hidden touch-manipulation min-w-[64px] min-h-[64px] flex items-center justify-center active:scale-95 cursor-pointer"
+              className="relative bg-gradient-to-br from-blue-500 via-[#9F2D2D] to-indigo-700 text-white p-4 rounded-full shadow-2xl hover:shadow-blue-500/40 transition-all duration-300 group overflow-hidden touch-manipulation min-w-[64px] min-h-[64px] flex items-center justify-center active:scale-95 cursor-pointer"
               style={{
                 WebkitTapHighlightColor: 'transparent',
                 userSelect: 'none',
@@ -393,7 +393,7 @@ ${emailForm.message}
           >
             {/* Enhanced Header */}
             <motion.div
-              className="relative bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-800 text-white p-3 sm:p-4 overflow-hidden"
+              className="relative bg-gradient-to-r from-[#9F2D2D] via-blue-700 to-indigo-800 text-white p-3 sm:p-4 overflow-hidden"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
@@ -537,7 +537,7 @@ ${emailForm.message}
                                   <IconComponent className="w-6 h-6 text-white" />
                                 </motion.div>
                                 <div className="flex-1">
-                                  <h4 className="font-semibold text-gray-800 mb-1 group-hover:text-blue-600 transition-colors">
+                                  <h4 className="font-semibold text-gray-800 mb-1 group-hover:text-[#9F2D2D] transition-colors">
                                     {option.title}
                                   </h4>
                                   <p className="text-sm text-gray-600 leading-relaxed">
@@ -669,7 +669,7 @@ ${emailForm.message}
                             : "Redirecting you to our contacts page..."
                           }
                         </p>
-                        <div className="flex items-center justify-center gap-2 text-blue-600">
+                        <div className="flex items-center justify-center gap-2 text-[#9F2D2D]">
                           <motion.div
                             animate={{ rotate: 360 }}
                             transition={{ duration: 1, repeat: Infinity, ease: "linear" }}

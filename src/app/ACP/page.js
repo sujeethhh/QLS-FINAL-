@@ -72,7 +72,7 @@ const courseData = {
       duration: "3 Days",
       level: "Intermediate",
       badge: "ITIL®",
-      badgeColor: "bg-blue-600"
+      badgeColor: "bg-[#9F2D2D]"
     },
     {
       title: "ITIL 4 Strategist: Direct, Plan & Improve",

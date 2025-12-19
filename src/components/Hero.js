@@ -147,7 +147,8 @@ export default function Hero({ onCategorySelect }) {
                   whileTap={{ scale: 0.98 }}
                   onClick={() => onCategorySelect(slides[currentSlide].title)}
                 >
-                  <motion.div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <motion.div className="absolute inset-0 bg-gradient-to-r from-[#7A1E2D] to-[#5C1522] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
                   <span className="relative z-10 group-hover:text-white transition-colors duration-300 flex items-center gap-2">
                     Get Started
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

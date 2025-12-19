@@ -8,7 +8,7 @@ import LogoLoop from "./LogoLoop";
 
 export default function Clients({ clients = [] }) {
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-blue-50 relative overflow-hidden">
+    <section className="py-20 bg-gradient-to-br from-rose-50 via-white to-rose-100 relative overflow-hidden">
 
       {/* Background Radial Effects */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(59,130,246,0.05),transparent_50%)]" />
@@ -34,7 +34,7 @@ export default function Clients({ clients = [] }) {
                 transition={{ duration: 0.5, delay: 0.1 }}
                 className="inline-block mb-4"
               >
-                <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent text-sm font-semibold tracking-wide uppercase">
+                <span className="bg-gradient-to-r from-[#9F2D2D] to-indigo-600 bg-clip-text text-transparent text-sm font-semibold tracking-wide uppercase">
                   Trusted Worldwide
                 </span>
               </motion.div>

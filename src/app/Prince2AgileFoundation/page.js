@@ -72,7 +72,7 @@ const courseData = {
       duration: "2 Days",
       level: "Foundation",
       badge: "PRINCE2",
-      badgeColor: "bg-blue-600"
+      badgeColor: "bg-[#9F2D2D]"
     },
     {
       title: "Agile Project Management",

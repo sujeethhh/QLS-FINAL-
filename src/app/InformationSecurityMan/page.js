@@ -68,7 +68,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-blue-600"
+      badgeColor: "bg-[#9F2D2D]"
     },
     {
       title: "Incident Management",
@@ -78,7 +78,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-blue-600"
+      badgeColor: "bg-[#9F2D2D]"
     },
     {
       title: "Supplier Management",
@@ -88,7 +88,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-blue-600"
+      badgeColor: "bg-[#9F2D2D]"
     }
   ]
 };

@@ -78,7 +78,7 @@ const courseData = {
       duration: "2 Days",
       level: "Professional",
       badge: "Scrum.org",
-      badgeColor: "bg-blue-600"
+      badgeColor: "bg-[#9F2D2D]"
     },
     {
       title: "SAFe Advanced Scrum Master",

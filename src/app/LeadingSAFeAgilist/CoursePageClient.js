@@ -504,7 +504,7 @@ export default function CoursePageClient({ courseData }) {
                         <span className="font-medium text-sm">{course.level}</span>
                       </div>
                     </div>
-                    <Link href={course.href} className="text-blue-600 hover:text-blue-800 font-medium text-sm flex items-center">
+                    <Link href={course.href} className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
                       Details
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

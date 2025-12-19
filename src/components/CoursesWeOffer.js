@@ -1020,7 +1020,7 @@ export default function CoursesWeOffer() {
   }
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-gray-50 to-white">
+    <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-rose-50 via-white to-rose-100">
       <div className="container mx-auto px-4 sm:px-6">
 
         {/* Header */}
@@ -1034,7 +1034,7 @@ export default function CoursesWeOffer() {
       className="text-center"
     >
       <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 font-serif">
-        Professional <span className="bg-gradient-to-r from-gray-600 via-gray-700 to-slate-800 bg-clip-text text-transparent">Courses</span>
+      Explore our top <span className="bg-gradient-to-r from-gray-600 via-gray-700 to-slate-800 bg-clip-text text-transparent">categories</span>
       </h2>
 
       <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
@@ -1088,7 +1088,7 @@ export default function CoursesWeOffer() {
         onClick={() => setActiveFilter(category)}
         className={`px-4 py-2 rounded-full font-medium text-sm transition-all ${
           activeFilter === category
-            ? 'bg-blue-600 text-white shadow-md'
+            ? 'bg-[#9F2D2D] text-white shadow-md'
             : 'bg-white text-gray-700 border border-gray-200 hover:bg-gray-100'
         }`}
         whileHover={{ scale: 1.05 }}
@@ -1111,7 +1111,7 @@ export default function CoursesWeOffer() {
           {/* Left Arrow */}
           <motion.button
             onClick={scrollLeft}
-            className="absolute left-0 sm:left-2 top-1/2 transform -translate-y-1/2 z-20 p-2 sm:p-3 rounded-full bg-white shadow-lg hover:shadow-xl text-gray-700 hover:text-blue-600 transition-all duration-300 border border-gray-200"
+            className="absolute left-0 sm:left-2 top-1/2 transform -translate-y-1/2 z-20 p-2 sm:p-3 rounded-full bg-white shadow-lg hover:shadow-xl text-gray-700 hover:text-[#9F2D2D] transition-all duration-300 border border-gray-200"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
@@ -1121,7 +1121,7 @@ export default function CoursesWeOffer() {
           {/* Right Arrow */}
           <motion.button
             onClick={scrollRight}
-            className="absolute right-0 sm:right-2 top-1/2 transform -translate-y-1/2 z-20 p-2 sm:p-3 rounded-full bg-white shadow-lg hover:shadow-xl text-gray-700 hover:text-blue-600 transition-all duration-300 border border-gray-200"
+            className="absolute right-0 sm:right-2 top-1/2 transform -translate-y-1/2 z-20 p-2 sm:p-3 rounded-full bg-white shadow-lg hover:shadow-xl text-gray-700 hover:text-[#9F2D2D] transition-all duration-300 border border-gray-200"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
@@ -1171,7 +1171,7 @@ export default function CoursesWeOffer() {
 
                         {/* Category badge */}
                         <div className="absolute top-3 sm:top-4 left-3 sm:left-4">
-                          <span className="bg-blue-600 text-white text-xs font-semibold px-2 sm:px-3 py-1 rounded-full">
+                          <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-2 sm:px-3 py-1 rounded-full">
                             {course.level}
                           </span>
                         </div>
@@ -1207,7 +1207,7 @@ export default function CoursesWeOffer() {
                         {/* Price and CTA */}
                         <div className="flex items-center justify-between">
 
-                          <div className="flex items-center gap-2 text-blue-600 font-medium">
+                          <div className="flex items-center gap-2 text-[#9F2D2D] font-medium">
                             <span>Learn More</span>
                             <ArrowRight className="w-4 h-4" />
                           </div>
@@ -1236,7 +1236,7 @@ export default function CoursesWeOffer() {
                 setActiveFilter("All");
                 setSearchTerm("");
               }}
-              className="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors duration-300"
+              className="bg-[#9F2D2D] text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors duration-300"
             >
               Show All Courses
             </button>

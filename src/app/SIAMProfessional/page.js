@@ -81,7 +81,7 @@ const courseData = {
       duration: "2 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-blue-600"
+      badgeColor: "bg-[#9F2D2D]"
     },
     {
       title: "Service Level Management",
@@ -91,7 +91,7 @@ const courseData = {
       duration: "3 Days",
       level: "Intermediate",
       badge: "ITIL®",
-      badgeColor: "bg-blue-600"
+      badgeColor: "bg-[#9F2D2D]"
     }
   ]
 };

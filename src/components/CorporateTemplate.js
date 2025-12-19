@@ -3,8 +3,11 @@ import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import ScrollFloat from "@/components/ui/ScroolReveal";
 import Link from "next/link";
+import SendMessageForm from "@/components/SendMessage";
 
-export default function CoursePageTemplate({ courseData }) {
+
+
+export default function CorporateTemplate({ courseData }) {
   const slideTransition = { type: "spring", stiffness: 120, damping: 25, mass: 1 };
 
   const containerVariants = {
@@ -94,7 +97,7 @@ export default function CoursePageTemplate({ courseData }) {
           <div className="lg:col-span-8">
             <motion.div variants={staggerTextVariants} initial="hidden" whileInView="visible">
               <motion.h2 variants={headingVariants} className="text-3xl font-bold mb-6"
-               style={{ fontFamily: "'Playfair Display', serif" }}
+              style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 Course Overview
               </motion.h2>
@@ -137,10 +140,12 @@ export default function CoursePageTemplate({ courseData }) {
           
           <div className="lg:col-span-8">
             {[
-              ["Course Outline", courseData.courseOutline],
-              ["Learning Objectives", courseData.learningObjectives],
-              ["Target Group", courseData.targetGroup],
-              ["Exam Details", courseData.examDetails]
+              ["WHY YOU SHOULD CHOOSE QuickLearn Systems?", courseData.WhyQls],
+              ["TRAINING DELIVERY METHODS", courseData.DeliveryMethods],
+              ["COURSE CATALOG", courseData.Catalog],
+              ["OPEN/PUBLIC TRAINING PROGRAMS", courseData.TrainingPrograms],
+              ["E-LEARNING :", courseData.eLearning]
+              
             ].map(([title, list], idx) => (
               <motion.div key={idx} variants={staggerTextVariants} initial="hidden" whileInView="visible">
                 <motion.h2 variants={headingVariants} className="text-3xl font-bold mb-4"
@@ -150,10 +155,10 @@ export default function CoursePageTemplate({ courseData }) {
                 </motion.h2>
                 <ul className="space-y-3 mb-10">
                   {list.map((item, i) => (
-                    <motion.li key={i} variants={wordSlideVariants} className="flex gap-3"
-                    style={{ fontFamily: "'Inter', sans-serif" }}
-                    >
-                      <span className="w-2 h-2 bg-slate-700 rounded-full mt-2" />
+                    <motion.li key={i} variants={wordSlideVariants} className="flex gap-3">
+                      <span className="w-2 h-2 bg-slate-700 rounded-full mt-2"
+                      style={{ fontFamily: "'Inter', sans-serif" }}
+                      />
                       {item}
                     </motion.li>
                   ))}
@@ -168,6 +173,11 @@ export default function CoursePageTemplate({ courseData }) {
             </motion.div>
           </div>
         </div>
+      </section>
+      <section
+      style={{ fontFamily: "'Playfair Display', serif" }}
+      >
+        <SendMessageForm />
       </section>
     </>
   );
