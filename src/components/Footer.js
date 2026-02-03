@@ -116,6 +116,16 @@ export default function Footer() {
                   Contact Us
                 </Link>
               </li>
+              <li>
+                <Link href="/privacy-policy" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm block">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms-refund" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm block">
+                  Terms & Refund
+                </Link>
+              </li>
             </ul>
 <div/>
             {/* Payment Options */}

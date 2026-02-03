@@ -16,7 +16,13 @@ export const metadata = {
   title: "QuickLearn - Professional Training & Certification",
   description:
     "Master IT Service Management, Project Management, Agile, and more with QuickLearn's expert-led training programs.",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=5",
+  metadataBase: new URL('https://quicklearnsys.com'),
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
 };
 
 export default function RootLayout({ children }) {

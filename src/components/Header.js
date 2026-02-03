@@ -144,7 +144,7 @@ animate-in slide-in-from-top-2 duration-100">
           </Link>
 
           {/* Navigation */}
-          <nav className="hidden md:flex items-center space-x-8 font-medium text-slate-1000 text-sm relative">
+          <nav className="hidden md:flex items-center space-x-5 font-medium text-slate-1000 text-sm relative">
             <Link href="/" className="group-hover:text-[#7A1E2D] transition-all duration-300 py-2 px-1 relative group hover:scale-105">
               <span className="relative z-10">Home</span>
               <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#7A1E2D] transition-all duration-300 group-hover:w-full"></div>
@@ -427,6 +427,10 @@ animate-in slide-in-from-top-2 duration-100">
             </div>
             <Link href="/Events" className="hover:text-[#9F2D2D] transition-all duration-300 py-2 px-1 relative group hover:scale-105">
               <span className="relative z-10">Events</span>
+              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#9F2D2D] transition-all duration-300 group-hover:w-full"></div>
+            </Link>
+            <Link href="/insights" className="hover:text-[#9F2D2D] transition-all duration-300 py-2 px-1 relative group hover:scale-105">
+              <span className="relative z-10">Insights</span>
               <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#9F2D2D] transition-all duration-300 group-hover:w-full"></div>
             </Link>
             <Link href="/CorporateTraining" className="hover:text-[#9F2D2D] transition-all duration-300 py-2 px-1 relative group hover:scale-105">
@@ -800,6 +804,13 @@ animate-in slide-in-from-top-2 duration-100">
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Events
+              </Link>
+              <Link
+                href="/insights"
+                className="block px-3 py-2.5 text-slate-1000 hover:bg-blue-50 hover:text-[#9F2D2D] rounded-md font-medium transition-all duration-300 hover:scale-105 hover:translate-x-2 animate-in slide-in-from-left-4 duration-300 delay-350"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Insights
               </Link>
               <Link
                 href="/CorporateTraining"

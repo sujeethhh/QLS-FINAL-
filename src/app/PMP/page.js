@@ -5,6 +5,7 @@ import ScrollFloat from "@/components/ui/ScroolReveal";
 import Link from "next/link";
 import LiveChat from "@/components/LiveChat";
 import CoursePageClient from "./CoursePageClient";
+import Script from "next/script";
 
 // Server-side metadata for SEO
 export const metadata = {
@@ -66,8 +67,49 @@ const courseData = {
 };
 
 export default function PMPPage() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "PMP Certification Training",
+    "description": "Become a certified Project Management Professional (PMP) with our comprehensive training program. Expert instructors, exam prep, and hands-on experience.",
+    "provider": {
+      "@type": "Organization",
+      "name": "QuickLearn Systems",
+      "url": "https://quicklearnsys.com"
+    },
+    "courseCode": "PMP-001",
+    "educationalLevel": "Professional",
+    "timeRequired": "P4D",
+    "inLanguage": "en",
+    "offers": {
+      "@type": "Offer",
+      "category": "Project & Program Management",
+      "availability": "https://schema.org/InStock"
+    },
+    "coursePrerequisites": "3+ years of project management experience",
+    "teaches": [
+      "Project Integration Management",
+      "Project Scope Management",
+      "Project Schedule Management",
+      "Project Cost Management",
+      "Project Quality Management",
+      "Project Resource Management",
+      "Project Communications Management",
+      "Project Risk Management",
+      "Project Procurement Management",
+      "Project Stakeholder Management"
+    ]
+  };
+
   return (
     <>
+      <Script
+        id="pmp-structured-data"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(structuredData),
+        }}
+      />
       <Headers />
       <CoursePageClient courseData={courseData} />
       <Footer />

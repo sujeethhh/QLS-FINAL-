@@ -1,6 +1,7 @@
 "use client";
 
 import ClientHomeWrapper from "@/components/PageClientHomeWrapper";
+import SocialProof from "@/components/SocialProof";
 import Testimonials from "@/components/Testimonial";
 import Clients from "@/components/Clients";
 import Footer from "@/components/Footer";
@@ -12,6 +13,9 @@ export default function HomePageClient({ testimonials, clients }) {
       
       {/* Hero / Top Section */}
       <ClientHomeWrapper />
+
+      {/* Social Proof Section */}
+      <SocialProof />
 
       {/* Testimonials Section */}
       <Testimonials testimonials={testimonials} />
