@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Search, Users, Clock, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
-import Grid from "@mui/material/Grid";
+
 
 
 export default function CoursesWeOffer() {
@@ -34,7 +34,7 @@ export default function CoursesWeOffer() {
     const container = scrollRef.current;
     if (!container || !isAutoScrolling) return;
 
-    const scrollSpeed = 1;
+    const scrollSpeed = 0.5; // Slower, smoother scroll
     let animationFrame;
     let isPaused = false;
 
@@ -1031,30 +1031,30 @@ export default function CoursesWeOffer() {
       <div className="container mx-auto px-4 sm:px-6">
 
         {/* Header */}
-        <Grid container justifyContent="center" className="mb-12 sm:mb-16">
-  <Grid item xs={12} md={10} lg={8}>
-    <motion.div
-      initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.8 }}
-      className="text-center"
-    >
-      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 font-serif">
-      Explore our top <span className="bg-gradient-to-r from-gray-600 via-gray-700 to-slate-800 bg-clip-text text-transparent">categories</span>
-      </h2>
+        <div className="flex justify-center mb-12 sm:mb-16">
+          <div className="w-full max-w-4xl px-4">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="text-center"
+            >
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 font-serif">
+                Explore our top <span className="bg-gradient-to-r from-gray-600 via-gray-700 to-slate-800 bg-clip-text text-transparent">categories</span>
+              </h2>
 
-      <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-        Advance your career with expert-led certifications
-      </p>
-    </motion.div>
-  </Grid>
-</Grid>
+              <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                Advance your career with expert-led certifications
+              </p>
+            </motion.div>
+          </div>
+        </div>
 
 
         {/* Search Bar */}
-        <Grid container justifyContent="center" className="mb-8 sm:mb-12">
-          <Grid item xs={12} md={8} lg={6}>
+        <div className="flex justify-center mb-8 sm:mb-12">
+          <div className="w-full max-w-2xl px-4">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -1083,29 +1083,28 @@ export default function CoursesWeOffer() {
                 )}
               </div>
             </motion.div>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
 
 
         {/* Category Filter */}
-        <Grid container justifyContent="center" spacing={2} className="mb-8 sm:mb-12 px-4">
-  {categories.map((category) => (
-    <Grid item key={category}>
-      <motion.button
-        onClick={() => setActiveFilter(category)}
-        className={`px-4 py-2 rounded-full font-medium text-sm transition-all ${
-          activeFilter === category
-            ? 'bg-[#9F2D2D] text-white shadow-md'
-            : 'bg-white text-gray-700 border border-gray-200 hover:bg-gray-100'
-        }`}
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
-      >
-        {category}
-      </motion.button>
-    </Grid>
-  ))}
-</Grid>
+        <div className="flex flex-wrap justify-center gap-2 mb-8 sm:mb-12 px-4">
+          {categories.map((category) => (
+            <motion.button
+              key={category}
+              onClick={() => setActiveFilter(category)}
+              className={`px-4 py-2 rounded-full font-medium text-sm transition-all ${
+                activeFilter === category
+                  ? 'bg-[#9F2D2D] text-white shadow-md'
+                  : 'bg-white text-gray-700 border border-gray-200 hover:bg-gray-100'
+              }`}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              {category}
+            </motion.button>
+          ))}
+        </div>
 
         {/* Auto-scrolling Course Container with Navigation */}
         <motion.div
@@ -1138,8 +1137,8 @@ export default function CoursesWeOffer() {
           {/* Course Container */}
           <div className="overflow-hidden mx-8 sm:mx-10 md:mx-12">
             {/* Gradient edges */}
-            <div className="absolute left-8 sm:left-10 md:left-12 top-0 w-8 sm:w-12 md:w-16 h-full bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
-            <div className="absolute right-8 sm:right-10 md:right-12 top-0 w-8 sm:w-12 md:w-16 h-full bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
+            <div className="absolute left-8 sm:left-10 md:left-12 top-0 w-8 sm:w-12 md:w-16 h-full bg-gradient-to-r from-gray-50 to-transparent z-10 pointer-events-none" />
+            <div className="absolute right-8 sm:right-10 md:right-12 top-0 w-8 sm:w-12 md:w-16 h-full bg-gradient-to-l from-gray-50 to-transparent z-10 pointer-events-none" />
 
             {/* Scrolling container */}
             <div
@@ -1161,7 +1160,7 @@ export default function CoursesWeOffer() {
                   className="flex-shrink-0"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: index * 0.05 }}
+                  transition={{ duration: 0.5, delay: (index % filteredCourses.length) * 0.05 }}
                   whileHover={{ y: -5, transition: { duration: 0.2 } }}
                 >
                   <Link href={course.href}>

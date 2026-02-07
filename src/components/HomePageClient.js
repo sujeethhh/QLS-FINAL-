@@ -2,6 +2,7 @@
 
 import ClientHomeWrapper from "@/components/PageClientHomeWrapper";
 import SocialProof from "@/components/SocialProof";
+import GoogleReviewsShowcase from "@/components/GoogleReviewsShowcase";
 import Testimonials from "@/components/Testimonial";
 import Clients from "@/components/Clients";
 import Footer from "@/components/Footer";
@@ -16,6 +17,9 @@ export default function HomePageClient({ testimonials, clients }) {
 
       {/* Social Proof Section */}
       <SocialProof />
+
+      {/* Google Reviews Showcase Section */}
+      <GoogleReviewsShowcase />
 
       {/* Testimonials Section */}
       <Testimonials testimonials={testimonials} />
