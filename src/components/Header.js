@@ -54,7 +54,7 @@ animate-in slide-in-from-top-2 duration-100">
           <div className="flex items-center space-x-8 text-sm text-white">
             <span className="flex items-center gap-2.5 hover:text-blue-200 transition-all duration-300 cursor-pointer hover:scale-105 group bg-white/10 px-3 py-1.5 rounded-full hover:bg-white/20 hover:shadow-sm">
               <span className="w-4 h-4 text-white group-hover:animate-bounce">�</span>
-              <span className="font-medium">+111 (564) 568 25</span>
+              <span className="font-medium">+91 9100195152</span>
             </span>
             <span className="flex items-center gap-2.5 hover:text-blue-200 transition-all duration-300 cursor-pointer hover:scale-105 group bg-white/10 px-3 py-1.5 rounded-full hover:bg-white/20 hover:shadow-sm">
               <span className="w-4 h-4 text-white group-hover:animate-bounce">✉️</span>

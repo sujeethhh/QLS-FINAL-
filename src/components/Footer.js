@@ -202,7 +202,7 @@ export default function Footer() {
                 <li>
                   <span className="block font-semibold text-white mb-1">Phone:</span>
                   <a href="tel:+1234567890" className="hover:text-white transition-colors">
-                    +1 (234) 567-890
+                    +91 9100195152
                   </a>
                 </li>
                 <li>

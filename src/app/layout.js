@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
 
-        {/* Tawk.to Script */}
+        {/* Tawk.to Script 
         <Script
           id="tawk-to-widget"
           strategy="afterInteractive"
@@ -50,6 +50,41 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
+        */}
+        {/* AnythingLLM Chat Widget */}
+     { <Script
+  id="anythingllm-chat-widget"
+  src="http://localhost:3001/embed/anythingllm-chat-widget.min.js"
+  data-base-api-url="http://localhost:3001/api/embed"
+  data-embed-id="6ca07c35-d5f5-4224-b043-f9847e4c6e78"
+  strategy="lazyOnload"
+
+  /* --- Clean professional look --- */
+  data-chat-icon="chatBubble"
+  data-button-color="#1f2937"          /* dark slate */
+  data-user-bg-color="#2563eb"          /* subtle blue */
+  data-assistant-bg-color="#f3f4f6"     /* light gray */
+
+  /* --- Branding & text --- */
+  data-assistant-name="Support Assistant"
+  data-greeting="Hi! How can I help you today?"
+  data-send-message-text="Type your message…"
+  data-reset-chat-text="New conversation"
+
+  /* --- UI cleanup --- */
+  data-no-sponsor
+  data-text-size="13"
+
+  /* --- Keep size unchanged (as requested) --- */
+  data-window-width="320px"
+  data-window-height="420px"
+
+  /* --- Position --- */
+  data-position="bottom-right"
+/>
+
+     }
+
       </body>
     </html>
   );

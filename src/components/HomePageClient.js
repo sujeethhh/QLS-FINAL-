@@ -1,5 +1,6 @@
 "use client";
 
+import Script from "next/script";
 import ClientHomeWrapper from "@/components/PageClientHomeWrapper";
 import SocialProof from "@/components/SocialProof";
 import GoogleReviewsShowcase from "@/components/GoogleReviewsShowcase";
@@ -33,6 +34,7 @@ export default function HomePageClient({ testimonials, clients }) {
       {/* Live Chat */}
       <LiveChat />
 
+      
     </div>
   );
 }
