@@ -355,7 +355,7 @@ export default function PSK1() {
       </section>
 
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

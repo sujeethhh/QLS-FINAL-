@@ -99,7 +99,7 @@ export default function ISTQBFPage() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

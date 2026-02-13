@@ -113,7 +113,7 @@ export default function PMPPage() {
       <Headers />
       <CoursePageClient courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

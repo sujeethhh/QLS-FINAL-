@@ -99,7 +99,7 @@ export default function SIAMFoundationPage() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

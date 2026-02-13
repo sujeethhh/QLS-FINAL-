@@ -22,15 +22,36 @@ export default function Footer() {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const [submitStatus, setSubmitStatus] = useState(null);
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
-    setFormData({
-      name: "",
-      email: "",
-      mobile: "",
-      comment: ""
-    });
+    setSubmitStatus('loading');
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          fullName: formData.name,
+          email: formData.email,
+          phone: formData.mobile,
+          message: formData.comment,
+        }),
+      });
+
+      if (res.ok) {
+        setSubmitStatus('success');
+        setFormData({ name: "", email: "", mobile: "", comment: "" });
+        setTimeout(() => setSubmitStatus(null), 3000);
+      } else {
+        setSubmitStatus('error');
+        setTimeout(() => setSubmitStatus(null), 3000);
+      }
+    } catch {
+      setSubmitStatus('error');
+      setTimeout(() => setSubmitStatus(null), 3000);
+    }
   };
 
   return (

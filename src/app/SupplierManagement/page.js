@@ -99,7 +99,7 @@ export default function SupplierManagementPage() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

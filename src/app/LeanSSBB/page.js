@@ -99,7 +99,7 @@ export default function LeanSSBBPage() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

@@ -75,12 +75,13 @@ export default function Clients({ clients = [] }) {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
               className="relative group"
+              
             >
               {/* Left Fade */}
               <div className="absolute left-0 top-0 w-32 h-full bg-gradient-to-r from-gray-50 via-white to-transparent z-10 pointer-events-none" />
 
               {/* Right Fade */}
-              <div className="absolute right-0 top-0 w-32 h-full bg-gradient-to-l from-gray-50 via-white to-transparent z-10 pointer-events-none" />
+              <div className="absolute right-0 top-0 w-32 h-full bg-gradient-to-l   to-transparent z-10 pointer-events-none" />
 
               {/* Logo Loop */}
               <div style={{ height: "180px", position: "relative", overflow: "hidden" }}>

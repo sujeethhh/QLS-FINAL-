@@ -22,7 +22,7 @@ export default function PScrumM1() {
           >
             <div
               className="absolute inset-0 bg-cover bg-center"
-              style={{ backgroundImage: `url('/SCRUM1.jpg')` }}
+              style={{ backgroundImage: `url('/sm1.jpg')` }}
             />
             <motion.div
               className="absolute inset-0 bg-gradient-to-r from-slate-800 to-gray-900 opacity-30"
@@ -355,7 +355,7 @@ export default function PScrumM1() {
       </section>
 
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

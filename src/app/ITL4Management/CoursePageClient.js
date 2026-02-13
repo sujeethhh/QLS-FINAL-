@@ -108,7 +108,7 @@ export default function CoursePageClient({ courseData }) {
           >
             <div
               className="absolute inset-0 bg-cover bg-center"
-              style={{ backgroundImage: `url('${courseData.backgroundImage}')` }}
+              style={{ backgroundImage: `url('/ITIL-Foundation.png')` }}
             />
             <motion.div
               className="absolute inset-0 bg-gradient-to-r from-slate-800 to-gray-900 opacity-30"
@@ -429,94 +429,7 @@ export default function CoursePageClient({ courseData }) {
       </section>
 
       {/* Related Courses Section */}
-      <section className="py-16 bg-gradient-to-b from-slate-50 to-white">
-        <div className="container mx-auto px-4 md:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Related Courses</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Explore our comprehensive range of IT Service Management courses
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Related Course Cards */}
-            {[
-              {
-                title: "Problem Management",
-                image: "/problemmanage.jpg",
-                description: "Advanced ITIL® practices for service management professionals",
-                href: "/ProblemManagement",
-                duration: "5 Days",
-                level: "Advanced"
-              },
-              {
-                title: "Service Desk",
-                image: "/serviceDesk.jpg", 
-                description: "Master service desk operations and customer service excellence",
-                href: "/ServiceDesk",
-                duration: "3 Days",
-                level: "Foundation"
-              },
-              {
-                title: "Incident Management",
-                image: "/incidentmanage.jpg",
-                description: "Learn to manage and resolve IT incidents effectively",
-                href: "/IncidentManagement", 
-                duration: "3 Days",
-                level: "Foundation"
-              }
-            ].map((course, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
-              >
-                <div className="relative h-48 overflow-hidden">
-                  <div 
-                    className="absolute inset-0 bg-cover bg-center transform hover:scale-110 transition-transform duration-700"
-                    style={{ backgroundImage: `url('${course.image}')` }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
-                  <div className="absolute bottom-0 left-0 p-4">
-                    <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
-                    <h3 className="text-xl font-bold text-white mt-2">{course.title}</h3>
-                  </div>
-                </div>
-                <div className="p-5">
-                  <p className="text-gray-600 mb-4 text-sm">{course.description}</p>
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-3">
-                      <div className="flex flex-col">
-                        <span className="text-xs text-gray-500">Duration</span>
-                        <span className="font-medium text-sm">{course.duration}</span>
-                      </div>
-                      <div className="flex flex-col">
-                        <span className="text-xs text-gray-500">Level</span>
-                        <span className="font-medium text-sm">{course.level}</span>
-                      </div>
-                    </div>
-                    <Link href={course.href} className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
-                      Details
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </Link>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
     </>
   );
 }

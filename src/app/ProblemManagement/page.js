@@ -99,7 +99,7 @@ export default function ProblemManagementPage() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

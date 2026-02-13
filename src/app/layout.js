@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
-
+import LiveChat from "@/components/LiveChat";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -51,39 +51,34 @@ export default function RootLayout({ children }) {
           }}
         />
         */}
-        {/* AnythingLLM Chat Widget */}
-     { <Script
-  id="anythingllm-chat-widget"
-  src="http://localhost:3001/embed/anythingllm-chat-widget.min.js"
-  data-base-api-url="http://localhost:3001/api/embed"
-  data-embed-id="6ca07c35-d5f5-4224-b043-f9847e4c6e78"
-  strategy="lazyOnload"
-
-  /* --- Clean professional look --- */
-  data-chat-icon="chatBubble"
-  data-button-color="#1f2937"          /* dark slate */
-  data-user-bg-color="#2563eb"          /* subtle blue */
-  data-assistant-bg-color="#f3f4f6"     /* light gray */
-
-  /* --- Branding & text --- */
-  data-assistant-name="Support Assistant"
-  data-greeting="Hi! How can I help you today?"
-  data-send-message-text="Type your message…"
-  data-reset-chat-text="New conversation"
-
-  /* --- UI cleanup --- */
-  data-no-sponsor
-  data-text-size="13"
-
-  /* --- Keep size unchanged (as requested) --- */
-  data-window-width="320px"
-  data-window-height="420px"
-
-  /* --- Position --- */
+        
+        
+   
+<LiveChat/>
+{/* AnythingLLM Chat Widget */}
+<Script
+  id="anythingllm-widget"
+  src="http://server.codeprismtechnologies.com:3899/embed/anythingllm-chat-widget.min.js"
+  strategy="afterInteractive"
+  data-embed-id="3c78b278-db2a-45c0-b2be-f0b2dee3bfc1"
+  data-base-api-url="http://server.codeprismtechnologies.com:3899/api/embed"
   data-position="bottom-right"
+  data-assistant-name="QuickLearn Assistant"
+  data-brand-image-url="/LOGO.png"
+  data-chat-icon="support"
+  data-button-color="#2563eb"
+  data-user-bg-color="#2563eb"
+  data-assistant-bg-color="#f3f4f6"
+  data-window-width="380px"
+  data-window-height="500px"
+  data-text-size="14"
+  data-greeting="Hi! I'm your QuickLearn assistant. How can I help you today?"
+  data-default-messages="What certifications do you offer?,Tell me about ITIL training,Do you offer online classes?,What is the course fee?"
+  data-send-message-text="Type your question..."
+  data-reset-chat-text="Start new conversation"
+  data-no-sponsor="true"
+  data-support-email="support@quicklearnsys.com"
 />
-
-     }
 
       </body>
     </html>

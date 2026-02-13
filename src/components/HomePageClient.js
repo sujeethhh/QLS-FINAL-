@@ -31,8 +31,7 @@ export default function HomePageClient({ testimonials, clients }) {
       {/* Footer */}
       <Footer />
 
-      {/* Live Chat */}
-      <LiveChat />
+      
 
       
     </div>

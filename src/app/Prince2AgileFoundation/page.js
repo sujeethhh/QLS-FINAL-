@@ -21,7 +21,7 @@ export const metadata = {
 const courseData = {
   title: "PRINCE2 Agile Foundation",
   subtitle: "Deliver projects successfully using PRINCE2 governance and agile flexibility",
-  backgroundImage: "/PRINCE2Agile.jpg",
+  backgroundImage: "/prince2-agile.png",
   overview: [
     "PRINCE2 Agile Foundation introduces the principles, themes, and processes of PRINCE2 and how they can be blended with agile delivery approaches.",
     "Participants will learn how to manage project governance, roles, and responsibilities while incorporating agile techniques to deliver value iteratively and adaptively.",
@@ -105,7 +105,7 @@ export default function PRINCE2AgileFoundation() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

@@ -103,7 +103,7 @@ export default function AcquiringAndManagingCS() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

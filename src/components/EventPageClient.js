@@ -49,7 +49,6 @@ export default function EventPageClient({ onlineEvents, events }) {
   return (
     <>
       <Headers />
-
       {/* Hero Section - Same style as Hero component */}
       <section className="relative h-[600px] w-full overflow-hidden bg-gray-900">
         {/* Background with same animations as Hero */}
@@ -113,19 +112,10 @@ export default function EventPageClient({ onlineEvents, events }) {
         </div>
       </section>
       {/* Enhanced ScrollFloat Section */}
-      <section className="py-12 bg-gradient-to-br from-slate-50 via-gray-50 to-stone-50 relative overflow-hidden">
+      <section className=" bg-gradient-to-br from-slate-50 via-gray-50 to-stone-50 relative overflow-hidden">
         <div className="container mx-auto max-w-7xl px-4 md:px-8">
-          <ScrollFloat
-            animationDuration={1.5}
-            ease="back.inOut(2)"
-            scrollStart="center bottom+=50%"
-            scrollEnd="bottom bottom-=40%"
-            stagger={0.05}
-            containerClassName="text-center mb-12"
-            textClassName="font-bold text-[clamp(2.5rem,6vw,5rem)] leading-[0.9] bg-gradient-to-r from-slate-700 via-gray-800 to-stone-900 bg-clip-text text-transparent drop-shadow-lg"
-          >
-            Training Schedule
-          </ScrollFloat>
+          
+       
         </div>
       </section>
 

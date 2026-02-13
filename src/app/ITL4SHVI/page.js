@@ -103,7 +103,7 @@ export default function ITL4SHVI() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

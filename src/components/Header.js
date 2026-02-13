@@ -197,7 +197,10 @@ animate-in slide-in-from-top-2 duration-100">
 
                           <li className="relative group/msf">
                             <div className="flex justify-between items-center px-6 py-2 hover:bg-[#9F2D2D] hover:text-white">
-                              <span>MSF - Monitor, Support & Fulfil</span>
+                              
+                              <Link href="/MonitorSupportFulfil" className="flex justify-between items-center  py-2 hover:bg-[#9F2D2D] hover:text-white cursor-pointer">
+                                <span>MSF - Monitor, Support & Fulfil</span>
+                              </Link>
                               <ChevronLeft className="w-4 h-4 rotate-180" />
                             </div>
 

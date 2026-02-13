@@ -357,7 +357,7 @@ export default function LeadingSAFeAgilist() {
       </section>
 
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

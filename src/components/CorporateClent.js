@@ -102,7 +102,7 @@ export default function CorporateClient() {
       <Headers />
       <CorporateTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

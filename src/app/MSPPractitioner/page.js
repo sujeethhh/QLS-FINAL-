@@ -106,7 +106,7 @@ export default function MSPPractitionerPage() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

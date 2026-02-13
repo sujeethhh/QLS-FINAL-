@@ -106,7 +106,7 @@ export default function PRINCE2AgilePractitioner() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

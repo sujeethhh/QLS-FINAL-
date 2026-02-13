@@ -18,7 +18,7 @@ export const metadata = {
 const courseData = {
   title: "DevOps Foundation",
   subtitle: "Master DevOps culture, practices, and tools for continuous delivery excellence",
-  backgroundImage: "/Devops.jpg",
+  backgroundImage: "/dev_ops.png",
   overview: [
     "DevOps Foundation provides a comprehensive introduction to DevOps principles, practices, and tools. This course covers the cultural and technical aspects of DevOps, focusing on collaboration, automation, and continuous improvement.",
     "Learn how DevOps bridges the gap between development and operations teams, enabling faster delivery, improved quality, and enhanced customer satisfaction through automation and collaborative practices.",
@@ -99,7 +99,7 @@ export default function DevopsFoundationPage() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

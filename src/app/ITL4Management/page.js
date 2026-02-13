@@ -65,7 +65,7 @@ export default function ITL4ManagementPage() {
       <Headers />
       <CoursePageClient courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

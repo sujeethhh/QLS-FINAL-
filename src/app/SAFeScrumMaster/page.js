@@ -99,7 +99,7 @@ export default function SAFeScrumMasterPage() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

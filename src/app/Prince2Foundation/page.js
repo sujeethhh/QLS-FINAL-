@@ -11,14 +11,14 @@ export const metadata = {
   openGraph: {
     title: "PRINCE2 Foundation Certification Training",
     description: "Master PRINCE2 Foundation for structured project management excellence",
-    images: ["/PRINCE2.jpg"],
+    images: ["/PMPC.jpg"],
   },
 };
 
 const courseData = {
   title: "PRINCE2 Foundation",
   subtitle: "Master the world's most practiced project management methodology",
-  backgroundImage: "/PRINCE2.jpg",
+  backgroundImage: "/PMPC.jpg",
   overview: [
     "PRINCE2 (PRojects IN Controlled Environments) is a structured project management methodology that provides a framework for managing projects of any size or type. The Foundation level introduces the basic principles, terminology and structure of the method.",
     "This comprehensive course covers the seven principles, seven themes, and seven processes that form the backbone of PRINCE2 methodology, providing you with a solid foundation in structured project management.",
@@ -99,7 +99,7 @@ export default function Prince2FoundationPage() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

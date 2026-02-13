@@ -99,7 +99,7 @@ export default function ServiceLevelManagementPage() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

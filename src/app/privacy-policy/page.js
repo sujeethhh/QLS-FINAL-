@@ -1,4 +1,5 @@
 import { Container, Grid } from "@mui/material";
+import Headers from "@/components/Header";
 
 export const metadata = {
   title: "Privacy Policy | QuickLearn Systems",
@@ -7,7 +8,9 @@ export const metadata = {
 
 export default function PrivacyPolicy() {
   return (
+    
     <div className="min-h-screen bg-gray-50 py-12">
+      <Headers/>
       <Container maxWidth="lg">
         <Grid container spacing={4}>
           <Grid item xs={12}>

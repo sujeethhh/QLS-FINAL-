@@ -355,7 +355,7 @@ export default function ICPACC() {
       </section>
 
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

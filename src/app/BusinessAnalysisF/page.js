@@ -99,7 +99,7 @@ export default function BusinessAnalysisFPage() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

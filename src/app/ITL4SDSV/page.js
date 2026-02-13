@@ -99,7 +99,7 @@ export default function ITL4SDSVPage() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

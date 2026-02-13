@@ -105,7 +105,7 @@ export default function AcquiringManagingCloudPage() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

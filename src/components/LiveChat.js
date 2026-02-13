@@ -1,693 +1,273 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   MessageCircle,
   X,
   Send,
-  Minimize2,
-  Maximize2,
   Phone,
-  CheckCircle2,
-  User,
-  Sparkles,
   Mail,
-  MapPin,
-  ArrowLeft,
-  ExternalLink
+  CheckCircle2,
+  Loader2,
 } from "lucide-react";
-import { useRouter } from "next/navigation";
+
+const WHATSAPP_NUMBER = "919876543210"; // Replace with actual number
+const WHATSAPP_MESSAGE = encodeURIComponent(
+  "Hello! I'm interested in learning more about your courses."
+);
 
 export default function LiveChat() {
   const [isOpen, setIsOpen] = useState(false);
-  const [isMinimized, setIsMinimized] = useState(false);
-  const [selectedOption, setSelectedOption] = useState(null);
-  const [showEnquiryBubble, setShowEnquiryBubble] = useState(true);
   const [emailForm, setEmailForm] = useState({
     name: "",
     email: "",
     subject: "",
-    message: ""
+    message: "",
   });
-  const messagesEndRef = useRef(null);
-  const router = useRouter();
-
-  // Debug: Log when component mounts
-  useEffect(() => {
-    console.log('LiveChat component mounted');
-    console.log('Is mobile:', /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
-  }, []);
-
-  // Contact options
-  const contactOptions = [
-    {
-      id: "whatsapp",
-      title: "WhatsApp Chat",
-      description: "Get instant support via WhatsApp",
-      icon: MessageCircle,
-      color: "from-green-500 to-emerald-600",
-      action: "whatsapp"
-    },
-    {
-      id: "contacts",
-      title: "Contact Page",
-      description: "Visit our contacts page for detailed information",
-      icon: MapPin,
-      color: "from-blue-500 to-indigo-600",
-      action: "contacts"
-    },
-    {
-      id: "email",
-      title: "Send Email",
-      description: "Send us an email with your enquiry",
-      icon: Mail,
-      color: "from-purple-500 to-violet-600",
-      action: "email"
-    }
-  ];
-
-  const whatsAppInfo = {
-    number: "+919876543210", // Replace with actual WhatsApp business number
-    message: "Hello! I'm interested in learning more about your courses. Can you help me?",
-    businessHours: "Mon-Fri: 9am-6pm IST"
-  };
-
-  // Function to open WhatsApp chat
-  const openWhatsApp = () => {
-    const encodedMessage = encodeURIComponent(whatsAppInfo.message);
-    const whatsappURL = `https://wa.me/${whatsAppInfo.number.replace(/[^0-9]/g, '')}?text=${encodedMessage}`;
-    window.open(whatsappURL, '_blank');
-  };
-
-  // Handle option selection
-  const handleOptionSelect = (option) => {
-    setSelectedOption(option);
-
-    if (option.action === "whatsapp") {
-      setTimeout(() => {
-        openWhatsApp();
-      }, 500);
-    } else if (option.action === "contacts") {
-      setTimeout(() => {
-        router.push("/Contact");
-      }, 500);
-    }
-    // For email, just show the form (handled in UI)
-  };
+  const [emailStatus, setEmailStatus] = useState(null); // null | "loading" | "success" | "error"
+  const [showBubble, setShowBubble] = useState(true);
+  const formRef = useRef(null);
 
   const toggleChat = () => {
-    setIsOpen(!isOpen);
-    setIsMinimized(false);
-    setSelectedOption(null);
-    if (!isOpen) {
-      setShowEnquiryBubble(false);
-    }
+    setIsOpen((prev) => !prev);
+    if (!isOpen) setShowBubble(false);
   };
 
-  const minimizeChat = () => {
-    setIsMinimized(!isMinimized);
-  };
-
-  const goBack = () => {
-    setSelectedOption(null);
-  };
-
-  // Handle email form
   const handleEmailChange = (field, value) => {
-    setEmailForm(prev => ({
-      ...prev,
-      [field]: value
-    }));
+    setEmailForm((prev) => ({ ...prev, [field]: value }));
   };
 
-  const handleEmailSubmit = (e) => {
+  const handleEmailSubmit = async (e) => {
     e.preventDefault();
-    // Create mailto link
-    const subject = encodeURIComponent(emailForm.subject || "Enquiry from QuickLearn Website");
-    const body = encodeURIComponent(`
-Name: ${emailForm.name}
-Email: ${emailForm.email}
+    setEmailStatus("loading");
 
-Message:
-${emailForm.message}
-    `);
-    const mailtoLink = `mailto:info@quicklearn.com?subject=${subject}&body=${body}`;
-    window.location.href = mailtoLink;
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          fullName: emailForm.name,
+          email: emailForm.email,
+          courseInterested: emailForm.subject,
+          message: emailForm.message,
+        }),
+      });
 
-    // Reset form
-    setEmailForm({
-      name: "",
-      email: "",
-      subject: "",
-      message: ""
-    });
+      if (res.ok) {
+        setEmailStatus("success");
+        setEmailForm({ name: "", email: "", subject: "", message: "" });
+        setTimeout(() => setEmailStatus(null), 3000);
+      } else {
+        setEmailStatus("error");
+        setTimeout(() => setEmailStatus(null), 3000);
+      }
+    } catch {
+      setEmailStatus("error");
+      setTimeout(() => setEmailStatus(null), 3000);
+    }
   };
 
   return (
     <>
-      {/* Simple Mobile-First Chat Button */}
-      {!isOpen && (
-        <div
-          className="fixed bottom-4 left-4 z-[9998]"
-          style={{
-            position: 'fixed',
-            bottom: '16px',
-            left: '16px',
-            zIndex: 9998
-          }}
-        >
-          <button
-            onClick={() => {
-              console.log('Simple button clicked!');
-              setIsOpen(true);
-            }}
-            className="bg-[#9F2D2D] text-white w-16 h-16 rounded-full shadow-lg flex items-center justify-center text-2xl hover:bg-blue-700 transition-colors"
-            style={{
-              WebkitTapHighlightColor: 'transparent',
-              touchAction: 'manipulation',
-              border: 'none',
-              outline: 'none'
-            }}
-          >
-            💬
-          </button>
-        </div>
-      )}
-
-      {/* Chat Toggle Button with Enhanced Effects */}
+      {/* Floating Action Button */}
       <AnimatePresence>
         {!isOpen && (
           <motion.div
-            initial={{ scale: 0, opacity: 0, rotate: -180 }}
-            animate={{ scale: 1, opacity: 1, rotate: 0 }}
-            exit={{ scale: 0, opacity: 0, rotate: 180 }}
-            transition={{ type: "spring", stiffness: 200, damping: 20 }}
-            className="fixed bottom-4 left-4 z-[9998] sm:bottom-6 sm:left-6"
-            style={{ 
-              position: 'fixed',
-              bottom: '16px',
-              left: '16px',
-              zIndex: 9998,
-              pointerEvents: 'auto'
-            }}
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            exit={{ scale: 0, opacity: 0 }}
+            transition={{ type: "spring", stiffness: 260, damping: 20 }}
+            className="fixed bottom-5 left-5 z-[9998] flex flex-col items-start gap-3"
           >
-            {/* Simple fallback button for mobile debugging */}
-            <button
-              onClick={(e) => {
-                e.preventDefault();
-                e.stopPropagation();
-                console.log('Fallback button clicked!');
-                toggleChat();
-              }}
-              className="absolute inset-0 w-full h-full bg-transparent z-[10000] cursor-pointer"
-              style={{
-                WebkitTapHighlightColor: 'transparent',
-                touchAction: 'manipulation'
-              }}
-            />
-            
-            {/* Enquiry Message Bubble */}
+            {/* Prompt Bubble */}
             <AnimatePresence>
-              {showEnquiryBubble && (
+              {showBubble && (
                 <motion.div
-                  initial={{ opacity: 0, x: -20, scale: 0.8 }}
-                  animate={{ opacity: 1, x: 0, scale: 1 }}
-                  exit={{ opacity: 0, x: -20, scale: 0.8 }}
-                  transition={{ delay: 2, duration: 0.5, ease: "easeOut" }}
-                  className="absolute bottom-full left-0 mb-4 bg-white rounded-2xl shadow-2xl p-4 max-w-sm border border-gray-100 backdrop-blur-sm"
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: 10 }}
+                  transition={{ delay: 1.5 }}
+                  className="bg-white rounded-xl shadow-lg px-4 py-2.5 text-sm text-gray-700 border border-gray-100 max-w-[200px] relative"
                 >
-                  <div className="flex items-start gap-3">
-                    <motion.div
-                      className="w-8 h-8 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center flex-shrink-0"
-                      animate={{
-                        boxShadow: [
-                          "0 0 0 0 rgba(59, 130, 246, 0.4)",
-                          "0 0 0 8px rgba(59, 130, 246, 0)",
-                          "0 0 0 0 rgba(59, 130, 246, 0)"
-                        ]
-                      }}
-                      transition={{ duration: 2, repeat: Infinity }}
-                    >
-                      <MessageCircle className="w-4 h-4 text-white" />
-                    </motion.div>
-                    <div className="flex-1">
-                      <p className="text-sm font-semibold text-gray-800 mb-1">Have an Enquiry?</p>
-
-                    </div>
-                    <button
-                      onClick={() => setShowEnquiryBubble(false)}
-                      className="text-gray-400 hover:text-gray-600 transition-colors p-1 rounded-full hover:bg-gray-100"
-                    >
-                      <X className="w-4 h-4" />
-                    </button>
-                  </div>
-                  {/* Speech bubble arrow */}
-                  <div className="absolute bottom-0 left-6 transform translate-y-1/2 rotate-45 w-3 h-3 bg-white border-r border-b border-gray-100"></div>
+                  <span className="font-medium">Need help?</span>{" "}
+                  <span className="text-gray-500">Ask our AI or contact us</span>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setShowBubble(false);
+                    }}
+                    className="absolute -top-2 -right-2 w-5 h-5 bg-gray-200 rounded-full flex items-center justify-center text-gray-500 hover:bg-gray-300 transition-colors"
+                  >
+                    <X className="w-3 h-3" />
+                  </button>
+                  {/* Arrow */}
+                  <div className="absolute -bottom-1.5 left-6 w-3 h-3 bg-white border-r border-b border-gray-100 rotate-45" />
                 </motion.div>
               )}
             </AnimatePresence>
 
-            {/* Enhanced Chat Button */}
+            {/* FAB Button */}
             <motion.button
-              onClick={(e) => {
-                e.preventDefault();
-                e.stopPropagation();
-                console.log('Chat button clicked!'); // Debug log
-                toggleChat();
-              }}
-              onTouchStart={(e) => {
-                e.preventDefault();
-                console.log('Touch started on chat button'); // Debug log
-              }}
-              className="relative bg-gradient-to-br from-blue-500 via-[#9F2D2D] to-indigo-700 text-white p-4 rounded-full shadow-2xl hover:shadow-blue-500/40 transition-all duration-300 group overflow-hidden touch-manipulation min-w-[64px] min-h-[64px] flex items-center justify-center active:scale-95 cursor-pointer"
-              style={{
-                WebkitTapHighlightColor: 'transparent',
-                userSelect: 'none',
-                touchAction: 'manipulation'
-              }}
-              whileHover={{ scale: 1.08, y: -3 }}
+              onClick={toggleChat}
+              className="relative bg-[#9F2D2D] text-white w-14 h-14 rounded-full shadow-lg flex items-center justify-center hover:shadow-xl transition-shadow"
+              whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              style={{ touchAction: "manipulation" }}
             >
-              {/* Animated Background Rings */}
-              <motion.div
-                className="absolute inset-0 rounded-full border-2 border-white/20"
-                animate={{
-                  rotate: 360,
-                  scale: [1, 1.1, 1]
-                }}
-                transition={{
-                  rotate: { duration: 8, repeat: Infinity, ease: "linear" },
-                  scale: { duration: 2, repeat: Infinity, ease: "easeInOut" }
-                }}
-              />
-
-              <motion.div
-                className="absolute inset-2 rounded-full border border-white/10"
-                animate={{
-                  rotate: -360,
-                  opacity: [0.3, 0.8, 0.3]
-                }}
-                transition={{
-                  rotate: { duration: 6, repeat: Infinity, ease: "linear" },
-                  opacity: { duration: 3, repeat: Infinity, ease: "easeInOut" }
-                }}
-              />
-
-              {/* Main Icon with Glow */}
-              <motion.div
-                className="relative z-10"
-                animate={{
-                  filter: [
-                    "drop-shadow(0 0 0px rgba(255,255,255,0))",
-                    "drop-shadow(0 0 8px rgba(255,255,255,0.3))",
-                    "drop-shadow(0 0 0px rgba(255,255,255,0))"
-                  ]
-                }}
-                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-              >
-                <MessageCircle className="w-6 h-6 sm:w-7 sm:h-7 group-hover:scale-110 transition-transform" />
-              </motion.div>
-
-              {/* Enhanced Pulsing Indicator */}
-              <motion.div
-                className="absolute -top-1 -right-1 w-5 h-5 bg-gradient-to-r from-emerald-400 to-green-500 rounded-full flex items-center justify-center"
-                animate={{
-                  scale: [1, 1.3, 1],
-                  boxShadow: [
-                    "0 0 0 0 rgba(34, 197, 94, 0.4)",
-                    "0 0 0 6px rgba(34, 197, 94, 0)",
-                    "0 0 0 0 rgba(34, 197, 94, 0)"
-                  ]
-                }}
-                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-              >
-                <motion.div
-                  className="w-2 h-2 bg-white rounded-full"
-                  animate={{ scale: [1, 0.8, 1] }}
-                  transition={{ duration: 1, repeat: Infinity, ease: "easeInOut" }}
-                />
-              </motion.div>
-
-              {/* Hover Sparkle Effects */}
-              <motion.div
-                className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                style={{
-                  background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.2) 0%, transparent 50%)"
-                }}
-              />
-
-              {/* Floating Particles */}
-              <motion.div
-                className="absolute top-2 left-2 w-1 h-1 bg-white/60 rounded-full"
-                animate={{
-                  y: [0, -8, 0],
-                  opacity: [0, 1, 0],
-                  scale: [0, 1, 0]
-                }}
-                transition={{
-                  duration: 3,
-                  repeat: Infinity,
-                  ease: "easeInOut",
-                  delay: 0
-                }}
-              />
-
-              <motion.div
-                className="absolute bottom-3 right-3 w-1 h-1 bg-white/40 rounded-full"
-                animate={{
-                  y: [0, -6, 0],
-                  opacity: [0, 0.8, 0],
-                  scale: [0, 1.2, 0]
-                }}
-                transition={{
-                  duration: 2.5,
-                  repeat: Infinity,
-                  ease: "easeInOut",
-                  delay: 1
-                }}
-              />
+              <MessageCircle className="w-6 h-6" />
+              {/* Online indicator */}
+              <span className="absolute top-0 right-0 w-3.5 h-3.5 bg-green-500 rounded-full border-2 border-white" />
             </motion.button>
           </motion.div>
         )}
       </AnimatePresence>
 
-
-      {/* Chat Window */}
+      {/* Support Panel */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            initial={{ opacity: 0, scale: 0.9, y: 50 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.9, y: 50 }}
+            initial={{ opacity: 0, y: 40, scale: 0.95 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 40, scale: 0.95 }}
             transition={{ type: "spring", damping: 25, stiffness: 300 }}
-            className="fixed bottom-4 left-4 sm:bottom-6 sm:left-6 z-[9998] w-[95vw] sm:w-[400px] md:w-96 bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-100"
-            style={{ 
-              height: isMinimized ? "70px" : "calc(85vh - 20px)", 
-              maxHeight: "600px",
-              position: 'fixed',
-              bottom: '16px',
-              left: '16px',
-              zIndex: 9998
-            }}
+            className="fixed bottom-5 left-5 z-[9998] w-[92vw] max-w-[400px] bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-200 flex flex-col"
+            style={{ height: "min(580px, 85vh)" }}
           >
-            {/* Enhanced Header */}
-            <motion.div
-              className="relative bg-gradient-to-r from-[#9F2D2D] via-blue-700 to-indigo-800 text-white p-3 sm:p-4 overflow-hidden"
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-            >
-              {/* Animated Background Pattern */}
-              <motion.div
-                className="absolute inset-0 opacity-10"
-                style={{
-                  background: "linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.1) 50%, transparent 70%)"
-                }}
-                animate={{ x: [-100, 400] }}
-                transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
-              />
-
-              <div className="flex items-center justify-between relative z-10">
-                <div className="flex items-center gap-2 sm:gap-3">
-                  {selectedOption && (
-                    <motion.button
-                      onClick={goBack}
-                      className="p-2 hover:bg-white/10 rounded-lg transition-colors mr-2"
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.95 }}
-                    >
-                      <ArrowLeft className="w-4 h-4" />
-                    </motion.button>
-                  )}
-                  <motion.div
-                    className="w-8 h-8 sm:w-10 sm:h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-sm font-semibold border border-white/30"
-                    animate={{
-                      boxShadow: [
-                        "0 0 0 0 rgba(255,255,255,0.2)",
-                        "0 0 0 4px rgba(255,255,255,0.1)",
-                        "0 0 0 0 rgba(255,255,255,0.2)"
-                      ]
-                    }}
-                    transition={{ duration: 2, repeat: Infinity }}
-                  >
-                    QS
-                  </motion.div>
-                  <motion.div
-                    initial={{ opacity: 0, x: -10 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 0.2 }}
-                  >
-                    <h3 className="font-semibold text-xs sm:text-sm">
-                      {selectedOption ? selectedOption.title : "QuickLearn Support"}
-                    </h3>
-                    <div className="flex items-center gap-1 sm:gap-2 text-[10px] sm:text-xs text-blue-100">
-                      <motion.div
-                        className="w-2 h-2 bg-green-400 rounded-full"
-                        animate={{ opacity: [1, 0.5, 1] }}
-                        transition={{ duration: 2, repeat: Infinity }}
-                      />
-                      <span>Available {whatsAppInfo.businessHours}</span>
-                    </div>
-                  </motion.div>
+            {/* Header */}
+            <div className="bg-[#9F2D2D] text-white px-4 py-3 flex items-center justify-between flex-shrink-0">
+              <div className="flex items-center gap-2.5">
+                <div className="w-9 h-9 bg-white/20 rounded-full flex items-center justify-center text-xs font-bold">
+                  QS
                 </div>
-                <div className="flex items-center gap-1">
-                  <motion.button
-                    onClick={minimizeChat}
-                    className="p-1 sm:p-2 hover:bg-white/10 rounded-lg transition-colors"
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    {isMinimized ? <Maximize2 className="w-3 h-3 sm:w-4 sm:h-4" /> : <Minimize2 className="w-3 h-3 sm:w-4 sm:h-4" />}
-                  </motion.button>
-                  <motion.button
-                    onClick={toggleChat}
-                    className="p-1 sm:p-2 hover:bg-white/10 rounded-lg transition-colors"
-                    whileHover={{ scale: 1.1, rotate: 90 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    <X className="w-4 h-4" />
-                  </motion.button>
+                <div>
+                  <h3 className="text-sm font-semibold leading-tight">
+                    QuickLearn Support
+                  </h3>
+                  <p className="text-[11px] text-white/70 flex items-center gap-1">
+                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full inline-block" />
+                    Online &middot; Mon-Fri 9am-6pm IST
+                  </p>
                 </div>
               </div>
-            </motion.div>
+              <button
+                onClick={toggleChat}
+                className="p-1.5 hover:bg-white/10 rounded-lg transition-colors"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
 
-            {/* Chat Content */}
-            <AnimatePresence>
-              {!isMinimized && (
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  className="flex flex-col h-full"
-                >
-                  {!selectedOption ? (
-                    <>
-                      {/* Welcome Section */}
-                      <div className="p-4 sm:p-6 bg-gradient-to-br from-blue-50 to-indigo-50 border-b border-blue-100">
-                        <div className="text-center">
-                          <motion.div
-                            className="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-3"
-                            animate={{
-                              boxShadow: [
-                                "0 0 0 0 rgba(59, 130, 246, 0.4)",
-                                "0 0 0 8px rgba(59, 130, 246, 0)",
-                                "0 0 0 0 rgba(59, 130, 246, 0)"
-                              ]
-                            }}
-                            transition={{ duration: 2, repeat: Infinity }}
-                          >
-                            <MessageCircle className="w-8 h-8 text-white" />
-                          </motion.div>
-                          <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                            How can we help you?
-                          </h3>
-                          <p className="text-sm text-gray-600 leading-relaxed">
-                            Choose your preferred way to get in touch with our team for support and enquiries.
-                          </p>
-                        </div>
+            {/* Content */}
+            <div className="flex-1 overflow-y-auto">
+                  {/* WhatsApp Quick Action */}
+                  <div className="p-4 border-b border-gray-100">
+                    <a
+                      href={`https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-3 p-3 bg-green-50 hover:bg-green-100 rounded-xl transition-colors group"
+                    >
+                      <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
+                        <Phone className="w-5 h-5 text-white" />
                       </div>
-
-                      {/* Contact Options */}
-                      <div className="flex-1 p-4 space-y-3 overflow-y-auto bg-gradient-to-b from-gray-50 to-white">
-                        {contactOptions.map((option, index) => {
-                          const IconComponent = option.icon;
-                          return (
-                            <motion.button
-                              key={option.id}
-                              initial={{ opacity: 0, y: 20 }}
-                              animate={{ opacity: 1, y: 0 }}
-                              transition={{ delay: index * 0.1 }}
-                              onClick={() => handleOptionSelect(option)}
-                              className="w-full p-4 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300 text-left group hover:scale-[1.02] relative overflow-hidden"
-                              whileHover={{ y: -2 }}
-                              whileTap={{ scale: 0.98 }}
-                            >
-                              <motion.div
-                                className="absolute inset-0 bg-gradient-to-r from-blue-50/50 to-indigo-50/50 opacity-0 group-hover:opacity-100"
-                                initial={{ scale: 0 }}
-                                whileHover={{ scale: 1 }}
-                                transition={{ duration: 0.3 }}
-                              />
-                              <div className="flex items-center gap-4 relative z-10">
-                                <motion.div
-                                  className={`w-12 h-12 bg-gradient-to-br ${option.color} rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-lg`}
-                                  whileHover={{ rotate: 5 }}
-                                >
-                                  <IconComponent className="w-6 h-6 text-white" />
-                                </motion.div>
-                                <div className="flex-1">
-                                  <h4 className="font-semibold text-gray-800 mb-1 group-hover:text-[#9F2D2D] transition-colors">
-                                    {option.title}
-                                  </h4>
-                                  <p className="text-sm text-gray-600 leading-relaxed">
-                                    {option.description}
-                                  </p>
-                                </div>
-                                <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-blue-500 transition-colors" />
-                              </div>
-                            </motion.button>
-                          );
-                        })}
-                      </div>
-
-                      {/* Footer Info */}
-                      <div className="p-4 bg-white border-t border-gray-100">
-                        <div className="flex items-center justify-between text-xs text-gray-500">
-                          <div className="flex items-center gap-2">
-                            <CheckCircle2 className="w-4 h-4 text-blue-500" />
-                            <span>Available {whatsAppInfo.businessHours}</span>
-                          </div>
-                          <div className="flex items-center gap-1">
-                            <motion.div
-                              className="w-2 h-2 bg-green-500 rounded-full"
-                              animate={{ scale: [1, 1.2, 1] }}
-                              transition={{ duration: 2, repeat: Infinity }}
-                            />
-                            <span>Online now</span>
-                          </div>
-                        </div>
-                      </div>
-                    </>
-                  ) : selectedOption.action === "email" ? (
-                    /* Email Form */
-                    <div className="flex-1 flex flex-col">
-                      <div className="p-4 bg-gradient-to-br from-purple-50 to-violet-50 border-b border-purple-100">
-                        <div className="flex items-center gap-3">
-                          <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-violet-600 rounded-xl flex items-center justify-center">
-                            <Mail className="w-6 h-6 text-white" />
-                          </div>
-                          <div>
-                            <h3 className="font-semibold text-gray-800">Send us an Email</h3>
-                            <p className="text-sm text-gray-600">Fill out the form below and we&apos;ll get back to you</p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <form onSubmit={handleEmailSubmit} className="flex-1 p-4 space-y-4 bg-gray-50 overflow-y-auto">
-                        <div>
-                          <label className="block text-sm font-medium text-gray-700 mb-1">Name *</label>
-                          <input
-                            type="text"
-                            required
-                            value={emailForm.name}
-                            onChange={(e) => handleEmailChange("name", e.target.value)}
-                            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent text-sm"
-                            placeholder="Your full name"
-                          />
-                        </div>
-
-                        <div>
-                          <label className="block text-sm font-medium text-gray-700 mb-1">Email *</label>
-                          <input
-                            type="email"
-                            required
-                            value={emailForm.email}
-                            onChange={(e) => handleEmailChange("email", e.target.value)}
-                            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent text-sm"
-                            placeholder="your.email@example.com"
-                          />
-                        </div>
-
-                        <div>
-                          <label className="block text-sm font-medium text-gray-700 mb-1">Subject</label>
-                          <input
-                            type="text"
-                            value={emailForm.subject}
-                            onChange={(e) => handleEmailChange("subject", e.target.value)}
-                            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent text-sm"
-                            placeholder="Course enquiry"
-                          />
-                        </div>
-
-                        <div>
-                          <label className="block text-sm font-medium text-gray-700 mb-1">Message *</label>
-                          <textarea
-                            required
-                            rows="4"
-                            value={emailForm.message}
-                            onChange={(e) => handleEmailChange("message", e.target.value)}
-                            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent text-sm resize-none"
-                            placeholder="Tell us about your enquiry..."
-                          />
-                        </div>
-
-                        <motion.button
-                          type="submit"
-                          className="w-full bg-gradient-to-r from-purple-500 to-violet-600 text-white py-3 rounded-lg font-medium hover:shadow-lg transition-all"
-                          whileHover={{ scale: 1.02 }}
-                          whileTap={{ scale: 0.98 }}
-                        >
-                          <div className="flex items-center justify-center gap-2">
-                            <Send className="w-4 h-4" />
-                            Send Email
-                          </div>
-                        </motion.button>
-                      </form>
-                    </div>
-                  ) : (
-                    /* Selected Option View */
-                    <div className="flex-1 flex flex-col items-center justify-center p-6 bg-gradient-to-br from-blue-50 to-indigo-50">
-                      <motion.div
-                        initial={{ scale: 0 }}
-                        animate={{ scale: 1 }}
-                        className="text-center"
-                      >
-                        <motion.div
-                          className={`w-20 h-20 bg-gradient-to-br ${selectedOption.color} rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg`}
-                          animate={{ rotate: 360 }}
-                          transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
-                        >
-                          <selectedOption.icon className="w-10 h-10 text-white" />
-                        </motion.div>
-                        <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                          {selectedOption.title}
-                        </h3>
-                        <p className="text-gray-600 mb-6 leading-relaxed">
-                          {selectedOption.action === "whatsapp"
-                            ? "Redirecting you to WhatsApp for instant support..."
-                            : "Redirecting you to our contacts page..."
-                          }
+                      <div className="flex-1">
+                        <p className="text-sm font-semibold text-gray-800">
+                          Chat on WhatsApp
                         </p>
-                        <div className="flex items-center justify-center gap-2 text-[#9F2D2D]">
-                          <motion.div
-                            animate={{ rotate: 360 }}
-                            transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
-                          >
-                            <selectedOption.icon className="w-5 h-5" />
-                          </motion.div>
-                          <span className="font-medium">
-                            {selectedOption.action === "whatsapp" ? "Opening WhatsApp" : "Opening Contacts"}
-                          </span>
-                        </div>
-                      </motion.div>
-                    </div>
-                  )}
+                        <p className="text-xs text-gray-500">
+                          Get instant support from our team
+                        </p>
+                      </div>
+                      <span className="text-green-600 text-xs font-medium">
+                        Open &rarr;
+                      </span>
+                    </a>
+                  </div>
 
-                  <div ref={messagesEndRef} />
-                </motion.div>
-              )}
-            </AnimatePresence>
+                  {/* Email Form */}
+                  <form
+                    ref={formRef}
+                    onSubmit={handleEmailSubmit}
+                    className="p-4 space-y-3"
+                  >
+                    <div className="flex items-center gap-2 mb-1">
+                      <Mail className="w-4 h-4 text-gray-400" />
+                      <h4 className="text-sm font-semibold text-gray-700">
+                        Send us a message
+                      </h4>
+                    </div>
+
+                    <input
+                      type="text"
+                      required
+                      placeholder="Your name *"
+                      value={emailForm.name}
+                      onChange={(e) => handleEmailChange("name", e.target.value)}
+                      className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#9F2D2D]/30 focus:border-[#9F2D2D] outline-none transition-all"
+                    />
+                    <input
+                      type="email"
+                      required
+                      placeholder="Email address *"
+                      value={emailForm.email}
+                      onChange={(e) =>
+                        handleEmailChange("email", e.target.value)
+                      }
+                      className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#9F2D2D]/30 focus:border-[#9F2D2D] outline-none transition-all"
+                    />
+                    <input
+                      type="text"
+                      placeholder="Course interested in"
+                      value={emailForm.subject}
+                      onChange={(e) =>
+                        handleEmailChange("subject", e.target.value)
+                      }
+                      className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#9F2D2D]/30 focus:border-[#9F2D2D] outline-none transition-all"
+                    />
+                    <textarea
+                      required
+                      rows="3"
+                      placeholder="Your message *"
+                      value={emailForm.message}
+                      onChange={(e) =>
+                        handleEmailChange("message", e.target.value)
+                      }
+                      className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#9F2D2D]/30 focus:border-[#9F2D2D] outline-none transition-all resize-none"
+                    />
+
+                    {/* Status messages */}
+                    {emailStatus === "success" && (
+                      <div className="flex items-center gap-2 text-green-600 text-sm">
+                        <CheckCircle2 className="w-4 h-4" />
+                        Message sent successfully!
+                      </div>
+                    )}
+                    {emailStatus === "error" && (
+                      <p className="text-red-500 text-sm">
+                        Failed to send. Please try again.
+                      </p>
+                    )}
+
+                    <button
+                      type="submit"
+                      disabled={emailStatus === "loading"}
+                      className="w-full bg-[#9F2D2D] text-white py-2.5 rounded-lg text-sm font-medium hover:bg-[#8a2626] transition-colors disabled:opacity-60 flex items-center justify-center gap-2"
+                    >
+                      {emailStatus === "loading" ? (
+                        <>
+                          <Loader2 className="w-4 h-4 animate-spin" />
+                          Sending...
+                        </>
+                      ) : (
+                        <>
+                          <Send className="w-4 h-4" />
+                          Send Message
+                        </>
+                      )}
+                    </button>
+                  </form>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>

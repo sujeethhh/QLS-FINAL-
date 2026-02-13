@@ -103,7 +103,7 @@ export default function SIAMProfessional() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

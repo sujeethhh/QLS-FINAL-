@@ -99,7 +99,7 @@ export default function ChangeEnablementPage() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

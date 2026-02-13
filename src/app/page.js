@@ -1,30 +1,39 @@
 import HomePageClient from "@/components/HomePageClient";
 
 export default async function HomePage() {
-  const res = await fetch("https://quicklearnsys.com/data/testimonials/testimonials.json", {
-    cache: "no-store",
-  });
-
-  const testimonials = await res.json();
-
   const baseUrl = "https://quicklearnsys.com";
 
-  // Fix the invalid relative image paths
-  const fixedTestimonials = testimonials.map(item => ({
-    ...item,
-    image: item.image.replace(/^\.\//, `${baseUrl}/`),
-  }));
+  let fixedTestimonials = [];
+  let fixedClients = [];
 
-  const res2 = await fetch("https://quicklearnsys.com/data/clients/clients.json", {
-    cache: "no-store",
-  });
+  try {
+    const [testimonialsRes, clientsRes] = await Promise.all([
+      fetch(`${baseUrl}/data/testimonials/testimonials.json`, {
+        next: { revalidate: 3600 },
+      }),
+      fetch(`${baseUrl}/data/clients/clients.json`, {
+        next: { revalidate: 3600 },
+      }),
+    ]);
 
-  const clients = await res2.json();
+    if (testimonialsRes.ok) {
+      const testimonials = await testimonialsRes.json();
+      fixedTestimonials = testimonials.map(item => ({
+        ...item,
+        image: item.image.replace(/^\.\//, `${baseUrl}/`),
+      }));
+    }
 
-  const fixedclients = clients.map(item => ({
-    ...item,
-    logo: item.logo.replace(/^\.\//, `${baseUrl}/`),
-  }));
+    if (clientsRes.ok) {
+      const clients = await clientsRes.json();
+      fixedClients = clients.map(item => ({
+        ...item,
+        logo: item.logo.replace(/^\.\//, `${baseUrl}/`),
+      }));
+    }
+  } catch (error) {
+    console.error("Failed to fetch homepage data:", error);
+  }
 
-  return <HomePageClient testimonials={fixedTestimonials} clients={fixedclients} />;
+  return <HomePageClient testimonials={fixedTestimonials} clients={fixedClients} />;
 }

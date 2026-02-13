@@ -5,101 +5,111 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL IT Asset Management Training | Asset Lifecycle Management | Edura",
-  description: "Master ITIL IT Asset Management for effective asset lifecycle management. Learn asset tracking, optimization, and compliance strategies.",
-  keywords: "ITIL IT Asset Management, asset lifecycle, asset tracking, asset optimization, ITSM, asset compliance",
+  title: "IT Asset Management Training | ITAM Certification | Edura",
+  description:
+    "Master IT Asset Management (ITAM) practices. Learn to control hardware, software, and digital assets efficiently while optimizing cost, risk, and compliance.",
+  keywords:
+    "IT Asset Management training, ITAM certification, asset lifecycle management, software asset management, hardware asset control",
   openGraph: {
-    title: "ITIL IT Asset Management Training",
-    description: "Master IT Asset Management for effective asset lifecycle management",
-    images: ["/SCRUM1.jpg"],
+    title: "IT Asset Management (ITAM) Training",
+    description:
+      "Learn to manage IT assets effectively across their lifecycle to optimize cost, risk and compliance",
+    images: ["/asset.jpg"],
   },
 };
 
 const courseData = {
   title: "IT Asset Management",
-  subtitle: "Optimize IT assets throughout their lifecycle for maximum value and compliance",
-  backgroundImage: "/SCRUM1.jpg",
+  subtitle:
+    "Control, optimize and govern IT assets throughout their lifecycle",
+  backgroundImage: "/asset.jpg",
+
   overview: [
-    "IT Asset Management is the practice responsible for planning and managing the full lifecycle of all IT assets to help the organization maximize value, control costs, manage risks, and support decision-making.",
-    "This comprehensive course covers asset lifecycle management, tracking systems, optimization strategies, and compliance requirements that ensure effective asset utilization and cost control.",
-    "Learn to implement robust asset management processes that provide visibility into asset inventory, optimize asset utilization, and ensure regulatory compliance."
+    "IT Asset Management (ITAM) focuses on tracking and managing IT assets throughout their lifecycle to maximize value, reduce costs, and minimize risk.",
+    "This course covers hardware and software asset management, license compliance, lifecycle planning, financial control, and governance practices.",
+    "Participants will gain practical knowledge on implementing structured ITAM processes that improve visibility, enhance compliance, and support strategic decision-making."
   ],
+
   courseOutline: [
-    "IT Asset Management fundamentals and objectives",
-    "Asset lifecycle management processes",
-    "Asset identification and classification",
-    "Asset tracking and inventory management",
-    "Asset optimization and utilization",
-    "Financial management and cost control",
-    "Compliance and risk management",
-    "Asset disposal and retirement"
+    "Introduction to IT Asset Management (ITAM)",
+    "Asset lifecycle management",
+    "Hardware asset management practices",
+    "Software asset management and license compliance",
+    "IT asset inventory and tracking systems",
+    "Risk and compliance management",
+    "Financial management of IT assets",
+    "Integration with IT Service Management processes"
   ],
+
   learningObjectives: [
-    "Understand IT Asset Management principles and benefits",
-    "Master asset lifecycle management processes",
-    "Implement effective asset tracking systems",
-    "Optimize asset utilization and performance",
-    "Manage asset-related costs and budgets",
-    "Ensure compliance with regulations and policies",
-    "Plan and execute asset disposal activities"
+    "Understand IT asset lifecycle stages",
+    "Implement structured IT asset tracking systems",
+    "Manage software licenses and compliance risks",
+    "Optimize asset utilization and cost control",
+    "Reduce risks associated with unmanaged assets",
+    "Integrate ITAM with ITSM practices",
+    "Improve governance and reporting capabilities"
   ],
+
   targetGroup: [
-    "IT Asset Managers and coordinators",
-    "Financial managers and analysts",
-    "Procurement and vendor managers",
-    "IT Service Management professionals",
-    "Compliance and risk managers"
+    "IT asset managers",
+    "IT operations professionals",
+    "Procurement and finance teams",
+    "Compliance officers",
+    "IT Service Management practitioners"
   ],
+
   examDetails: [
     "Duration: 60 minutes",
-    "40 multiple choice questions",
-    "Passing score: 26/40 (65%)",
+    "Multiple choice examination",
+    "Passing score: 65%",
     "Closed book examination",
-    "Available online and at testing centers"
+    "Certificate of completion provided"
   ],
+
   category: "IT Service Management",
-  tagline: "Track. Optimize. Comply.",
+  tagline: "Track. Control. Optimize.",
+
   relatedCourses: [
     {
-      title: "Service Configuration Management",
-      image: "/Devops.jpg",
-      description: "Master configuration management practices",
-      href: "/ServiceConfiguration",
-      duration: "3 Days",
-      level: "Foundation",
-      badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
-    },
-    {
-      title: "Supplier Management",
+      title: "ITIL® 4 Foundation",
       image: "/itl4.jpg",
-      description: "Learn supplier relationship management",
-      href: "/SupplierManagement",
+      description: "Master IT Service Management fundamentals",
+      href: "/ITL4Management",
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
       badgeColor: "bg-[#9F2D2D]"
     },
     {
-      title: "Information Security Management",
-      image: "/infosecman.jpg",
-      description: "Master information security practices",
-      href: "/InformationSecurityMan",
+      title: "Incident Management",
+      image: "/itl4.jpg",
+      description: "Restore services quickly and reduce downtime",
+      href: "/IncidentManagement",
+      duration: "3 Days",
+      level: "Professional",
+      badge: "ITSM",
+      badgeColor: "bg-blue-600"
+    },
+    {
+      title: "Service Desk",
+      image: "/serviceDesk.jpg",
+      description: "Develop professional IT support capabilities",
+      href: "/ServiceDesk",
       duration: "3 Days",
       level: "Foundation",
-      badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badge: "ITSM",
+      badgeColor: "bg-blue-600"
     }
   ]
 };
 
-export default function ItAssetManagementPage() {
+export default function ITAssetManagementPage() {
   return (
     <>
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
     </>
   );
 }

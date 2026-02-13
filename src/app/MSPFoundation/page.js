@@ -99,7 +99,7 @@ export default function MSPFoundationPage() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

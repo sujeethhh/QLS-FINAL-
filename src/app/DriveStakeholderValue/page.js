@@ -1039,7 +1039,7 @@ export default  function IT4Management(){
       
       
       <Footer/>
-      <LiveChat/>
+       
         </>
     )
 }

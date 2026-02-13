@@ -99,7 +99,7 @@ export default function InformationSecurityManPage() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

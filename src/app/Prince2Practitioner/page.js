@@ -99,7 +99,7 @@ export default function Prince2PractitionerPage() {
       <Headers />
       <CoursePageTemplate courseData={courseData} />
       <Footer />
-      <LiveChat />
+        
     </>
   );
 }

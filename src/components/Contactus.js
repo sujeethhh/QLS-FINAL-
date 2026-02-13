@@ -22,6 +22,8 @@ export default function Contactus() {
   });
 
   const [focusedField, setFocusedField] = useState('');
+  const [submitStatus, setSubmitStatus] = useState(null); // 'loading' | 'success' | 'error'
+  const [submitMessage, setSubmitMessage] = useState('');
 
   // Same animation variants as Hero component
   const slideTransition = { type: "spring", stiffness: 120, damping: 25, mass: 1 };
@@ -83,10 +85,36 @@ export default function Contactus() {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    // Handle form submission here
+    setSubmitStatus('loading');
+    setSubmitMessage('');
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        setSubmitStatus('success');
+        setSubmitMessage('Thank you! Your message has been sent successfully.');
+        setFormData({
+          fullName: '', email: '', phone: '', company: '', location: '',
+          courseInterested: '', inquiryType: '', preferredContact: '',
+          bestTimeToContact: '', message: '', newsletter: false, file: null
+        });
+      } else {
+        setSubmitStatus('error');
+        setSubmitMessage(data.error || 'Something went wrong. Please try again.');
+      }
+    } catch {
+      setSubmitStatus('error');
+      setSubmitMessage('Network error. Please check your connection and try again.');
+    }
   };
 
   return (
@@ -420,16 +448,31 @@ export default function Contactus() {
                   </p>
                 </motion.div>
 
+                {/* Status Message */}
+                {submitStatus && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    className={`p-4 rounded-lg text-sm font-medium ${
+                      submitStatus === 'success' ? 'bg-green-50 text-green-800 border border-green-200' :
+                      submitStatus === 'error' ? 'bg-red-50 text-red-800 border border-red-200' : ''
+                    }`}
+                  >
+                    {submitMessage}
+                  </motion.div>
+                )}
+
                 {/* Submit Button */}
                 <motion.div variants={formFieldVariants} className="pt-4">
                   <motion.button
                     type="submit"
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
-                    className="w-full bg-gradient-to-r from-slate-700 to-gray-800 text-white py-4 px-8 rounded-lg font-semibold hover:from-slate-800 hover:to-gray-900 transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
+                    disabled={submitStatus === 'loading'}
+                    whileHover={submitStatus !== 'loading' ? { scale: 1.02 } : {}}
+                    whileTap={submitStatus !== 'loading' ? { scale: 0.98 } : {}}
+                    className="w-full bg-gradient-to-r from-slate-700 to-gray-800 text-white py-4 px-8 rounded-lg font-semibold hover:from-slate-800 hover:to-gray-900 transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center gap-2 disabled:opacity-60 disabled:cursor-not-allowed"
                   >
                     <Send className="w-5 h-5" />
-                    Send Message
+                    {submitStatus === 'loading' ? 'Sending...' : 'Send Message'}
                   </motion.button>
                 </motion.div>
               </form>

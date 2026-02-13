@@ -1,5 +1,5 @@
 import { Container, Grid } from "@mui/material";
-
+import Headers from "@/components/Header";
 export const metadata = {
   title: "Terms & Refund Policy | QuickLearn Systems",
   description: "Terms of Service and Refund Policy for QuickLearn Systems training programs and certification courses.",
@@ -8,6 +8,7 @@ export const metadata = {
 export default function TermsRefund() {
   return (
     <div className="min-h-screen bg-gray-50 py-12">
+      <Headers/>
       <Container maxWidth="lg">
         <Grid container spacing={4}>
           <Grid item xs={12}>
