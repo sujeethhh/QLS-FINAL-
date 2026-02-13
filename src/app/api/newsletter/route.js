@@ -34,7 +34,7 @@ export async function POST(request) {
     // Notify admin about new subscriber
     await transporter.sendMail({
       from: `"QuickLearn Website" <${process.env.SMTP_USER}>`,
-      to: process.env.CONTACT_EMAIL || "info@quicklearnsys.com",
+      to: process.env.CONTACT_EMAIL || "training@quicklearnsys.com",
       subject: "New Newsletter Subscription",
       html: `
         <h2>New Newsletter Subscriber</h2>

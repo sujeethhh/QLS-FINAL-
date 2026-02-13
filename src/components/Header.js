@@ -54,11 +54,11 @@ animate-in slide-in-from-top-2 duration-100">
           <div className="flex items-center space-x-8 text-sm text-white">
             <span className="flex items-center gap-2.5 hover:text-blue-200 transition-all duration-300 cursor-pointer hover:scale-105 group bg-white/10 px-3 py-1.5 rounded-full hover:bg-white/20 hover:shadow-sm">
               <span className="w-4 h-4 text-white group-hover:animate-bounce">�</span>
-              <span className="font-medium">+91 9100195152</span>
+              <span className="font-medium">9100195152 / 9703704495</span>
             </span>
             <span className="flex items-center gap-2.5 hover:text-blue-200 transition-all duration-300 cursor-pointer hover:scale-105 group bg-white/10 px-3 py-1.5 rounded-full hover:bg-white/20 hover:shadow-sm">
               <span className="w-4 h-4 text-white group-hover:animate-bounce">✉️</span>
-              <span className="font-medium">info@quicklearn.com</span>
+              <span className="font-medium">training@quicklearnsys.com</span>
             </span>
           </div>
 

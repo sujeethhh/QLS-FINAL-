@@ -95,8 +95,8 @@ export default function TermsRefund() {
                     For questions about terms, refunds, or to request a refund, please contact:
                   </p>
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <p className="text-gray-700"><strong>Email:</strong> support@quicklearnsys.com</p>
-                    <p className="text-gray-700"><strong>Phone:</strong> +111 (564) 568 25</p>
+                    <p className="text-gray-700"><strong>Email:</strong> training@quicklearnsys.com</p>
+                    <p className="text-gray-700"><strong>Phone:</strong> 9100195152 / 9703704495</p>
                     <p className="text-gray-700"><strong>Business Hours:</strong> Mon-Fri: 9am-6pm IST</p>
                   </div>
                 </section>

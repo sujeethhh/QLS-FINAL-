@@ -2,7 +2,7 @@
 import Headers from "@/components/Header";
 import Footer from "@/components/Footer";
 import { motion, AnimatePresence } from "framer-motion";
-import { Mail, Phone, MapPin, Clock, Send, Upload, User, MessageSquare, Building, Calendar } from "lucide-react";
+import { Mail, Phone, MapPin, Clock, Send, Upload, User, MessageSquare, Building, Calendar, Loader2 } from "lucide-react";
 import ScrollFloat from "@/components/ui/ScroolReveal";
 import { useState } from "react";
 export default function Contactus() {
@@ -328,6 +328,28 @@ export default function Contactus() {
                   </div>
                 </motion.div>
 
+                {/* Location */}
+                <motion.div variants={formFieldVariants}>
+                  <div className="relative">
+                    <input
+                      type="text"
+                      name="location"
+                      value={formData.location}
+                      onChange={handleInputChange}
+                      onFocus={() => setFocusedField('location')}
+                      onBlur={() => setFocusedField('')}
+                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-slate-500 focus:border-transparent transition-all duration-300 bg-white"
+                      placeholder="Your Location (City, Country)"
+                    />
+                    <motion.div
+                      className="absolute bottom-0 left-0 h-0.5 bg-gradient-to-r from-slate-600 to-gray-700"
+                      initial={{ width: 0 }}
+                      animate={{ width: focusedField === 'location' ? '100%' : '0%' }}
+                      transition={{ duration: 0.3 }}
+                    />
+                  </div>
+                </motion.div>
+
                 {/* Course & Inquiry Information */}
                 <motion.div variants={formFieldVariants}>
                   <h3 className="text-lg font-semibold text-slate-800 mb-4 flex items-center gap-2">
@@ -342,15 +364,69 @@ export default function Contactus() {
                       className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-slate-500 focus:border-transparent transition-all duration-300 bg-white"
                     >
                       <option value="">Course Interested In</option>
-                      <option value="itil-foundation">ITIL® 4 Foundation</option>
-                      <option value="pmp">PMP Certification</option>
-                      <option value="prince2">PRINCE2</option>
-                      <option value="safe-agilist">SAFe Agilist</option>
-                      <option value="scrum-master">Scrum Master</option>
-                      <option value="six-sigma">Six Sigma</option>
-                      <option value="devops">DevOps</option>
-                      <option value="business-analysis">Business Analysis</option>
-                      <option value="other">Other</option>
+                      <optgroup label="IT Service Management">
+                        <option value="ITIL® 4 Foundation">ITIL® 4 Foundation</option>
+                        <option value="ITIL® 4 Practice Manager">ITIL® 4 Practice Manager</option>
+                        <option value="MSF - Monitor, Support and Fulfil">MSF - Monitor, Support and Fulfil</option>
+                        <option value="PIC - Plan, Implement and Control">PIC - Plan, Implement and Control</option>
+                        <option value="CAI - Collaborate, Assure and Improve">CAI - Collaborate, Assure and Improve</option>
+                        <option value="ITIL® 4 Specialist Create, Deliver and Support">ITIL® 4 Specialist Create, Deliver and Support</option>
+                        <option value="ITIL® 4 Specialist Drive Stakeholder Value">ITIL® 4 Specialist Drive Stakeholder Value</option>
+                        <option value="ITIL® 4 Specialist High Velocity IT">ITIL® 4 Specialist High Velocity IT</option>
+                        <option value="ITIL® 4 Strategist Direct Plan & Improve">ITIL® 4 Strategist Direct Plan &amp; Improve</option>
+                        <option value="ITIL® 4 Specialist - Acquiring And Managing Cloud Service">ITIL® 4 Specialist - Acquiring And Managing Cloud Service</option>
+                        <option value="ITIL® 4 Specialist - Sustainability In Digital and IT">ITIL® 4 Specialist - Sustainability In Digital and IT</option>
+                        <option value="ITIL® 4 Specialist - Business Relationship Management">ITIL® 4 Specialist - Business Relationship Management</option>
+                        <option value="ITIL® 4 Specialist - IT Asset Management">ITIL® 4 Specialist - IT Asset Management</option>
+                        <option value="ITIL® 4 Specialist - Monitor, Support and Fulfil">ITIL® 4 Specialist - Monitor, Support and Fulfil</option>
+                        <option value="ITIL® 4 Strategist Digital IT & Services">ITIL® 4 Strategist Digital IT &amp; Services</option>
+                        <option value="SIAM Foundation">SIAM Foundation</option>
+                        <option value="SIAM Professional">SIAM Professional</option>
+                      </optgroup>
+                      <optgroup label="Project & Program Management">
+                        <option value="PMP">PMP</option>
+                        <option value="ACP">ACP</option>
+                        <option value="Prince2 Foundation">Prince2 Foundation</option>
+                        <option value="Prince2 Practitioner">Prince2 Practitioner</option>
+                        <option value="Prince2 Agile Foundation">Prince2 Agile Foundation</option>
+                        <option value="Prince2 Agile Practitioner">Prince2 Agile Practitioner</option>
+                        <option value="MSP Foundation">MSP Foundation</option>
+                        <option value="MSP Practitioner">MSP Practitioner</option>
+                      </optgroup>
+                      <optgroup label="Agile, Scrum & Kanban">
+                        <option value="Leading SAFe Agilist">Leading SAFe Agilist</option>
+                        <option value="SAFe PO/PM">SAFe PO/PM</option>
+                        <option value="SAFe for Teams">SAFe for Teams</option>
+                        <option value="SAFe Scrum Master">SAFe Scrum Master</option>
+                        <option value="SAFe Advanced Scrum Master">SAFe Advanced Scrum Master</option>
+                        <option value="Professional Scrum Master I (PSM I)">Professional Scrum Master I (PSM I)</option>
+                        <option value="Professional Scrum Master II (PSM II)">Professional Scrum Master II (PSM II)</option>
+                        <option value="Professional Scrum Product Owner I (PSPO I)">Professional Scrum Product Owner I (PSPO I)</option>
+                        <option value="Professional Scrum Product Owner II (PSPO II)">Professional Scrum Product Owner II (PSPO II)</option>
+                        <option value="Professional Scrum with Kanban (PSK I)">Professional Scrum with Kanban (PSK I)</option>
+                        <option value="Certified Scrum Master">Certified Scrum Master</option>
+                        <option value="Certified Advanced Scrum Master">Certified Advanced Scrum Master</option>
+                        <option value="Certified Scrum Product Owner">Certified Scrum Product Owner</option>
+                        <option value="ICP-ACC">ICP-ACC</option>
+                      </optgroup>
+                      <optgroup label="Quality Management">
+                        <option value="Lean Six Sigma Green Belt">Lean Six Sigma Green Belt</option>
+                        <option value="Lean Six Sigma Black Belt">Lean Six Sigma Black Belt</option>
+                      </optgroup>
+                      <optgroup label="DevOps and Business Analysis">
+                        <option value="SRE Foundation">SRE Foundation</option>
+                        <option value="SRE Practitioner">SRE Practitioner</option>
+                        <option value="DevOps Foundation">DevOps Foundation</option>
+                        <option value="DevOps Master">DevOps Master</option>
+                        <option value="Business Analysis Foundation">Business Analysis Foundation</option>
+                        <option value="Business Analysis Practice">Business Analysis Practice</option>
+                        <option value="Agile Business Analysis">Agile Business Analysis</option>
+                      </optgroup>
+                      <optgroup label="Software Testing, Technical & Other Courses">
+                        <option value="ISTQB Foundation">ISTQB Foundation</option>
+                        <option value="ISTQB Advanced">ISTQB Advanced</option>
+                      </optgroup>
+                      <option value="Other">Other</option>
                     </select>
 
                     <select
@@ -360,12 +436,12 @@ export default function Contactus() {
                       className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-slate-500 focus:border-transparent transition-all duration-300 bg-white"
                     >
                       <option value="">Inquiry Type</option>
-                      <option value="general">General Inquiry</option>
-                      <option value="course-details">Course Details</option>
-                      <option value="corporate-training">Corporate Training</option>
-                      <option value="pricing">Pricing Information</option>
-                      <option value="support">Support</option>
-                      <option value="partnership">Partnership</option>
+                      <option value="General Inquiry">General Inquiry</option>
+                      <option value="Course Details">Course Details</option>
+                      <option value="Corporate Training">Corporate Training</option>
+                      <option value="Pricing Information">Pricing Information</option>
+                      <option value="Support">Support</option>
+                      <option value="Partnership">Partnership</option>
                     </select>
                   </div>
                 </motion.div>
@@ -384,9 +460,9 @@ export default function Contactus() {
                       className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-slate-500 focus:border-transparent transition-all duration-300 bg-white"
                     >
                       <option value="">Preferred Contact Method</option>
-                      <option value="email">Email</option>
-                      <option value="phone">Phone</option>
-                      <option value="both">Both Email & Phone</option>
+                      <option value="Email">Email</option>
+                      <option value="Phone">Phone</option>
+                      <option value="Both Email & Phone">Both Email &amp; Phone</option>
                     </select>
 
                     <select
@@ -396,10 +472,10 @@ export default function Contactus() {
                       className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-slate-500 focus:border-transparent transition-all duration-300 bg-white"
                     >
                       <option value="">Best Time to Contact</option>
-                      <option value="morning">Morning (9AM - 12PM)</option>
-                      <option value="afternoon">Afternoon (12PM - 5PM)</option>
-                      <option value="evening">Evening (5PM - 8PM)</option>
-                      <option value="anytime">Anytime</option>
+                      <option value="Morning (9AM - 12PM)">Morning (9AM - 12PM)</option>
+                      <option value="Afternoon (12PM - 5PM)">Afternoon (12PM - 5PM)</option>
+                      <option value="Evening (5PM - 8PM)">Evening (5PM - 8PM)</option>
+                      <option value="Anytime">Anytime</option>
                     </select>
                   </div>
                 </motion.div>
@@ -471,7 +547,11 @@ export default function Contactus() {
                     whileTap={submitStatus !== 'loading' ? { scale: 0.98 } : {}}
                     className="w-full bg-gradient-to-r from-slate-700 to-gray-800 text-white py-4 px-8 rounded-lg font-semibold hover:from-slate-800 hover:to-gray-900 transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center gap-2 disabled:opacity-60 disabled:cursor-not-allowed"
                   >
-                    <Send className="w-5 h-5" />
+                    {submitStatus === 'loading' ? (
+                      <Loader2 className="w-5 h-5 animate-spin" />
+                    ) : (
+                      <Send className="w-5 h-5" />
+                    )}
                     {submitStatus === 'loading' ? 'Sending...' : 'Send Message'}
                   </motion.button>
                 </motion.div>
@@ -607,21 +687,21 @@ export default function Contactus() {
 
                 <div className="space-y-3">
                   <motion.a
-                    href="tel:+111564568225"
+                    href="tel:+919100195152"
                     className="flex items-center gap-3 p-3 bg-white/10 rounded-lg hover:bg-white/20 transition-colors duration-300"
                     whileHover={{ scale: 1.02 }}
                   >
                     <Phone className="w-5 h-5" />
-                    <span>+111 (564) 568 25</span>
+                    <span>9100195152 / 9703704495</span>
                   </motion.a>
 
                   <motion.a
-                    href="mailto:info@quicklearn.com"
+                    href="mailto:training@quicklearnsys.com"
                     className="flex items-center gap-3 p-3 bg-white/10 rounded-lg hover:bg-white/20 transition-colors duration-300"
                     whileHover={{ scale: 1.02 }}
                   >
                     <Mail className="w-5 h-5" />
-                    <span>info@quicklearn.com</span>
+                    <span>training@quicklearnsys.com</span>
                   </motion.a>
                 </div>
               </motion.div>

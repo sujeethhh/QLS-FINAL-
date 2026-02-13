@@ -216,14 +216,14 @@ export default function Footer() {
               <ul className="space-y-3 text-gray-300 text-sm">
                 <li>
                   <span className="block font-semibold text-white mb-1">Email:</span>
-                  <a href="mailto:info@quicklearnsys.com" className="hover:text-white transition-colors">
-                    info@quicklearnsys.com
+                  <a href="mailto:training@quicklearnsys.com" className="hover:text-white transition-colors">
+                    training@quicklearnsys.com
                   </a>
                 </li>
                 <li>
                   <span className="block font-semibold text-white mb-1">Phone:</span>
-                  <a href="tel:+1234567890" className="hover:text-white transition-colors">
-                    +91 9100195152
+                  <a href="tel:+919100195152" className="hover:text-white transition-colors">
+                    9100195152 / 9703704495
                   </a>
                 </li>
                 <li>
@@ -248,10 +248,10 @@ export default function Footer() {
     <br />
     Any potential violation may be reported to{" "}
     <a
-      href="mailto:info@quicklearnsys.com"
+      href="mailto:training@quicklearnsys.com"
       className="text-gray-300 hover:text-white underline"
     >
-      info@quicklearnsys.com
+      training@quicklearnsys.com
     </a>{" "}
     for correction.
   </p>

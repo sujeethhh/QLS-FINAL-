@@ -78,8 +78,8 @@ export default function PrivacyPolicy() {
                     If you have any questions about this Privacy Policy, please contact us at:
                   </p>
                   <div className="mt-4 text-gray-700">
-                    <p>Email: privacy@quicklearnsys.com</p>
-                    <p>Phone: +111 (564) 568 25</p>
+                    <p>Email: training@quicklearnsys.com</p>
+                    <p>Phone: 9100195152 / 9703704495</p>
                   </div>
                 </section>
               </div>

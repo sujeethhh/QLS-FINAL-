@@ -4,7 +4,7 @@ import { NextResponse } from "next/server";
 export async function POST(request) {
   try {
     const body = await request.json();
-    const { fullName, email, phone, company, courseInterested, inquiryType, message } = body;
+    const { fullName, email, phone, company, courseInterested, inquiryType, message, location, preferredContact, bestTimeToContact } = body;
 
     // Validation
     if (!fullName || !email || !message) {
@@ -34,7 +34,7 @@ export async function POST(request) {
 
     const mailOptions = {
       from: `"QuickLearn Website" <${process.env.SMTP_USER}>`,
-      to: process.env.CONTACT_EMAIL || "info@quicklearnsys.com",
+      to: process.env.CONTACT_EMAIL || "training@quicklearnsys.com",
       replyTo: email,
       subject: `New Contact Enquiry from ${fullName}${courseInterested ? ` - ${courseInterested}` : ""}`,
       html: `
@@ -46,6 +46,9 @@ export async function POST(request) {
           ${company ? `<tr><td style="padding: 8px; border-bottom: 1px solid #eee; font-weight: bold;">Company</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${company}</td></tr>` : ""}
           ${courseInterested ? `<tr><td style="padding: 8px; border-bottom: 1px solid #eee; font-weight: bold;">Course</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${courseInterested}</td></tr>` : ""}
           ${inquiryType ? `<tr><td style="padding: 8px; border-bottom: 1px solid #eee; font-weight: bold;">Inquiry Type</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${inquiryType}</td></tr>` : ""}
+          ${location ? `<tr><td style="padding: 8px; border-bottom: 1px solid #eee; font-weight: bold;">Location</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${location}</td></tr>` : ""}
+          ${preferredContact ? `<tr><td style="padding: 8px; border-bottom: 1px solid #eee; font-weight: bold;">Preferred Contact</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${preferredContact}</td></tr>` : ""}
+          ${bestTimeToContact ? `<tr><td style="padding: 8px; border-bottom: 1px solid #eee; font-weight: bold;">Best Time to Contact</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${bestTimeToContact}</td></tr>` : ""}
         </table>
         <h3 style="margin-top: 20px;">Message</h3>
         <p style="white-space: pre-wrap; background: #f9f9f9; padding: 16px; border-radius: 8px;">${message}</p>
