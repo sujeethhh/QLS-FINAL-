@@ -58,10 +58,10 @@ export default function RootLayout({ children }) {
 {/* AnythingLLM Chat Widget */}
 <Script
   id="anythingllm-widget"
-  src="http://server.codeprismtechnologies.com:3899/embed/anythingllm-chat-widget.min.js"
+  src="https://ai.zylosys.in/embed/anythingllm-chat-widget.min.js"
   strategy="afterInteractive"
   data-embed-id="3c78b278-db2a-45c0-b2be-f0b2dee3bfc1"
-  data-base-api-url="http://server.codeprismtechnologies.com:3899/api/embed"
+  data-base-api-url="https://ai.zylosys.in/api/embed"
   data-position="bottom-right"
   data-assistant-name="QuickLearn Assistant"
   data-brand-image-url="/LOGO.png"
