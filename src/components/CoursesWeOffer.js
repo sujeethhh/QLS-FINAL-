@@ -1153,8 +1153,8 @@ export default function CoursesWeOffer() {
                 }
               `}</style>
 
-              {/* Duplicate courses for seamless loop */}
-              {[...filteredCourses, ...filteredCourses].map((course, index) => (
+              {/* Duplicate courses for seamless loop only when not searching/filtering */}
+              {(searchTerm || activeFilter !== "Popular Courses" ? filteredCourses : [...filteredCourses, ...filteredCourses]).map((course, index) => (
                 <motion.div
                   key={`${course.id}-${index}`}
                   className="flex-shrink-0"
