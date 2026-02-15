@@ -687,21 +687,21 @@ export default function Contactus() {
 
                 <div className="space-y-3">
                   <motion.a
-                    href="tel:+919100195152"
+                    href={`tel:+91${process.env.NEXT_PUBLIC_PHONE_PRIMARY}`}
                     className="flex items-center gap-3 p-3 bg-white/10 rounded-lg hover:bg-white/20 transition-colors duration-300"
                     whileHover={{ scale: 1.02 }}
                   >
                     <Phone className="w-5 h-5" />
-                    <span>9100195152 / 9703704495</span>
+                    <span>{process.env.NEXT_PUBLIC_PHONE_PRIMARY} / {process.env.NEXT_PUBLIC_PHONE_SECONDARY}</span>
                   </motion.a>
 
                   <motion.a
-                    href="mailto:training@quicklearnsys.com"
+                    href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
                     className="flex items-center gap-3 p-3 bg-white/10 rounded-lg hover:bg-white/20 transition-colors duration-300"
                     whileHover={{ scale: 1.02 }}
                   >
                     <Mail className="w-5 h-5" />
-                    <span>training@quicklearnsys.com</span>
+                    <span>{process.env.NEXT_PUBLIC_CONTACT_EMAIL}</span>
                   </motion.a>
                 </div>
               </motion.div>

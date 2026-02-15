@@ -76,7 +76,7 @@ export default function TermsRefund() {
 
                   <h3 className="text-xl font-semibold text-gray-800 mb-3">4. Retake Guarantee</h3>
                   <p className="text-gray-700 mb-4">
-                    If you don't pass your certification exam on the first attempt, you may retake 
+                    If you don&apos;t pass your certification exam on the first attempt, you may retake
                     our training program at no additional cost within 12 months. This applies to 
                     select courses only.
                   </p>
@@ -95,8 +95,8 @@ export default function TermsRefund() {
                     For questions about terms, refunds, or to request a refund, please contact:
                   </p>
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <p className="text-gray-700"><strong>Email:</strong> training@quicklearnsys.com</p>
-                    <p className="text-gray-700"><strong>Phone:</strong> 9100195152 / 9703704495</p>
+                    <p className="text-gray-700"><strong>Email:</strong> {process.env.NEXT_PUBLIC_CONTACT_EMAIL}</p>
+                    <p className="text-gray-700"><strong>Phone:</strong> {process.env.NEXT_PUBLIC_PHONE_PRIMARY} / {process.env.NEXT_PUBLIC_PHONE_SECONDARY}</p>
                     <p className="text-gray-700"><strong>Business Hours:</strong> Mon-Fri: 9am-6pm IST</p>
                   </div>
                 </section>

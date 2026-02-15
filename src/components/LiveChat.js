@@ -12,7 +12,7 @@ import {
   Loader2,
 } from "lucide-react";
 
-const WHATSAPP_NUMBER = "919100195152";
+const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "919100195152";
 const WHATSAPP_MESSAGE = encodeURIComponent(
   "Hello! I'm interested in learning more about your courses."
 );

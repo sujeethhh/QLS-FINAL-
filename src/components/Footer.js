@@ -216,19 +216,19 @@ export default function Footer() {
               <ul className="space-y-3 text-gray-300 text-sm">
                 <li>
                   <span className="block font-semibold text-white mb-1">Email:</span>
-                  <a href="mailto:training@quicklearnsys.com" className="hover:text-white transition-colors">
-                    training@quicklearnsys.com
+                  <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`} className="hover:text-white transition-colors">
+                    {process.env.NEXT_PUBLIC_CONTACT_EMAIL}
                   </a>
                 </li>
                 <li>
                   <span className="block font-semibold text-white mb-1">Phone:</span>
-                  <a href="tel:+919100195152" className="hover:text-white transition-colors">
-                    9100195152 / 9703704495
+                  <a href={`tel:+91${process.env.NEXT_PUBLIC_PHONE_PRIMARY}`} className="hover:text-white transition-colors">
+                    {process.env.NEXT_PUBLIC_PHONE_PRIMARY} / {process.env.NEXT_PUBLIC_PHONE_SECONDARY}
                   </a>
                 </li>
                 <li>
                   <span className="block font-semibold text-white mb-1">Address:</span>
-                  <span className="block">QuickLearn Systems</span>
+                  <span className="block">{process.env.NEXT_PUBLIC_COMPANY_NAME}</span>
                   <span className="block">Training Center</span>
                 </li>
               </ul>
@@ -248,10 +248,10 @@ export default function Footer() {
     <br />
     Any potential violation may be reported to{" "}
     <a
-      href="mailto:training@quicklearnsys.com"
+      href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
       className="text-gray-300 hover:text-white underline"
     >
-      training@quicklearnsys.com
+      {process.env.NEXT_PUBLIC_CONTACT_EMAIL}
     </a>{" "}
     for correction.
   </p>
@@ -260,7 +260,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="border-t border-gray-300 mt-12 pt-8">
           <p className="text-gray-400 text-sm text-center">
-            © 2018-2025 QuickLearn Systems. All Rights Reserved. The certification names are the trademarks of their respective owners.
+            © 2018-2025 {process.env.NEXT_PUBLIC_COMPANY_NAME}. All Rights Reserved. The certification names are the trademarks of their respective owners.
           </p>
         </div>
       </div>

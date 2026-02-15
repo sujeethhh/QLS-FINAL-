@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Search, Users, Clock, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
@@ -1168,10 +1169,11 @@ export default function CoursesWeOffer() {
 
                       {/* Image */}
                       <div className="relative h-40 sm:h-44 md:h-48 overflow-hidden">
-                        <img
+                        <Image
                           src={course.imageSrc}
                           alt={course.title}
-                          className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                          fill
+                          className="object-cover transition-transform duration-300 hover:scale-105"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
 

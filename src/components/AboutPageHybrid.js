@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Headers from "@/components/Header";
 import Footer from "@/components/Footer";
 import { motion, AnimatePresence } from "framer-motion";
@@ -130,9 +131,11 @@ export default function AboutPageHybrid() {
                 viewport={{ once: true }}
                 className="sticky top-24"
               >
-                <img
+                <Image
                   src="/corporate.jpg"
                   alt="Corporate Training"
+                  width={400}
+                  height={300}
                   className="rounded-xl shadow-lg w-full"
                 />
               </motion.div>
@@ -182,9 +185,11 @@ export default function AboutPageHybrid() {
                 viewport={{ once: true }}
                 className="sticky top-24"
               >
-                <img
+                <Image
                   src="/team.jpg"
                   alt="Our Team"
+                  width={400}
+                  height={300}
                   className="rounded-xl shadow-lg w-full"
                 />
               </motion.div>

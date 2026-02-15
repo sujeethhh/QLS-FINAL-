@@ -1,5 +1,6 @@
 import { Container, Grid } from "@mui/material";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title: "Insights & Blog | QuickLearn Systems",
@@ -109,10 +110,11 @@ export default function Insights() {
             <Grid item xs={12} md={6} lg={4} key={post.id}>
               <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden h-full">
                 <div className="aspect-video bg-gray-200 relative overflow-hidden">
-                  <img
+                  <Image
                     src={post.image}
                     alt={post.title}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute top-4 left-4">
                     <span className="bg-[#9F2D2D] text-white px-3 py-1 rounded-full text-sm font-medium">
@@ -155,7 +157,7 @@ export default function Insights() {
         <div className="text-center mt-12 p-8 bg-white rounded-lg shadow-sm">
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">More Content Coming Soon!</h2>
           <p className="text-gray-600 mb-6">
-            We're working on bringing you more valuable insights and expert articles. 
+            We&apos;re working on bringing you more valuable insights and expert articles.
             Subscribe to our newsletter to get notified when new content is published.
           </p>
           <Link

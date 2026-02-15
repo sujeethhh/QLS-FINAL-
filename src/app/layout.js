@@ -77,7 +77,7 @@ export default function RootLayout({ children }) {
   data-send-message-text="Type your question..."
   data-reset-chat-text="Start new conversation"
   data-no-sponsor="true"
-  data-support-email="training@quicklearnsys.com"
+  data-support-email={process.env.NEXT_PUBLIC_CONTACT_EMAIL}
 />
 
       </body>

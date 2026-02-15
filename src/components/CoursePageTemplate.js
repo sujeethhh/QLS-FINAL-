@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import ScrollFloat from "@/components/ui/ScroolReveal";
 import Link from "next/link";
@@ -164,7 +165,7 @@ export default function CoursePageTemplate({ courseData }) {
 
           <div className="lg:col-span-4">
             <motion.div variants={imageVariants} initial="hidden" whileInView="visible" className="sticky top-24">
-              <img src="/team.jpg" className="rounded-xl shadow-lg" />
+              <Image src="/team.jpg" alt="Our Team" width={400} height={300} className="rounded-xl shadow-lg" />
             </motion.div>
           </div>
         </div>

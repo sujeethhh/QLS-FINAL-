@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import SendMessageForm from "@/components/SendMessage";
@@ -149,7 +150,7 @@ export default function CorporateTemplate({ courseData }) {
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto"
                style={{ fontFamily: "'Inter', sans-serif" }}>
-              Enhance your team's skills with our most sought-after certification programs
+              Enhance your team&apos;s skills with our most sought-after certification programs
             </p>
           </motion.div>
 
@@ -164,10 +165,11 @@ export default function CorporateTemplate({ courseData }) {
               className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100"
             >
               <div className="relative h-48 overflow-hidden">
-                <img
+                <Image
                   src="/ITIL-Foundation.png"
                   alt="ITIL 4 Foundation"
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  fill
+                  className="object-cover transition-transform duration-300 hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className="absolute top-4 left-4">
@@ -212,10 +214,11 @@ export default function CorporateTemplate({ courseData }) {
               className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100"
             >
               <div className="relative h-48 overflow-hidden">
-                <img
+                <Image
                   src="/PMPC.jpg"
                   alt="PMP Certification"
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  fill
+                  className="object-cover transition-transform duration-300 hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className="absolute top-4 left-4">
@@ -260,10 +263,11 @@ export default function CorporateTemplate({ courseData }) {
               className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100"
             >
               <div className="relative h-48 overflow-hidden">
-                <img
+                <Image
                   src="/SAFe.jpg"
                   alt="Leading SAFe Agilist"
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  fill
+                  className="object-cover transition-transform duration-300 hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className="absolute top-4 left-4">
@@ -308,10 +312,11 @@ export default function CorporateTemplate({ courseData }) {
               className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100"
             >
               <div className="relative h-48 overflow-hidden">
-                <img
+                <Image
                   src="/sm1.jpg"
                   alt="Professional Scrum Master"
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  fill
+                  className="object-cover transition-transform duration-300 hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className="absolute top-4 left-4">
@@ -356,10 +361,11 @@ export default function CorporateTemplate({ courseData }) {
               className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100"
             >
               <div className="relative h-48 overflow-hidden">
-                <img
+                <Image
                   src="/green_belt.png"
                   alt="Lean Six Sigma Green Belt"
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  fill
+                  className="object-cover transition-transform duration-300 hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className="absolute top-4 left-4">
@@ -404,10 +410,11 @@ export default function CorporateTemplate({ courseData }) {
               className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100"
             >
               <div className="relative h-48 overflow-hidden">
-                <img
+                <Image
                   src="/ISTQB.jpg"
                   alt="ISTQB Foundation Level"
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  fill
+                  className="object-cover transition-transform duration-300 hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className="absolute top-4 left-4">
@@ -484,7 +491,7 @@ export default function CorporateTemplate({ courseData }) {
 
           <div className="lg:col-span-4">
             <motion.div variants={imageVariants} initial="hidden" whileInView="visible" className="sticky top-24">
-              <img src="/team.jpg" className="rounded-xl shadow-lg" />
+              <Image src="/team.jpg" alt="Our Team" width={400} height={300} className="rounded-xl shadow-lg" />
             </motion.div>
           </div>
         </div>
