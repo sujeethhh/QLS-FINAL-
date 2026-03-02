@@ -31,37 +31,37 @@ export default function SocialProof() {
       icon: Users,
       number: "15,000+",
       label: "Professionals Trained",
-      description: "Across 50+ countries worldwide"
+      description: "Individuals and corporate teams skilled across 50+ countries"
     },
     {
       icon: Calendar,
       number: "10+",
       label: "Years of Excellence",
-      description: "Delivering quality training since 2014"
+      description: "A decade of accredited, industry-aligned training delivery"
     },
     {
       icon: Trophy,
-      number: "99%",
-      label: "Success Rate",
-      description: "Students pass certification exams"
+      number: "100%",
+      label: "Passing Guarantee",
+      description: "We guarantee exam success — or we retrain you for free"
     },
     {
       icon: Award,
       number: "50+",
       label: "Corporate Clients",
-      description: "Fortune 500 companies trust us"
+      description: "Trusted by leading enterprises and Fortune 500 companies"
     },
     {
       icon: Target,
       number: "95%",
       label: "Satisfaction Score",
-      description: "Based on student feedback"
+      description: "Rated by professionals who completed our programs"
     },
     {
       icon: Globe,
       number: "24/7",
       label: "Global Support",
-      description: "Round-the-clock assistance"
+      description: "Round-the-clock assistance from our expert team"
     }
   ];
 
@@ -196,7 +196,7 @@ export default function SocialProof() {
               </span>
             </h2>
             <p className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Join thousands of successful professionals who have advanced their careers with our expert-led training programs
+              Join thousands of professionals and leading organizations who trust QuickLearn's accredited, expert-led programs to nurture skills and guarantee exam success
             </p>
           </div>
         </motion.div>

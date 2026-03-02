@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { Star } from "lucide-react";
+import { Star, X, ZoomIn } from "lucide-react";
 import Image from "next/image";
 
 export default function GoogleReviewsShowcase() {
@@ -10,6 +10,7 @@ export default function GoogleReviewsShowcase() {
   const column2Ref = useRef(null);
   const column3Ref = useRef(null);
   const column4Ref = useRef(null);
+  const [lightboxImage, setLightboxImage] = useState(null);
 
   // Auto-scroll logic for each column
   useEffect(() => {
@@ -61,6 +62,14 @@ export default function GoogleReviewsShowcase() {
     return () => {
       animationFrames.forEach(frame => cancelAnimationFrame(frame));
     };
+  }, []);
+
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape") setLightboxImage(null);
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
   // Sample reviews data - just images with ratings
@@ -188,7 +197,10 @@ export default function GoogleReviewsShowcase() {
       "h-72";
 
     return (
-      <div className={`relative rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group bg-gray-100 ${heightClass}`}>
+      <div
+        className={`relative rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group bg-gray-100 cursor-pointer ${heightClass}`}
+        onClick={() => setLightboxImage(review.image)}
+      >
         {/* Review Screenshot Image */}
         <Image
           src={review.image}
@@ -202,7 +214,6 @@ export default function GoogleReviewsShowcase() {
 
         {/* Top Right Badge with Platform and Stars */}
         <div className="absolute top-3 right-3 bg-white/95 backdrop-blur-sm rounded-lg shadow-lg p-2 flex flex-col items-center gap-1">
-          {/* Platform Logo */}
           <div className="flex items-center justify-center">
             {review.platform === "google" ? (
               <svg viewBox="0 0 24 24" className="w-5 h-5">
@@ -218,13 +229,15 @@ export default function GoogleReviewsShowcase() {
               </svg>
             )}
           </div>
-
-          {/* Stars */}
           {renderStars(review.rating)}
         </div>
 
-        {/* Hover effect overlay */}
-        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300" />
+        {/* Hover zoom hint */}
+        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300 flex items-center justify-center">
+          <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 rounded-full p-2 shadow-lg">
+            <ZoomIn className="w-5 h-5 text-gray-700" />
+          </div>
+        </div>
       </div>
     );
   };
@@ -319,7 +332,34 @@ export default function GoogleReviewsShowcase() {
         </div>
       </div>
 
-     
+      {/* Lightbox Modal */}
+      {lightboxImage && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
+          onClick={() => setLightboxImage(null)}
+        >
+          <div
+            className="relative max-w-3xl w-full max-h-[90vh] bg-white rounded-2xl shadow-2xl overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              className="absolute top-3 right-3 z-10 bg-white rounded-full p-1.5 shadow-md hover:bg-gray-100 transition-colors"
+              onClick={() => setLightboxImage(null)}
+            >
+              <X className="w-5 h-5 text-gray-700" />
+            </button>
+            <div className="relative w-full h-[80vh]">
+              <Image
+                src={lightboxImage}
+                alt="Review screenshot"
+                fill
+                className="object-contain"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 }

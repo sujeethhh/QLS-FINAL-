@@ -1,6 +1,7 @@
 "use client";
 import Headers from "@/components/Header";
 import Footer from "@/components/Footer";
+import WhyTrainWithUs from "@/components/WhyTrainWithUs";
 import { motion, AnimatePresence } from "framer-motion";
 import ScrollFloat from "@/components/ui/ScroolReveal";
 import Link from "next/link";
@@ -355,6 +356,7 @@ export default function PSPO1() {
         </div>
       </section>
 
+      <WhyTrainWithUs />
       <Footer />
         
     </>

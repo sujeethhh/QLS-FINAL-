@@ -3,6 +3,7 @@ import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import ScrollFloat from "@/components/ui/ScroolReveal";
 import Link from "next/link";
+import WhyTrainWithUs from "@/components/WhyTrainWithUs";
 
 export default function CoursePageClient({ courseData }) {
   const slideTransition = { type: "spring", stiffness: 120, damping: 25, mass: 1 };
@@ -429,7 +430,8 @@ export default function CoursePageClient({ courseData }) {
       </section>
 
       {/* Related Courses Section */}
-      
+
+      <WhyTrainWithUs />
     </>
   );
 }

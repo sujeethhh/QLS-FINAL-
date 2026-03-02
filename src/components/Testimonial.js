@@ -150,9 +150,6 @@ export default function Testimonial({ testimonials }) {
 
           {/* Testimonials Container */}
           <div className="overflow-hidden ">
-            {/* Gradient edges */}
-            <div className="absolute left-8 sm:left-10 md:left-12 top-0 w-8 sm:w-12 md:w-16 h-full bg-gradient-to-r from-gray-50 to-transparent z-10 pointer-events-none" />
-            <div className="absolute right-8 sm:right-10 md:right-12 top-0 w-8 sm:w-12 md:w-16 h-full bg-gradient-to-l from-gray-50 to-transparent z-10 pointer-events-none" />
 
             {/* Scrolling container */}
             <div

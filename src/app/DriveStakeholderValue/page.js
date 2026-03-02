@@ -2,6 +2,7 @@
 import React from "react";
 import Headers from "@/components/Header";
 import Footer from "@/components/Footer";
+import WhyTrainWithUs from "@/components/WhyTrainWithUs";
 import { motion, AnimatePresence } from "framer-motion";
 import ScrollFloat from "@/components/ui/ScroolReveal";
 import { useRouter } from 'next/navigation';
@@ -1038,6 +1039,7 @@ export default  function IT4Management(){
       {/* Related Courses Section */}
       
       
+      <WhyTrainWithUs />
       <Footer/>
        
         </>

@@ -2,6 +2,7 @@
 import React from "react";
 import Headers from "@/components/Header";
 import Footer from "@/components/Footer";
+import WhyTrainWithUs from "@/components/WhyTrainWithUs";
 import { motion, AnimatePresence } from "framer-motion";
 import ScrollFloat from "@/components/ui/ScroolReveal";
 import { useRouter } from 'next/navigation';
@@ -1994,6 +1995,7 @@ Problem Management is a process within IT Service Management that focuses on ide
       {/* Related Courses Section */}
       
       
+      <WhyTrainWithUs />
       <Footer/>
        
         </>

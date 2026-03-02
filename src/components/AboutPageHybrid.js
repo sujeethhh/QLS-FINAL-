@@ -70,7 +70,7 @@ export default function AboutPageHybrid() {
                 variants={fadeInVariants}
                 className="text-lg md:text-xl text-white/80"
               >
-                Value for time and money invested is the prime aspiration of QuickLearn Systems.
+                Your one-stop solution for nurturing and enhancing skills — for individuals and corporate teams worldwide.
               </motion.p>
             </motion.div>
           </div>
@@ -102,23 +102,26 @@ export default function AboutPageHybrid() {
               </h2>
 
               <p>
-                QuickLearn Systems is a premier professional training and certification provider,
-                empowering individuals and organizations with world-class learning solutions.
+                QuickLearn Systems is a one-stop professional training and certification provider,
+                dedicated to nurturing and enhancing the skills of individuals and corporate teams worldwide.
               </p>
 
               <p>
-                We deliver instructor-led classroom training, live virtual sessions, e-learning,
-                and customized corporate programs designed to meet evolving business needs.
+                As an Accredited Training Organisation (ATO), we deliver instructor-led classroom training,
+                live virtual sessions, e-learning, and customized corporate programs — all backed by a
+                100% Exam Passing Guarantee.
               </p>
 
               <p>
-                Our learner-first philosophy ensures every program delivers measurable outcomes,
-                practical skills, and real-world impact.
+                Our trainer pool comprises Subject Matter Experts recognized as the best in the industry,
+                bringing real-world examples, hands-on insights, and the best quality course material into
+                every session.
               </p>
 
               <p>
-                With a strong presence across India and global markets, QuickLearn continues to
-                build long-term partnerships based on trust, quality, and results.
+                With a strong presence across India and global markets, QuickLearn continuously expands
+                its course portfolio to keep pace with the latest technologies and frameworks adopted
+                across geographies.
               </p>
             </div>
 
@@ -157,8 +160,9 @@ export default function AboutPageHybrid() {
                   Our Mission
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                  To empower professionals and organizations through structured,
-                  practical, and outcome-driven learning solutions.
+                  To nurture and enhance the skills of professionals and organizations by delivering
+                  the highest quality training through real-world expertise, accredited content,
+                  and an unwavering commitment to 100% exam success.
                 </p>
               </div>
 
@@ -167,10 +171,12 @@ export default function AboutPageHybrid() {
                   Our Values
                 </h2>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Quality in teaching and learning</li>
-                  <li>• Customer satisfaction first</li>
-                  <li>• Continuous improvement</li>
-                  <li>• Long-term partnerships</li>
+                  <li>• Accredited, world-class training programs</li>
+                  <li>• 100% Exam Passing Guarantee</li>
+                  <li>• Subject Matter Experts with real-industry experience</li>
+                  <li>• Customer satisfaction above all</li>
+                  <li>• Continuous improvement and innovation</li>
+                  <li>• Long-term partnerships built on trust</li>
                   <li>• Professional ethics and integrity</li>
                 </ul>
               </div>
