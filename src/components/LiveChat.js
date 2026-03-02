@@ -91,7 +91,7 @@ export default function LiveChat() {
                   className="bg-white rounded-xl shadow-lg px-4 py-2.5 text-sm text-gray-700 border border-gray-100 max-w-[200px] relative"
                 >
                   <span className="font-medium">Need help?</span>{" "}
-                  <span className="text-gray-500">Ask our AI or contact us</span>
+                  <span className="text-gray-500">Chat or reach us on WhatsApp</span>
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
