@@ -196,7 +196,7 @@ export default function SocialProof() {
               </span>
             </h2>
             <p className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Join thousands of professionals and leading organizations who trust QuickLearn's accredited, expert-led programs to nurture skills and guarantee exam success
+              Join thousands of professionals and leading organizations who trust QuickLearn&apos;s accredited, expert-led programs to nurture skills and guarantee exam success
             </p>
           </div>
         </motion.div>
