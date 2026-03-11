@@ -96,10 +96,8 @@ export default function CorporateTemplate({ courseData }) {
           {/* LEFT */}
           <div className="lg:col-span-8">
             <motion.div variants={staggerTextVariants} initial="hidden" whileInView="visible">
-              <motion.h2 variants={headingVariants} className="text-3xl font-bold mb-6"
-              style={{ fontFamily: "'Playfair Display', serif" }}
-              >
-                Course Overview
+              <motion.h2 variants={headingVariants} className="text-3xl font-bold mb-6">
+                About Our Corporate Training
               </motion.h2>
 
               {courseData.overview.map((p, i) => (
@@ -122,7 +120,7 @@ export default function CorporateTemplate({ courseData }) {
               />
               <Link href="/Events">
                 <motion.button
-                  className="mt-6 w-full bg-red-600 text-white py-3 rounded-xl font-semibold"
+                  className="mt-6 w-full bg-blue-500 text-white py-3 rounded-xl font-semibold"
                   whileHover={{ scale: 1.05 }}
                   style={{ fontFamily: "'Playfair Display', serif" }}
                 >
@@ -173,7 +171,7 @@ export default function CorporateTemplate({ courseData }) {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">
+                  <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">
                     Foundation
                   </span>
                 </div>
@@ -193,7 +191,7 @@ export default function CorporateTemplate({ courseData }) {
                 </div>
                 <Link href="/ITL4Management">
                   <motion.button
-                    className="w-full bg-[#9F2D2D] text-white py-2 rounded-lg font-semibold hover:bg-red-700 transition-colors"
+                    className="w-full bg-[#3B82F6] text-white py-2 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     style={{ fontFamily: "'Inter', sans-serif" }}
@@ -222,7 +220,7 @@ export default function CorporateTemplate({ courseData }) {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">
+                  <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">
                     Professional
                   </span>
                 </div>
@@ -242,7 +240,7 @@ export default function CorporateTemplate({ courseData }) {
                 </div>
                 <Link href="/PMP">
                   <motion.button
-                    className="w-full bg-[#9F2D2D] text-white py-2 rounded-lg font-semibold hover:bg-red-700 transition-colors"
+                    className="w-full bg-[#3B82F6] text-white py-2 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     style={{ fontFamily: "'Inter', sans-serif" }}
@@ -271,7 +269,7 @@ export default function CorporateTemplate({ courseData }) {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">
+                  <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">
                     Professional
                   </span>
                 </div>
@@ -291,7 +289,7 @@ export default function CorporateTemplate({ courseData }) {
                 </div>
                 <Link href="/LeadingSAFeAgilist">
                   <motion.button
-                    className="w-full bg-[#9F2D2D] text-white py-2 rounded-lg font-semibold hover:bg-red-700 transition-colors"
+                    className="w-full bg-[#3B82F6] text-white py-2 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     style={{ fontFamily: "'Inter', sans-serif" }}
@@ -320,7 +318,7 @@ export default function CorporateTemplate({ courseData }) {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">
+                  <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">
                     Professional
                   </span>
                 </div>
@@ -340,7 +338,7 @@ export default function CorporateTemplate({ courseData }) {
                 </div>
                 <Link href="/PScrumM1">
                   <motion.button
-                    className="w-full bg-[#9F2D2D] text-white py-2 rounded-lg font-semibold hover:bg-red-700 transition-colors"
+                    className="w-full bg-[#3B82F6] text-white py-2 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     style={{ fontFamily: "'Inter', sans-serif" }}
@@ -369,7 +367,7 @@ export default function CorporateTemplate({ courseData }) {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">
+                  <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">
                     Professional
                   </span>
                 </div>
@@ -389,7 +387,7 @@ export default function CorporateTemplate({ courseData }) {
                 </div>
                 <Link href="/LeanSSGB">
                   <motion.button
-                    className="w-full bg-[#9F2D2D] text-white py-2 rounded-lg font-semibold hover:bg-red-700 transition-colors"
+                    className="w-full bg-[#3B82F6] text-white py-2 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     style={{ fontFamily: "'Inter', sans-serif" }}
@@ -418,7 +416,7 @@ export default function CorporateTemplate({ courseData }) {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">
+                  <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">
                     Foundation
                   </span>
                 </div>
@@ -438,7 +436,7 @@ export default function CorporateTemplate({ courseData }) {
                 </div>
                 <Link href="/ISTQBF">
                   <motion.button
-                    className="w-full bg-[#9F2D2D] text-white py-2 rounded-lg font-semibold hover:bg-red-700 transition-colors"
+                    className="w-full bg-[#3B82F6] text-white py-2 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     style={{ fontFamily: "'Inter', sans-serif" }}
@@ -461,26 +459,40 @@ export default function CorporateTemplate({ courseData }) {
         <div className="container mx-auto max-w-7xl grid grid-cols-1 lg:grid-cols-12 gap-10 px-6">
           
           <div className="lg:col-span-8">
+            {/* Why Choose — with intro paragraph */}
+            <motion.div variants={staggerTextVariants} initial="hidden" whileInView="visible">
+              <motion.h2 variants={headingVariants} className="text-3xl font-bold mb-4">
+                Why Choose Our Corporate Training Institute in Hyderabad
+              </motion.h2>
+              {courseData.WhyQlsIntro && (
+                <motion.p variants={paragraphVariants} className="text-gray-600 mb-5">
+                  {courseData.WhyQlsIntro}
+                </motion.p>
+              )}
+              <ul className="space-y-3 mb-10">
+                {courseData.WhyQls.map((item, i) => (
+                  <motion.li key={i} variants={wordSlideVariants} className="flex gap-3 text-gray-700">
+                    <span className="w-2 h-2 bg-[#2563EB] rounded-full mt-2 flex-shrink-0" />
+                    {item}
+                  </motion.li>
+                ))}
+              </ul>
+            </motion.div>
+
             {[
-              ["WHY YOU SHOULD CHOOSE QuickLearn Systems?", courseData.WhyQls],
-              ["TRAINING DELIVERY METHODS", courseData.DeliveryMethods],
-              ["COURSE CATALOG", courseData.Catalog],
-              ["OPEN/PUBLIC TRAINING PROGRAMS", courseData.TrainingPrograms],
-              ["E-LEARNING :", courseData.eLearning]
-              
+              ["Training Delivery Methods", courseData.DeliveryMethods],
+              ["Course Catalog", courseData.Catalog],
+              ["Group & Open Training Programs", courseData.TrainingPrograms],
+              ["Post-Training & E-Learning Support", courseData.eLearning],
             ].map(([title, list], idx) => (
               <motion.div key={idx} variants={staggerTextVariants} initial="hidden" whileInView="visible">
-                <motion.h2 variants={headingVariants} className="text-3xl font-bold mb-4"
-                style={{ fontFamily: "'Playfair Display', serif" }}
-                >
+                <motion.h2 variants={headingVariants} className="text-3xl font-bold mb-4">
                   {title}
                 </motion.h2>
                 <ul className="space-y-3 mb-10">
                   {list.map((item, i) => (
-                    <motion.li key={i} variants={wordSlideVariants} className="flex gap-3">
-                      <span className="w-2 h-2 bg-slate-700 rounded-full mt-2"
-                      style={{ fontFamily: "'Inter', sans-serif" }}
-                      />
+                    <motion.li key={i} variants={wordSlideVariants} className="flex gap-3 text-gray-700">
+                      <span className="w-2 h-2 bg-[#2563EB] rounded-full mt-2 flex-shrink-0" />
                       {item}
                     </motion.li>
                   ))}

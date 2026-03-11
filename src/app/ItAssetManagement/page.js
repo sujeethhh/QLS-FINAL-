@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "IT Asset Management Training | ITAM Certification | Edura",
+  title: "IT Asset Management (ITAM) Certification Training in Hyderabad | QuickLearn Systems",
   description:
-    "Master IT Asset Management (ITAM) practices. Learn to control hardware, software, and digital assets efficiently while optimizing cost, risk, and compliance.",
+    "Master IT Asset Management (ITAM) certification training in Hyderabad. QuickLearn Systems offers expert-led ITAM training covering hardware, software, and digital asset lifecycle management. Enroll today!",
   keywords:
-    "IT Asset Management training, ITAM certification, asset lifecycle management, software asset management, hardware asset control",
+    "IT Asset Management training Hyderabad, ITAM certification Hyderabad, best ITAM training institute Hyderabad, IT asset management course Hyderabad, ITAM training India, IT Asset Management training, ITAM certification, asset lifecycle management, software asset management, hardware asset control, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "IT Asset Management (ITAM) Training",
+    title: "IT Asset Management (ITAM) Certification Training in Hyderabad | QuickLearn Systems",
     description:
-      "Learn to manage IT assets effectively across their lifecycle to optimize cost, risk and compliance",
+      "Expert-led IT Asset Management certification training in Hyderabad by QuickLearn Systems",
     images: ["/asset.jpg"],
   },
 };
@@ -79,7 +79,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Incident Management",

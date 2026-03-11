@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QuickLearn Systems - Professional Training & Certification Excellence</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
         
         * {
             margin: 0;
@@ -38,16 +38,16 @@
             page-break-after: avoid;
         }
         
-        /* Brand Colors from Website */
+        /* Brand Colors — matched to QuickLearn Systems website */
         :root {
-            --primary-dark: #4C0519;
-            --primary-medium: #7A1E2D;
-            --primary-light: #9F2D2D;
-            --accent-light: #FFE4E1;
-            --text-dark: #2c3e50;
-            --text-medium: #4a5568;
-            --text-light: #718096;
-            --background-light: #f8f9fa;
+            --primary-dark: #1D4ED8;
+            --primary-medium: #2563EB;
+            --primary-light: #3B82F6;
+            --accent-light: #EFF6FF;
+            --text-dark: #1e293b;
+            --text-medium: #475569;
+            --text-light: #64748b;
+            --background-light: #F8FAFC;
             --border-light: #e2e8f0;
         }
         
@@ -85,19 +85,19 @@
         }
         
         .logo-image {
-            width: 140px;
-            height: 140px;
+            width: 180px;
+            height: auto;
             margin: 0 auto 25px;
-            border-radius: 25px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-            background: rgba(255,255,255,0.1);
-            padding: 10px;
-            backdrop-filter: blur(10px);
+            display: block;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+            background: white;
+            padding: 14px 22px;
         }
         
         .company-name {
-            font-family: 'Playfair Display', serif;
-            font-size: 4rem;
+            font-family: 'Inter', sans-serif;
+            font-size: 3.6rem;
             font-weight: 800;
             margin-bottom: 15px;
             text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
@@ -117,7 +117,7 @@
             font-size: 1.8rem;
             font-weight: 600;
             margin-bottom: 25px;
-            color: var(--accent-light);
+            color: #BFDBFE;
             line-height: 1.4;
         }
         
@@ -146,8 +146,8 @@
             font-size: 3rem;
             font-weight: 800;
             display: block;
-            color: var(--accent-light);
-            font-family: 'Playfair Display', serif;
+            color: #BFDBFE;
+            font-family: 'Inter', sans-serif;
         }
         
         .cover-stat-label {
@@ -177,8 +177,8 @@
         }
         
         .page-title {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.4rem;
+            font-family: 'Inter', sans-serif;
+            font-size: 2.2rem;
             font-weight: 700;
             margin-bottom: 10px;
             letter-spacing: -0.5px;
@@ -200,8 +200,8 @@
         }
         
         .section-title {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.2rem;
+            font-family: 'Inter', sans-serif;
+            font-size: 2rem;
             font-weight: 700;
             color: var(--primary-dark);
             margin-bottom: 25px;
@@ -270,7 +270,7 @@
         
         .feature-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(76, 5, 25, 0.15);
+            box-shadow: 0 8px 25px rgba(37, 99, 235, 0.15);
         }
         
         .feature-icon {
@@ -284,7 +284,7 @@
             margin: 0 auto 25px;
             color: white;
             font-size: 2rem;
-            box-shadow: 0 4px 15px rgba(159, 45, 45, 0.3);
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
         }
         
         .feature-title {
@@ -309,15 +309,15 @@
         }
         
         .value-card {
-            background: linear-gradient(135deg, #fff5f5 0%, #fef2f2 100%);
-            border: 2px solid #fecaca;
+            background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
+            border: 2px solid #BFDBFE;
             border-radius: 15px;
             padding: 30px;
             border-left: 6px solid var(--primary-light);
         }
-        
+
         .value-card-title {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Inter', sans-serif;
             font-weight: 700;
             color: var(--primary-dark);
             margin-bottom: 15px;
@@ -349,7 +349,7 @@
         
         .domain-card:hover {
             border-color: var(--primary-light);
-            box-shadow: 0 6px 20px rgba(76, 5, 25, 0.1);
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.12);
         }
         
         .domain-title {
@@ -401,9 +401,9 @@
         .stat-number {
             font-size: 3rem;
             font-weight: 800;
-            color: var(--primary-light);
+            color: var(--primary-medium);
             display: block;
-            font-family: 'Playfair Display', serif;
+            font-family: 'Inter', sans-serif;
             margin-bottom: 8px;
         }
         
@@ -433,7 +433,7 @@
         .delivery-card:hover {
             border-color: var(--primary-light);
             transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(76, 5, 25, 0.1);
+            box-shadow: 0 8px 25px rgba(37, 99, 235, 0.12);
         }
         
         .delivery-icon {
@@ -450,7 +450,7 @@
         }
         
         .delivery-title {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Inter', sans-serif;
             font-weight: 700;
             color: var(--primary-dark);
             margin-bottom: 15px;
@@ -592,8 +592,8 @@
         
         /* CTA Button */
         .cta-button {
-            background: linear-gradient(135deg, var(--accent-light), #FFC0CB);
-            color: var(--primary-dark);
+            background: linear-gradient(135deg, #3B82F6, #2563EB);
+            color: white;
             padding: 18px 40px;
             border: none;
             border-radius: 35px;
@@ -603,12 +603,12 @@
             transition: all 0.3s ease;
             text-decoration: none;
             display: inline-block;
-            box-shadow: 0 6px 20px rgba(255, 228, 225, 0.4);
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.35);
         }
-        
+
         .cta-button:hover {
             transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(255, 228, 225, 0.6);
+            box-shadow: 0 10px 30px rgba(37, 99, 235, 0.5);
         }
         
         /* Footer */
@@ -649,8 +649,8 @@
         
         /* Highlight Boxes */
         .highlight-box {
-            background: linear-gradient(135deg, #fff5f5 0%, #fef2f2 100%);
-            border: 2px solid #fecaca;
+            background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
+            border: 2px solid #BFDBFE;
             border-radius: 15px;
             padding: 30px;
             margin: 30px 0;
@@ -731,7 +731,7 @@
         <div class="page cover-page">
             <div class="cover-content">
                 <div class="logo-section">
-                    <img src="LOGO.png" alt="QuickLearn Systems Logo" class="logo-image">
+                    <img src="QLSLOGO.png" alt="QuickLearn Systems Logo" class="logo-image">
                     <div class="company-name">QuickLearn Systems</div>
                     <div class="tagline">Learn. Certify. Excel</div>
                 </div>
@@ -813,34 +813,6 @@
                                 <li><strong>Quality Assurance:</strong> Rigorous standards and feedback mechanisms</li>
                             </ul>
                         </div>
-                    </div>
-                </div>
-
-                <!-- Scale & Credibility Metrics -->
-                <div class="section">
-                    <h2 class="section-title">Scale & Credibility Metrics</h2>
-                    <div class="stats-grid">
-                        <div class="stat-item">
-                            <span class="stat-number">50K+</span>
-                            <div class="stat-label">Professionals Trained</div>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">500+</span>
-                            <div class="stat-label">Corporate Clients</div>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">100+</span>
-                            <div class="stat-label">Expert Trainers</div>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">98%</span>
-                            <div class="stat-label">Success Rate</div>
-                        </div>
-                    </div>
-                    
-                    <div class="highlight-box">
-                        <h4>🏆 Industry Recognition & Trust</h4>
-                        <p>Our credibility is built on consistent delivery of high-quality training programs, maintaining a 98% first-time certification pass rate, and serving Fortune 500 companies across diverse industries. We have successfully trained over 50,000 professionals and partnered with 500+ organizations globally, establishing ourselves as a trusted leader in professional development.</p>
                     </div>
                 </div>
 
@@ -993,132 +965,23 @@
                     </div>
                 </div>
 
-                <!-- Accreditations & Partnerships -->
-                <div class="section">
-                    <h2 class="section-title">Accreditations & Global Partnerships</h2>
-                    <p style="font-size: 1.1rem; margin-bottom: 25px; color: var(--text-medium);">
-                        Our partnerships with leading certification bodies ensure that our training programs meet the highest global standards and provide internationally recognized credentials.
-                    </p>
-                    <div class="partnership-grid">
-                        <div class="partnership-card">
-                            <div class="partnership-logo">AXELOS</div>
-                            <div class="partnership-name">AXELOS (ITIL®)</div>
-                        </div>
-                        <div class="partnership-card">
-                            <div class="partnership-logo">PMI</div>
-                            <div class="partnership-name">Project Management Institute</div>
-                        </div>
-                        <div class="partnership-card">
-                            <div class="partnership-logo">SCRUM.ORG</div>
-                            <div class="partnership-name">Scrum.org</div>
-                        </div>
-                        <div class="partnership-card">
-                            <div class="partnership-logo">SAFe</div>
-                            <div class="partnership-name">Scaled Agile</div>
-                        </div>
-                        <div class="partnership-card">
-                            <div class="partnership-logo">ISTQB</div>
-                            <div class="partnership-name">International Software Testing</div>
-                        </div>
-                        <div class="partnership-card">
-                            <div class="partnership-logo">IASSC</div>
-                            <div class="partnership-name">Six Sigma Certification</div>
-                        </div>
-                        <div class="partnership-card">
-                            <div class="partnership-logo">DevOps</div>
-                            <div class="partnership-name">DevOps Institute</div>
-                        </div>
-                        <div class="partnership-card">
-                            <div class="partnership-logo">SIAM</div>
-                            <div class="partnership-name">SIAM Foundation</div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
-        <!-- PAGE 3 - CLIENT PORTFOLIO & CONTACT -->
+        <!-- PAGE 3 - CONTACT -->
         <div class="page">
             <div class="page-header">
-                <div class="page-title">Global Presence & Client Success</div>
-                <div class="page-subtitle">Trusted by Industry Leaders Worldwide</div>
+                <div class="page-title">Get in Touch</div>
+                <div class="page-subtitle">Start Your Professional Development Journey Today</div>
             </div>
 
             <div class="content">
-                <!-- Client Portfolio -->
-                <div class="section">
-                    <h2 class="section-title">Client Portfolio Demonstrating Industry Trust</h2>
-                    <div class="highlight-box">
-                        <h4>🌟 Trusted by Industry Leaders</h4>
-                        <p>Our client portfolio spans across Fortune 500 companies, government organizations, and emerging enterprises in sectors including Technology, Healthcare, Financial Services, Manufacturing, Telecommunications, and Consulting. We have successfully delivered training programs to organizations such as multinational corporations, leading IT service providers, major banks, healthcare systems, and government agencies across multiple continents.</p>
-                    </div>
-                    
-                    <div class="two-column">
-                        <div>
-                            <h3 class="section-subtitle">🏭 Industry Sectors</h3>
-                            <ul style="margin-left: 20px; color: var(--text-medium); line-height: 1.8;">
-                                <li><strong>Information Technology:</strong> Software development, IT services, cloud providers</li>
-                                <li><strong>Financial Services:</strong> Banks, insurance companies, fintech organizations</li>
-                                <li><strong>Healthcare:</strong> Hospitals, pharmaceutical companies, medical device manufacturers</li>
-                                <li><strong>Manufacturing:</strong> Automotive, aerospace, industrial equipment</li>
-                                <li><strong>Telecommunications:</strong> Network operators, equipment vendors, service providers</li>
-                                <li><strong>Government:</strong> Federal agencies, state organizations, public sector entities</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 class="section-subtitle">📊 Client Success Metrics</h3>
-                            <ul style="margin-left: 20px; color: var(--text-medium); line-height: 1.8;">
-                                <li><strong>98% Client Satisfaction Rate</strong> based on post-training surveys</li>
-                                <li><strong>85% Client Retention Rate</strong> for repeat training engagements</li>
-                                <li><strong>92% Certification Pass Rate</strong> on first attempt</li>
-                                <li><strong>500+ Corporate Clients</strong> served across 25+ countries</li>
-                                <li><strong>95% Recommendation Rate</strong> from existing clients</li>
-                                <li><strong>Average ROI of 300%</strong> reported by corporate clients</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Global Presence -->
-                <div class="section">
-                    <h2 class="section-title">Global Presence & Geographic Reach</h2>
-                    <div class="three-column">
-                        <div>
-                            <h3 class="section-subtitle">🌏 Asia Pacific</h3>
-                            <ul style="margin-left: 20px; color: var(--text-medium); line-height: 1.8;">
-                                <li><strong>India:</strong> Primary headquarters with multiple training centers</li>
-                                <li><strong>Singapore:</strong> Regional hub for Southeast Asia</li>
-                                <li><strong>Australia:</strong> Training delivery and partnerships</li>
-                                <li><strong>Japan:</strong> Corporate training programs</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 class="section-subtitle">🌍 Europe & Middle East</h3>
-                            <ul style="margin-left: 20px; color: var(--text-medium); line-height: 1.8;">
-                                <li><strong>United Kingdom:</strong> European operations center</li>
-                                <li><strong>Germany:</strong> Corporate training delivery</li>
-                                <li><strong>UAE:</strong> Middle East regional presence</li>
-                                <li><strong>Netherlands:</strong> Training partnerships</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 class="section-subtitle">🌎 Americas</h3>
-                            <ul style="margin-left: 20px; color: var(--text-medium); line-height: 1.8;">
-                                <li><strong>United States:</strong> North American operations</li>
-                                <li><strong>Canada:</strong> Training delivery and support</li>
-                                <li><strong>Brazil:</strong> South American partnerships</li>
-                                <li><strong>Mexico:</strong> Regional training programs</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
                 <!-- Contact Information & CTA -->
                 <div class="section">
                     <h2 class="section-title">Contact Details & Enrollment</h2>
                     <div class="contact-info">
                         <div class="contact-content">
-                            <h3 style="margin-bottom: 25px; font-family: 'Playfair Display', serif; font-size: 2rem;">Ready to Transform Your Career?</h3>
+                            <h3 style="margin-bottom: 25px; font-family: 'Inter', sans-serif; font-size: 2rem; font-weight: 700;">Ready to Transform Your Career?</h3>
                             <p style="margin-bottom: 35px; font-size: 1.2rem; opacity: 0.9; line-height: 1.6;">
                                 Connect with our training experts to discuss your learning objectives and find the perfect certification program for your career goals. We're here to support your professional development journey.
                             </p>

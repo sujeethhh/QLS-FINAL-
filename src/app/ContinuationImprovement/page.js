@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL Continual Improvement Training | Service Improvement | Edura",
-  description: "Master ITIL Continual Improvement to drive ongoing service enhancement. Learn improvement methodologies, measurement, and change management.",
-  keywords: "ITIL Continual Improvement, service improvement, continuous improvement, ITSM, improvement methodologies",
+  title: "ITIL Continual Improvement Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master ITIL Continual Improvement certification training in Hyderabad. QuickLearn Systems offers expert-led training covering improvement methodologies, measurement frameworks, and change management. Enroll today!",
+  keywords: "ITIL Continual Improvement training Hyderabad, service improvement certification Hyderabad, best ITIL training institute Hyderabad, continual improvement course Hyderabad, ITIL improvement training India, ITIL Continual Improvement, service improvement, continuous improvement, ITSM, improvement methodologies, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ITIL Continual Improvement Training",
-    description: "Master Continual Improvement for ongoing service enhancement",
+    title: "ITIL Continual Improvement Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led ITIL Continual Improvement certification training in Hyderabad by QuickLearn Systems",
     images: ["/continualimprovement.jpg"],
   },
 };
@@ -68,7 +68,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Lean Six Sigma Green Belt",
@@ -88,7 +88,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL® 4 Specialist Create, Deliver and Support Training | Edura",
-  description: "Master ITIL® 4 Specialist Create, Deliver and Support module. Learn service design, transition, and operation practices for effective service delivery.",
-  keywords: "ITIL 4 Specialist, Create Deliver Support, service design, service transition, service operation, ITSM",
+  title: "ITIL 4 Create, Deliver and Support (CDS) Training in Hyderabad | QuickLearn Systems",
+  description: "Master ITIL® 4 Specialist Create, Deliver and Support (CDS) certification training in Hyderabad. QuickLearn Systems offers expert-led training covering service design, transition, and operational support. Enroll today!",
+  keywords: "ITIL 4 CDS training Hyderabad, ITIL Create Deliver Support certification Hyderabad, best ITIL training institute Hyderabad, ITIL CDS course Hyderabad, ITIL 4 specialist training India, ITIL 4 Specialist, Create Deliver Support, service design, service transition, service operation, ITSM, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ITIL® 4 Specialist Create, Deliver and Support Training",
-    description: "Master service creation, delivery and support with ITIL® 4 Specialist training",
+    title: "ITIL 4 Create, Deliver and Support (CDS) Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led ITIL 4 CDS certification training in Hyderabad by QuickLearn Systems",
     images: ["/itl4.jpg"],
   },
 };
@@ -68,7 +68,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "ITIL® 4 Specialist Drive Stakeholder Value",
@@ -78,7 +78,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Service Design",
@@ -88,7 +88,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

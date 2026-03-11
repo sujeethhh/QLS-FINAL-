@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "Business Analysis Practice Training | QLS",
+  title: "Business Analysis Practitioner Certification Training in Hyderabad | QuickLearn Systems",
   description:
-    "Master Business Analysis Practice. Learn stakeholder analysis, requirements engineering, business case development, and solution evaluation techniques.",
+    "Master Business Analysis Practitioner certification training in Hyderabad. QuickLearn Systems offers expert-led BA Practitioner training covering stakeholder analysis, requirements engineering, and solution evaluation. Enroll today!",
   keywords:
-    "Business Analysis Practice training, business analyst certification, requirements gathering, stakeholder management, business case development",
+    "Business Analysis Practitioner training Hyderabad, BA Practitioner certification Hyderabad, best business analysis training institute Hyderabad, business analyst practitioner course Hyderabad, business analysis training India, Business Analysis Practice training, business analyst certification, requirements gathering, stakeholder management, business case development, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "Business Analysis Practice Certification | QLS",
+    title: "Business Analysis Practitioner Certification Training in Hyderabad | QuickLearn Systems",
     description:
-      "Develop practical business analysis skills to define requirements and deliver business value",
+      "Expert-led Business Analysis Practitioner certification training in Hyderabad by QuickLearn Systems",
     images: ["/business-analysis.jpg"],
   },
 };

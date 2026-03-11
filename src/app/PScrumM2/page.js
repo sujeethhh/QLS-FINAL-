@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "Professional Scrum Master™ II (PSM II) Training | QLS",
+  title: "Professional Scrum Master II (PSM II) Training in Hyderabad | QuickLearn Systems",
   description:
-    "Advance your Scrum Master expertise with Professional Scrum Master™ II (PSM II). Strengthen leadership, facilitation, and coaching skills for complex Agile environments.",
+    "Master Professional Scrum Master II (PSM II) certification training in Hyderabad. QuickLearn Systems offers expert-led PSM II training covering advanced Scrum leadership, facilitation, and coaching skills. Enroll today!",
   keywords:
-    "PSM II, Professional Scrum Master 2, Scrum Master advanced certification, Agile leadership, Scrum.org PSM2",
+    "PSM II training Hyderabad, Professional Scrum Master 2 certification Hyderabad, best Scrum training institute Hyderabad, PSM II course Hyderabad, Scrum Master advanced training India, PSM II, Professional Scrum Master 2, Scrum Master advanced certification, Agile leadership, Scrum.org PSM2, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "Professional Scrum Master™ II (PSM II) Certification | QLS",
+    title: "Professional Scrum Master II (PSM II) Training in Hyderabad | QuickLearn Systems",
     description:
-      "Enhance your Scrum Master capabilities with advanced Scrum leadership and Agile coaching skills",
+      "Expert-led PSM II certification training in Hyderabad by QuickLearn Systems",
     images: ["/scrum.jpg"],
   },
 };
@@ -99,7 +99,7 @@ const courseData = {
       duration: "2 Days",
       level: "Advanced",
       badge: "SAFe®",
-      badgeColor: "bg-red-600"
+      badgeColor: "bg-blue-500"
     }
   ]
 };

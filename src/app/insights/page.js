@@ -3,8 +3,14 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Insights & Blog | QuickLearn Systems",
-  description: "Stay updated with the latest trends in IT Service Management, Project Management, Agile, and professional development.",
+  title: "IT Training Insights & Blog | QuickLearn Systems Hyderabad",
+  description: "Stay updated with the latest trends in IT Service Management, Project Management, Agile, DevOps, and professional development. Expert insights from QuickLearn Systems, Hyderabad's leading IT training institute.",
+  keywords: "IT training blog Hyderabad, ITIL insights Hyderabad, IT certification tips India, QuickLearn Systems blog, Agile insights Hyderabad, DevOps articles, PMP certification tips, IT training resources Hyderabad, professional development blog",
+  openGraph: {
+    title: "IT Training Insights & Blog | QuickLearn Systems Hyderabad",
+    description: "Expert IT training insights and articles from QuickLearn Systems - Hyderabad's leading IT training institute",
+    siteName: "QuickLearn Systems",
+  },
 };
 
 export default function Insights() {
@@ -76,7 +82,7 @@ export default function Insights() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-[#9F2D2D] to-blue-700 text-white py-16">
+      <div className="bg-gradient-to-r from-[#3B82F6] to-blue-700 text-white py-16">
         <Container maxWidth="lg">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Insights & Blog</h1>
@@ -97,7 +103,7 @@ export default function Insights() {
               {categories.map((category) => (
                 <button
                   key={category}
-                  className="px-4 py-2 rounded-full border border-gray-300 text-gray-700 hover:bg-[#9F2D2D] hover:text-white hover:border-[#9F2D2D] transition-colors duration-300"
+                  className="px-4 py-2 rounded-full border border-gray-300 text-gray-700 hover:bg-[#3B82F6] hover:text-white hover:border-[#3B82F6] transition-colors duration-300"
                 >
                   {category}
                 </button>
@@ -117,7 +123,7 @@ export default function Insights() {
                     className="object-cover hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute top-4 left-4">
-                    <span className="bg-[#9F2D2D] text-white px-3 py-1 rounded-full text-sm font-medium">
+                    <span className="bg-[#3B82F6] text-white px-3 py-1 rounded-full text-sm font-medium">
                       {post.category}
                     </span>
                   </div>
@@ -140,7 +146,7 @@ export default function Insights() {
                   
                   <Link
                     href={`/insights/${post.slug}`}
-                    className="inline-flex items-center text-[#9F2D2D] hover:text-blue-700 font-medium transition-colors duration-300"
+                    className="inline-flex items-center text-[#3B82F6] hover:text-blue-700 font-medium transition-colors duration-300"
                   >
                     Read More
                     <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -162,7 +168,7 @@ export default function Insights() {
           </p>
           <Link
             href="/Contact"
-            className="inline-block bg-[#9F2D2D] text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-300"
+            className="inline-block bg-[#3B82F6] text-white px-6 py-3 rounded-lg hover:bg-blue-500 transition-colors duration-300"
           >
             Subscribe to Newsletter
           </Link>

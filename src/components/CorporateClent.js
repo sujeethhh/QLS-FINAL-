@@ -5,62 +5,71 @@ import LiveChat from "@/components/LiveChat";
 import CorporateTemplate from "@/components/CorporateTemplate"
 
 export const metadata = {
-  title: "Corporate TRAINING Programs",
+  title: "Corporate Training ",
   description:
-    "Gain the skills to lead IT and digital transformation with ITIL® 4 Strategist: Direct, Plan and Improve. Learn governance, continual improvement, and strategy execution across all service management levels.",
+    "QuickLearn Systems is a trusted corporate training institute in Hyderabad offering customized IT, Agile, DevOps, ITIL, PMP, and professional certification training programs for enterprises. Upskill your workforce with role-based, hands-on, outcome-driven training.",
   keywords:
-    "ITIL 4 Strategist, Direct Plan and Improve, ITIL DPI, continual improvement, IT strategy, governance, service management, leadership, Agile ITSM, DevOps alignment",
+    "corporate training institute Hyderabad, corporate IT training Hyderabad, customized corporate training, employee upskilling Hyderabad, ITIL corporate training, Agile corporate training, PMP corporate training, DevOps corporate training, QuickLearn Systems corporate training",
   openGraph: {
-    title: "Corporate TRAINING Programs",
+    title: "Corporate Training ",
     description:
-      "Master ITIL® 4 DPI to align strategic direction, planning, and continual improvement across IT and digital organizations.",
-    images: ["/ITIL4DPI.jpg"],
+      "Customized corporate training programs in Hyderabad by QuickLearn Systems. Role-based, hands-on, and outcome-driven training for IT, Agile, DevOps, ITIL, PMP and more.",
+    images: ["/corporate.jpg"],
   },
 };
 
 const courseData = {
   title: "Corporate Training ",
-  subtitle: "Align strategy, governance, and continual improvement to drive digital success",
-  backgroundImage: "/ITIL4DPI.jpg",
+  subtitle: "Customized, Role-Based & Outcome-Driven Training Programs for Your Workforce",
+  backgroundImage: "/corporate.jpg",
   overview: [
-    "We aim to provide your company with a 'one stop shop solution' for your corporate training requirements. At Wiselearner we try where possible to use real examples from the delegates' own working environments to ensure they can relate to the information provided.",
-    "Course content is continually updated by experience gained from course feedback received from our clieants and the Interim Management arena enabling us to keep the training courses fresh, vibrant and representative of best practise throughout industry.",
+    "At QuickLearn Systems, we work closely with companies that want to upskill their workforce with practical, role-based, and business-focused training.",
+    "As a trusted corporate training institute in Hyderabad, we design customized training programs in IT, software, data, cloud, cybersecurity, and emerging technologies — tailored to your organization's goals.",
+    "Our corporate training solutions help teams improve performance, adopt new tools faster, and deliver better business results through structured learning and hands-on practice.",
   ],
+  WhyQlsIntro: "Choosing the right corporate training partner plays a major role in how quickly your employees gain skills and apply them at work. QuickLearn Systems focuses on delivering practical, customized, and outcome-driven corporate training that matches real business needs.",
   WhyQls: [
-    "Accredited trainers",
-    "558+ Trainings conducted",
-    "850+ person years of experience",
-    "126+ Instructor led courses and e-learning",
-    "20000+ professionals trained & Certified worldwide",
-    "Accredited by many global accreditation bodies",
-    "Transparency and Accountability for all our Commitments",
-    "High quality and value for money",
+    "Customized training programs based on your project requirements",
+    "Trainers with real industry experience",
+    "Hands-on labs, case studies, and real-time scenarios",
+    "Flexible delivery — onsite, online, and hybrid models",
+    "Role-based learning paths for different teams",
+    "Continuous assessment and feedback",
+    "Dedicated corporate training coordinator for smooth communication",
+    "Pre-training skill gap analysis for accurate course planning",
+    "Post-training support and knowledge reinforcement sessions",
+    "Training reports for management review and improvement tracking",
   ],
   DeliveryMethods: [
-    "High-quality training programs tailored for both individual learners and corporate clients.",
-    "Industry-expert–designed curriculum, created by professionals with over 30 years of real-world experience.",
-    "Highly qualified and certified instructors with extensive hands-on experience across multiple industries.",
-    
+    "Onsite training at your office premises for maximum team convenience.",
+    "Live online instructor-led sessions for distributed and remote teams.",
+    "Hybrid delivery combining in-person and virtual learning.",
+    "Weekend and flexible scheduling to minimize business disruption.",
+    "Short intensive boot camps or extended modular programs based on your needs.",
   ],
   Catalog: [
-    "Flexible and adaptable training delivery customized to meet your specific requirements.",
-    "Training available on working and non-working days to suit organizational schedules.",
-    "Sessions conducted during early mornings or late hours, ensuring maximum convenience and minimal disruption.",
-    
+    "IT Service Management: ITIL® 4 Foundation, SIAM, Service Desk, Incident & Problem Management.",
+    "Project & Program Management: PMP, PRINCE2, MSP, ACP.",
+    "Agile & Scrum: SAFe, Scrum Master, Product Owner, Kanban.",
+    "DevOps & SRE: DevOps Foundation, DevOps Master, SRE Foundation & Practitioner.",
+    "Quality Management: Lean Six Sigma Green Belt & Black Belt.",
+    "Software Testing: ISTQB Foundation & Advanced.",
+    "Business Analysis: Business Analysis Foundation, Practitioner & Agile BA.",
   ],
   TrainingPrograms: [
-    "Wide range of training programs available for employee enrollment.",
-    "Ideal solution for organizations with a limited number of employees requiring training.",
-    "Cost-effective and flexible enrollment option without the need for dedicated batch formation.",
-    
+    "Group enrollment for teams of any size — from small squads to large departments.",
+    "Dedicated batch formation tailored to your project timelines.",
+    "Blended open-house sessions for organizations with smaller teams.",
+    "Volume-based pricing with group discounts for large-scale enrollments.",
   ],
-  eLearning:[
-    "World-class e-learning platform developed in collaboration with experienced industry partners.",
-    "Built by experts with many years of experience in delivering advanced e-learning solutions.",
-    "Robust, scalable, and learner-centric platform designed for effective online training delivery.",
+  eLearning: [
+    "Access to post-training learning materials and recorded sessions.",
+    "Practice assessments and mock exams for certification readiness.",
+    "Knowledge reinforcement exercises and quizzes.",
+    "Ongoing access to updated content aligned with the latest certification standards.",
   ],
-  category: "IT Service Management (ITIL® 4)",
-  tagline: "Direct. Plan. Improve. Lead.",
+  category: "Corporate Training",
+  tagline: "Learn. Certify. Excel.",
   relatedCourses: [
     {
       title: "Corporate TRAINING Programs",
@@ -70,7 +79,7 @@ const courseData = {
       duration: "2 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "ITIL® 4 Specialist: Create, Deliver and Support (CDS)",
@@ -80,7 +89,7 @@ const courseData = {
       duration: "3 Days",
       level: "Intermediate",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "ITIL® 4 Specialist: High Velocity IT (HVIT)",
@@ -90,7 +99,7 @@ const courseData = {
       duration: "3 Days",
       level: "Intermediate",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

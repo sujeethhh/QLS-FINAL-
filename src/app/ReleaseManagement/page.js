@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL Release Management Training | Software Release Management | Edura",
-  description: "Master ITIL Release Management to plan, schedule and control software releases. Learn best practices for release planning and deployment coordination.",
-  keywords: "ITIL Release Management, software releases, release planning, deployment, ITSM, release coordination",
+  title: "ITIL Release Management Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master ITIL Release Management certification training in Hyderabad. QuickLearn Systems offers expert-led training covering release planning, scheduling, and deployment coordination. Enroll today!",
+  keywords: "ITIL Release Management training Hyderabad, release management certification Hyderabad, best ITIL training institute Hyderabad, release management course Hyderabad, ITSM release training India, ITIL Release Management, software releases, release planning, deployment, ITSM, release coordination, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ITIL Release Management Training",
-    description: "Master Release Management for effective software release coordination",
+    title: "ITIL Release Management Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led ITIL Release Management certification training in Hyderabad by QuickLearn Systems",
     images: ["/corporate.jpg"],
   },
 };
@@ -68,7 +68,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Deployment Management",
@@ -78,7 +78,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "DevOps Foundation",

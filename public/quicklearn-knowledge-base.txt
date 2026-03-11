@@ -1,0 +1,555 @@
+QUICKLEARN SYSTEMS – OFFICIAL KNOWLEDGE BASE
+=============================================
+Last Updated: March 2026
+Website: https://quicklearnsys.com
+
+This document contains all official information about QuickLearn Systems and should be used to answer questions from website visitors.
+
+---
+
+SECTION 1: ABOUT QUICKLEARN SYSTEMS
+=====================================
+
+QuickLearn Systems is a one-stop professional training and certification provider, dedicated to nurturing and enhancing the skills of individuals and corporate teams worldwide.
+
+As an Accredited Training Organisation (ATO), QuickLearn delivers:
+- Instructor-led classroom training
+- Live virtual sessions
+- E-learning programs
+- Customised corporate training programs
+
+All programs are backed by a 100% Exam Passing Guarantee. If a student does not pass their certification exam, QuickLearn will retrain them at no additional cost.
+
+Our trainer pool comprises Subject Matter Experts (SMEs) recognised as the best in the industry, bringing real-world examples, hands-on insights, and the best quality course material into every session.
+
+QuickLearn has trained 15,000+ professionals across 50+ countries, with 10+ years of excellence in professional training delivery since 2014.
+
+Key Stats:
+- 15,000+ Professionals Trained
+- 10+ Years in the Industry
+- 100% Exam Passing Guarantee
+- 50+ Corporate Clients including Fortune 500 companies
+- 95% Student Satisfaction Score
+- 4.9/5 Google Rating
+- 4.8/5 Trustpilot Rating
+
+---
+
+SECTION 2: CONTACT INFORMATION
+================================
+
+For course enquiries, pricing, enrollment, and general support, please contact QuickLearn through the following channels:
+
+Phone / WhatsApp: +91 91001 95152
+Email: info@quicklearnsys.com
+Website Contact Form: https://quicklearnsys.com/Contact
+
+Social Media:
+- LinkedIn: https://www.linkedin.com/in/quicklearn-systems-1494ba12a
+- Facebook: https://www.facebook.com/quicklearnsystems
+- Twitter/X: https://x.com/quicklearnsys
+
+Office Hours: Monday to Friday, 9:00 AM – 6:00 PM IST
+
+---
+
+SECTION 3: PRICING POLICY
+===========================
+
+IMPORTANT: QuickLearn does not publish fixed pricing online as fees vary based on:
+- Training format (classroom / virtual / e-learning)
+- Batch size and scheduling
+- Corporate vs individual enrollment
+- Ongoing promotions and early-bird offers
+- Location and delivery requirements
+
+FOR ALL PRICING ENQUIRIES, please contact us directly:
+
+📞 Call or WhatsApp: +91 91001 95152
+📧 Email: info@quicklearnsys.com
+🌐 Contact form: https://quicklearnsys.com/Contact
+
+Our team will respond promptly with the latest pricing and any available offers.
+
+---
+
+SECTION 4: COURSE CATALOGUE
+=============================
+
+QuickLearn offers training across 6 major categories:
+
+--- 4.1 IT SERVICE MANAGEMENT ---
+
+1. ITIL® 4 Foundation
+   - Duration: 3 Days
+   - Level: Foundation
+   - Description: Master the fundamentals of IT Service Management with the globally recognised ITIL® 4 framework. Learn how to align IT services with business goals, manage incidents, and drive continual improvement.
+
+2. ITIL® 4 Specialist – Create, Deliver and Support (CDS)
+   - Duration: 3 Days
+   - Level: Intermediate/Advanced
+   - Description: Learn how to integrate different value streams and activities to create, deliver, and support IT-enabled products and services.
+
+3. ITIL® 4 Specialist – Drive Stakeholder Value (DSV)
+   - Duration: 3 Days
+   - Level: Intermediate/Advanced
+   - Description: Understand how to engage and interact with customers, users, and suppliers to co-create value.
+
+4. ITIL® 4 Specialist – High Velocity IT (HVIT)
+   - Duration: 3 Days
+   - Level: Intermediate/Advanced
+   - Description: Learn to work with high velocity IT environments using digital technology and modern delivery methods.
+
+5. ITIL® 4 Strategist – Direct, Plan and Improve (DPI)
+   - Duration: 3 Days
+   - Level: Intermediate/Advanced
+   - Description: Master the skills needed to create a learning and improving IT organisation with a strong strategic direction.
+
+6. SIAM Foundation (Service Integration and Management)
+   - Duration: 2 Days
+   - Level: Foundation
+   - Description: Gain fundamental knowledge of managing multiple service providers in complex IT environments.
+
+7. SIAM Professional
+   - Duration: 3 Days
+   - Level: Professional
+   - Description: Advanced SIAM skills for designing, implementing, and managing complex multi-vendor service ecosystems.
+
+8. Problem Management
+   - Duration: 5 Days
+   - Level: Advanced
+   - Description: Advanced ITIL® practices to identify root causes and prevent recurring incidents.
+
+9. Service Desk
+   - Duration: 3 Days
+   - Level: Foundation
+   - Description: Principles and practices of running an effective IT service desk.
+
+10. Incident Management
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Best practices for managing and resolving IT incidents quickly and efficiently.
+
+11. Service Request Management
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Learn to handle and fulfil service requests effectively.
+
+12. Monitoring & Event Management
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Techniques to monitor IT services and manage events before they become incidents.
+
+13. Change Enablement
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Best practices for managing IT changes while minimising risk and disruption.
+
+14. Release Management
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Plan, schedule, and control the movement of releases to test and live environments.
+
+15. Service Configuration Management
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Manage IT assets and configuration items across the service lifecycle.
+
+16. Deployment Management
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Move new or changed hardware, software, documentation to live environments.
+
+17. IT Asset Management
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Plan and manage the full lifecycle of IT assets to maximise value.
+
+18. Continual Improvement
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Align practices and services with changing business needs through ongoing improvement.
+
+19. Relationship Management
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Establish and maintain strong links between the organisation and its stakeholders.
+
+20. Service Level Management
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Set clear business-based targets for service levels and ensure delivery is assessed.
+
+21. Information Security Management
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Protect information across the organisation using ITIL® security management practices.
+
+22. Supplier Management
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Manage suppliers and their performance to support seamless service delivery.
+
+23. Acquiring and Managing Cloud Services
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Understand how to procure and manage cloud-based IT services effectively.
+
+24. Sustainability in Digital and IT
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Integrate sustainability principles into digital and IT service management.
+
+25. Business Relationship Management
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Manage relationships between IT and the business to ensure services meet needs.
+
+26. Monitor, Support and Fulfil
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Covers monitoring, event, incident, service request, and problem management together.
+
+27. Digital IT & Services
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Navigate digital transformation and modern IT service delivery.
+
+--- 4.2 PROJECT & PROGRAM MANAGEMENT ---
+
+28. PMP Certification (Project Management Professional)
+    - Duration: 4 Days
+    - Level: Professional
+    - Description: The world's most recognised project management certification. Covers all 5 process groups and 10 knowledge areas from the PMBOK Guide. Requires 3+ years of project management experience.
+
+29. PRINCE2 Foundation
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Structured project management methodology used globally by organisations of all sizes.
+
+30. PRINCE2 Practitioner
+    - Duration: 3 Days
+    - Level: Professional
+    - Description: Apply and tailor PRINCE2 principles in real-world project environments.
+
+31. PRINCE2 Agile Foundation
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Combine PRINCE2 governance with Agile flexibility for modern project delivery.
+
+32. PRINCE2 Agile Practitioner
+    - Duration: 3 Days
+    - Level: Professional
+    - Description: Advanced application of PRINCE2 Agile in complex project scenarios.
+
+33. Agile Certified Practitioner (PMI-ACP)
+    - Duration: 3 Days
+    - Level: Professional
+    - Description: PMI's agile certification covering Scrum, Kanban, Lean, XP, and more.
+
+34. MSP Foundation (Managing Successful Programmes)
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Programme management framework for delivering complex transformational change.
+
+35. MSP Practitioner
+    - Duration: 3 Days
+    - Level: Professional
+    - Description: Apply MSP in complex programme environments to deliver strategic objectives.
+
+--- 4.3 AGILE, SCRUM & KANBAN ---
+
+36. Professional Scrum Master I (PSM I)
+    - Duration: 2 Days
+    - Level: Foundation
+    - Description: Master the Scrum framework and the Scrum Master role. Globally recognised Scrum.org certification.
+
+37. Professional Scrum Master II (PSM II)
+    - Duration: 3 Days
+    - Level: Advanced
+    - Description: Advanced Scrum Master skills for experienced practitioners.
+
+38. Professional Scrum Product Owner I (PSPO I)
+    - Duration: 2 Days
+    - Level: Foundation
+    - Description: Product Owner skills for maximising product value and managing the Product Backlog.
+
+39. Professional Scrum Product Owner II (PSPO II)
+    - Duration: 2 Days
+    - Level: Advanced
+    - Description: Advanced Product Owner techniques for complex product environments.
+
+40. Professional Scrum with Kanban (PSK I)
+    - Duration: 2 Days
+    - Level: Foundation
+    - Description: Combine Scrum and Kanban practices to improve flow and delivery.
+
+41. Certified Scrum Master (CSM)
+    - Duration: 2 Days
+    - Level: Foundation
+    - Description: Scrum Alliance's foundational certification for Scrum Masters.
+
+42. Certified Scrum Product Owner (CSPO)
+    - Duration: 2 Days
+    - Level: Foundation
+    - Description: Scrum Alliance's certification for Product Owners.
+
+43. Leading SAFe Agilist (SA)
+    - Duration: 2 Days
+    - Level: Foundation
+    - Description: Learn to lead a Lean-Agile enterprise using SAFe (Scaled Agile Framework). One of the most in-demand agile certifications globally.
+
+44. SAFe Scrum Master (SSM)
+    - Duration: 2 Days
+    - Level: Foundation
+    - Description: Facilitate Agile team events and coach teams on SAFe practices.
+
+45. SAFe Advanced Scrum Master (SASM)
+    - Duration: 2 Days
+    - Level: Advanced
+    - Description: Advanced coaching and facilitation skills for Scrum Masters in SAFe environments.
+
+46. SAFe for Teams
+    - Duration: 2 Days
+    - Level: Foundation
+    - Description: Equip teams with the skills needed to work effectively in a SAFe environment.
+
+47. SAFe Product Owner / Product Manager (POPM)
+    - Duration: 2 Days
+    - Level: Foundation
+    - Description: Skills for Product Owners and Product Managers in a SAFe enterprise.
+
+48. ICP-ACC (Agile Coaching)
+    - Duration: 3 Days
+    - Level: Professional
+    - Description: ICAgile certification for agile coaches. Develop coaching skills to guide individuals and teams.
+
+--- 4.4 QUALITY MANAGEMENT ---
+
+49. Lean Six Sigma Green Belt (LSSGB)
+    - Duration: 4 Days
+    - Level: Intermediate
+    - Description: Master process improvement tools and methodologies. Reduce waste, improve quality, and drive efficiency using DMAIC methodology.
+
+50. Lean Six Sigma Black Belt (LSSBB)
+    - Duration: 5 Days
+    - Level: Advanced
+    - Description: Advanced leadership of complex improvement projects across the organisation.
+
+--- 4.5 DEVOPS & BUSINESS ANALYSIS ---
+
+51. DevOps Foundation
+    - Duration: 2 Days
+    - Level: Foundation
+    - Description: Understand the core concepts of DevOps culture, practices, and tools. Learn CI/CD, automation, and collaboration between Dev and Ops teams.
+
+52. DevOps Master
+    - Duration: 3 Days
+    - Level: Advanced
+    - Description: Advanced DevOps practices including pipeline automation, cloud-native delivery, and SRE principles.
+
+53. SRE Foundation (Site Reliability Engineering)
+    - Duration: 2 Days
+    - Level: Foundation
+    - Description: Apply SRE principles to improve reliability, availability, and performance of IT systems.
+
+54. SRE Practitioner
+    - Duration: 3 Days
+    - Level: Advanced
+    - Description: Advanced SRE techniques for managing complex, large-scale systems.
+
+55. Business Analysis Foundation (BAF)
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Core business analysis skills, techniques, and tools for identifying and documenting business requirements.
+
+56. Business Analysis Practitioner (BAP)
+    - Duration: 3 Days
+    - Level: Professional
+    - Description: Apply business analysis in complex organisational environments with advanced elicitation techniques.
+
+57. Agile Business Analysis (AgileBA)
+    - Duration: 3 Days
+    - Level: Professional
+    - Description: Business analysis practices within Agile delivery frameworks and methodologies.
+
+--- 4.6 SOFTWARE TESTING & TECHNICAL ---
+
+58. ISTQB Foundation Level (CTFL)
+    - Duration: 3 Days
+    - Level: Foundation
+    - Description: Globally recognised foundation certification in software testing. Covers testing principles, processes, techniques, and tools. Exam: 40 questions, 60 minutes, 65% pass mark.
+
+59. ISTQB Advanced Level (CTAL)
+    - Duration: 4 Days
+    - Level: Advanced
+    - Description: Advanced testing techniques, test management, and technical test analysis.
+
+---
+
+SECTION 5: TRAINING DELIVERY OPTIONS
+=======================================
+
+QuickLearn offers three delivery modes to suit different learning preferences:
+
+1. INSTRUCTOR-LED CLASSROOM TRAINING
+   - Physical classroom sessions at designated training centres
+   - Face-to-face interaction with expert trainers
+   - Hands-on exercises and group activities
+   - Networking with fellow professionals
+
+2. LIVE VIRTUAL TRAINING (Online)
+   - Real-time instructor-led sessions via video conferencing
+   - Same curriculum and quality as classroom training
+   - Attend from anywhere in the world
+   - Recorded sessions available for review
+
+3. E-LEARNING (Self-Paced)
+   - Learn at your own pace, at any time
+   - Access to digital course materials
+   - Progress tracking and assessments
+   - Ideal for busy professionals
+
+4. CORPORATE / CUSTOMISED TRAINING
+   - Tailored programs designed for your organisation's specific needs
+   - Can be delivered on-site, virtually, or blended
+   - Available for teams of any size
+   - Custom content, timing, and scheduling
+
+---
+
+SECTION 6: CORPORATE TRAINING
+================================
+
+QuickLearn specialises in corporate training for teams and organisations. Benefits include:
+
+- Customised content aligned to your industry and goals
+- Flexible scheduling to minimise business disruption
+- Group discounts for team enrollments
+- Dedicated account manager for corporate clients
+- Post-training support and certification guidance
+- Training on-site at your office or at our centres
+
+Corporate clients include leading organisations across Banking & Finance, IT, Healthcare, Manufacturing, Government, and Telecom sectors.
+
+For corporate training enquiries:
+📞 WhatsApp/Call: +91 91001 95152
+📧 Email: info@quicklearnsys.com
+
+---
+
+SECTION 7: CERTIFICATION BODIES & ACCREDITATIONS
+===================================================
+
+QuickLearn is an Accredited Training Organisation (ATO) for the following certification bodies:
+
+- PeopleCert / AXELOS (ITIL®, PRINCE2, MSP)
+- PMI – Project Management Institute (PMP, ACP)
+- Scrum.org (PSM, PSPO, PSK)
+- Scrum Alliance (CSM, CSPO)
+- Scaled Agile Inc. (SAFe certifications)
+- ICAgile (ICP-ACC)
+- ISTQB – International Software Testing Qualifications Board
+- DevOps Institute (DevOps Foundation, SRE Foundation)
+- APMG International (Business Analysis, Agile BA)
+
+All certifications are globally recognised and valued by employers worldwide.
+
+---
+
+SECTION 8: EXAM INFORMATION
+==============================
+
+QuickLearn provides full exam preparation support including:
+
+- Exam vouchers (where applicable)
+- Mock exams and practice tests
+- Exam tips and strategies from experienced trainers
+- 100% Passing Guarantee – if you fail, we retrain you for free
+
+Exams are typically conducted:
+- Online via PeopleCert, Pearson VUE, or the respective certification body's platform
+- Proctored from home or at test centres
+- On the last day of training or within a set window after training
+
+For specific exam scheduling details for any course, contact us directly.
+
+---
+
+SECTION 9: FREQUENTLY ASKED QUESTIONS (FAQ)
+=============================================
+
+Q: What is the price / fee for a course?
+A: QuickLearn does not publish fixed pricing as fees vary by format, batch, and current offers. Please contact us for the latest pricing:
+   📞 +91 91001 95152 | 📧 info@quicklearnsys.com
+
+Q: Do you offer online training?
+A: Yes. QuickLearn offers live virtual instructor-led training, e-learning (self-paced), and in-person classroom sessions.
+
+Q: Is there a group discount for teams?
+A: Yes, corporate and group bookings receive special pricing. Contact us for a custom quote.
+
+Q: What is the 100% Passing Guarantee?
+A: If you attend QuickLearn training and do not pass your certification exam, we will provide a free retrain session at no extra cost.
+
+Q: How long does it take to get certified?
+A: Most foundation courses are 2–3 days. Exams are taken at the end of training or shortly after. You receive your certificate directly from the certification body.
+
+Q: Can QuickLearn train at our office / company premises?
+A: Yes. QuickLearn offers on-site corporate training at your office location. Contact us to discuss scheduling and requirements.
+
+Q: Are the certifications internationally recognised?
+A: Yes. All certifications offered by QuickLearn are globally recognised by leading certification bodies such as PeopleCert, PMI, Scrum.org, ISTQB, and Scaled Agile Inc.
+
+Q: How do I enrol in a course?
+A: Contact us via phone, WhatsApp, or email to discuss your requirements and get enrolled:
+   📞 +91 91001 95152 | 📧 info@quicklearnsys.com
+
+Q: What are the prerequisites for courses?
+A: Prerequisites vary by course. Foundation-level courses typically have no prerequisites. Professional and Advanced courses may require prior experience or a foundation certification. Ask us about specific course requirements.
+
+Q: What payment methods are accepted?
+A: QuickLearn accepts Cash, Cheque, Online Transfer, and Credit Cards (Visa, Mastercard).
+
+Q: Where is QuickLearn based?
+A: QuickLearn Systems operates across India and globally, delivering training to professionals in 50+ countries.
+
+Q: Do you provide course materials?
+A: Yes. All participants receive high-quality, officially accredited course materials. These are continuously updated to reflect the latest frameworks and exam blueprints.
+
+Q: Can I get a refund if I cancel my enrollment?
+A: Please refer to QuickLearn's Terms & Refund Policy at https://quicklearnsys.com/terms-refund or contact us directly.
+
+---
+
+SECTION 10: WHY CHOOSE QUICKLEARN
+====================================
+
+1. 100% Exam Passing Guarantee – We retrain you for free if you don't pass.
+2. Accredited Training Organisation (ATO) – Officially approved by leading certification bodies.
+3. Subject Matter Experts – Trainers with real-world industry experience.
+4. Real-World Examples – Every course uses practical case studies and examples.
+5. Best Quality Course Material – Updated regularly to match the latest exam blueprints.
+6. Flexible Delivery – Classroom, virtual, and e-learning options available.
+7. 15,000+ Professionals Trained – Across 50+ countries worldwide.
+8. 10+ Years of Excellence – Training professionals since 2014.
+9. Corporate Training Specialists – Customised programs for teams and organisations.
+10. 24/7 Support – Our team is available to help you at every stage of your journey.
+
+---
+
+SECTION 11: HOW TO REACH US
+=============================
+
+For ANY question about courses, pricing, scheduling, enrollment, corporate training, or general support — please reach out to us:
+
+📞 Phone / WhatsApp: +91 91001 95152
+📧 Email: info@quicklearnsys.com
+🌐 Website: https://quicklearnsys.com
+📋 Contact Form: https://quicklearnsys.com/Contact
+
+We typically respond within a few hours during business hours (Monday–Friday, 9 AM – 6 PM IST).
+
+---
+
+END OF QUICKLEARN KNOWLEDGE BASE DOCUMENT

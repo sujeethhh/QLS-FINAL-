@@ -47,9 +47,9 @@
 }
 
 :root {
-  --brand-primary: #9F2D2D;
-  --brand-dark: #7A1E2D;
-  --brand-darkest: #4C0519;
+  --brand-primary: #3B82F6;
+  --brand-dark: #2563EB;
+  --brand-darkest: #1D4ED8;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.13 0.028 261.692);

@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "Incident Management Training | IT Service Management | Edura",
+  title: "Incident Management Certification Training in Hyderabad | QuickLearn Systems",
   description:
-    "Master Incident Management best practices. Learn to restore services quickly, reduce business impact, and improve IT operational efficiency.",
+    "Master Incident Management certification training in Hyderabad. QuickLearn Systems offers expert-led training covering service restoration, business impact reduction, and IT operational efficiency. Enroll today!",
   keywords:
-    "Incident Management training, ITSM incident management, IT service restoration, service desk, IT operations",
+    "Incident Management training Hyderabad, ITSM incident management certification Hyderabad, best ITSM training institute Hyderabad, incident management course Hyderabad, IT incident management training India, Incident Management training, ITSM incident management, IT service restoration, service desk, IT operations, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "Incident Management Training",
+    title: "Incident Management Certification Training in Hyderabad | QuickLearn Systems",
     description:
-      "Learn structured incident management practices to restore IT services quickly and efficiently",
+      "Expert-led Incident Management certification training in Hyderabad by QuickLearn Systems",
     images: ["/itl4.jpg"],
   },
 };
@@ -99,7 +99,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

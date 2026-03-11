@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL Information Security Management Training | IT Security | Edura",
-  description: "Master ITIL Information Security Management to protect organizational information assets. Learn security policies, risk management, and compliance.",
-  keywords: "ITIL Information Security Management, IT security, security policies, risk management, information protection, ITSM",
+  title: "Information Security Management Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master Information Security Management certification training in Hyderabad. QuickLearn Systems offers expert-led training covering security policies, risk management, and compliance. Enroll today!",
+  keywords: "Information Security Management training Hyderabad, IT security certification Hyderabad, best ITSM training institute Hyderabad, information security management course Hyderabad, IT security training India, ITIL Information Security Management, IT security, security policies, risk management, information protection, ITSM, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ITIL Information Security Management Training",
-    description: "Master Information Security Management for comprehensive IT security",
+    title: "Information Security Management Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led Information Security Management certification training in Hyderabad by QuickLearn Systems",
     images: ["/infosecman.jpg"],
   },
 };
@@ -68,7 +68,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Incident Management",
@@ -78,7 +78,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Supplier Management",
@@ -88,7 +88,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

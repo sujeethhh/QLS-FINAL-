@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "Business Analysis Foundation Certification Training | Edura",
-  description: "Master Business Analysis fundamentals for effective requirements management. Learn stakeholder analysis, process modeling, and solution evaluation.",
-  keywords: "Business Analysis Foundation, requirements management, stakeholder analysis, process modeling, business analyst",
+  title: "Business Analysis Foundation Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master Business Analysis Foundation certification training in Hyderabad. QuickLearn Systems offers expert-led BA Foundation training covering requirements management, stakeholder analysis, process modeling, and solution evaluation. Enroll today!",
+  keywords: "Business Analysis Foundation training Hyderabad, BA Foundation certification Hyderabad, best business analysis training institute Hyderabad, business analyst course Hyderabad, business analysis training India, Business Analysis Foundation, requirements management, stakeholder analysis, process modeling, business analyst, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "Business Analysis Foundation Certification Training",
-    description: "Master Business Analysis fundamentals for effective requirements and stakeholder management",
+    title: "Business Analysis Foundation Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led Business Analysis Foundation certification training in Hyderabad by QuickLearn Systems",
     images: ["/Business.jpg"],
   },
 };
@@ -88,7 +88,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

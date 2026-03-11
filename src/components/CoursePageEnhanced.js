@@ -317,7 +317,7 @@ export default function CoursePageEnhanced({ courseData }) {
             className="text-center mb-10"
           >
             <h2 className="text-3xl font-bold text-gray-900 mb-3" style={{ fontFamily: "'Playfair Display', serif" }}>
-              Why Train With <span className="text-[#9F2D2D]">QuickLearn?</span>
+              Why Train With <span className="text-[#3B82F6]">QuickLearn?</span>
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto" style={{ fontFamily: "'Inter', sans-serif" }}>
               Your success is our guarantee — backed by expert trainers, accredited content, and a commitment to your exam results.
@@ -363,10 +363,10 @@ export default function CoursePageEnhanced({ courseData }) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.08, duration: 0.5 }}
-                className="bg-white rounded-2xl p-6 border border-gray-100 hover:shadow-lg hover:border-[#9F2D2D]/20 transition-all duration-300 group"
+                className="bg-white rounded-2xl p-6 border border-gray-100 hover:shadow-lg hover:border-[#3B82F6]/20 transition-all duration-300 group"
               >
                 <div className="text-3xl mb-3">{item.icon}</div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-[#9F2D2D] transition-colors" style={{ fontFamily: "'Playfair Display', serif" }}>
+                <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-[#3B82F6] transition-colors" style={{ fontFamily: "'Playfair Display', serif" }}>
                   {item.title}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed" style={{ fontFamily: "'Inter', sans-serif" }}>

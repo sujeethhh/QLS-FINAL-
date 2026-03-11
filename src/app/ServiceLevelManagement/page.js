@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL Service Level Management Training | SLA Management | Edura",
-  description: "Master ITIL Service Level Management to define, monitor and manage service levels. Learn SLA design, OLA management and service reporting best practices.",
-  keywords: "ITIL Service Level Management, SLA, service level agreements, OLA, service reporting, ITSM",
+  title: "ITIL Service Level Management Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master ITIL Service Level Management certification training in Hyderabad. QuickLearn Systems offers expert-led training covering SLA design, OLA management, and service reporting. Enroll today!",
+  keywords: "ITIL Service Level Management training Hyderabad, SLA management certification Hyderabad, best ITIL training institute Hyderabad, service level management course Hyderabad, ITSM SLA training India, ITIL Service Level Management, SLA, service level agreements, OLA, service reporting, ITSM, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ITIL Service Level Management Training",
-    description: "Master Service Level Management for effective SLA and service quality management",
+    title: "ITIL Service Level Management Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led ITIL Service Level Management certification training in Hyderabad by QuickLearn Systems",
     images: ["/Servicelevelman.jpg"],
   },
 };
@@ -68,7 +68,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Service Request Management",
@@ -78,7 +78,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Continual Improvement",
@@ -88,7 +88,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

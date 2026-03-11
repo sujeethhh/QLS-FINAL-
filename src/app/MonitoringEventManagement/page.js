@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL Monitoring & Event Management Training | Edura",
-  description: "Master ITIL Monitoring & Event Management to ensure service availability and performance. Learn event detection, filtering, and response strategies.",
-  keywords: "ITIL Monitoring, Event Management, service monitoring, performance management, event detection, ITSM",
+  title: "ITIL Monitoring & Event Management Training in Hyderabad | QuickLearn Systems",
+  description: "Master ITIL Monitoring & Event Management certification training in Hyderabad. QuickLearn Systems offers expert-led training covering event detection, filtering, and automated response strategies. Enroll today!",
+  keywords: "ITIL Monitoring Event Management training Hyderabad, event management certification Hyderabad, best ITIL training institute Hyderabad, monitoring event management course Hyderabad, ITIL monitoring training India, ITIL Monitoring, Event Management, service monitoring, performance management, event detection, ITSM, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ITIL Monitoring & Event Management Training",
-    description: "Master Monitoring & Event Management for proactive service management",
+    title: "ITIL Monitoring & Event Management Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led ITIL Monitoring & Event Management certification training in Hyderabad by QuickLearn Systems",
     images: ["/blog2.jpg"],
   },
 };
@@ -68,7 +68,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Problem Management",
@@ -78,7 +78,7 @@ const courseData = {
       duration: "5 Days",
       level: "Advanced",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Service Level Management",
@@ -88,7 +88,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

@@ -8,12 +8,12 @@ import CoursePageClient from "./CoursePageClient";
 
 // Server-side metadata for SEO
 export const metadata = {
-  title: "ITIL® 4 Foundation Certification Training | Edura",
-  description: "Master IT Service Management fundamentals with ITIL® 4 Foundation certification. Expert-led training, hands-on labs, and exam preparation. Enroll today!",
-  keywords: "ITIL 4 Foundation, IT Service Management, ITSM certification, ITIL training, service management",
+  title: "ITIL 4 Foundation Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master ITIL 4 Foundation certification training in Hyderabad. QuickLearn Systems offers expert-led ITIL 4 Foundation training covering IT Service Management fundamentals with hands-on labs and exam preparation. Enroll today!",
+  keywords: "ITIL 4 Foundation training Hyderabad, ITIL 4 Foundation certification Hyderabad, best ITIL training institute Hyderabad, ITIL 4 Foundation course Hyderabad, ITIL training India, ITIL 4 Foundation, IT Service Management, ITSM certification, ITIL training, service management, IT training institute Hyderabad, QuickLearn Systems, professional training Hyderabad",
   openGraph: {
-    title: "ITIL® 4 Foundation Certification Training",
-    description: "Master IT Service Management fundamentals with ITIL® 4 Foundation certification",
+    title: "ITIL 4 Foundation Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led ITIL 4 Foundation certification training in Hyderabad by QuickLearn Systems",
     images: ["/itl4.jpg"],
   },
 };

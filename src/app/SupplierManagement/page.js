@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL Supplier Management Training | Vendor Management | Edura",
-  description: "Master ITIL Supplier Management for effective vendor relationships. Learn supplier selection, contract management, and performance monitoring.",
-  keywords: "ITIL Supplier Management, vendor management, supplier relationships, contract management, supplier performance, ITSM",
+  title: "ITIL Supplier Management Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master ITIL Supplier Management certification training in Hyderabad. QuickLearn Systems offers expert-led training covering supplier selection, contract management, and vendor performance monitoring. Enroll today!",
+  keywords: "ITIL Supplier Management training Hyderabad, vendor management certification Hyderabad, best ITIL training institute Hyderabad, supplier management course Hyderabad, ITSM supplier training India, ITIL Supplier Management, vendor management, supplier relationships, contract management, supplier performance, ITSM, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ITIL Supplier Management Training",
-    description: "Master Supplier Management for effective vendor relationships and performance",
+    title: "ITIL Supplier Management Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led ITIL Supplier Management certification training in Hyderabad by QuickLearn Systems",
     images: ["/itl4.jpg"],
   },
 };
@@ -78,7 +78,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Service Level Management",
@@ -88,7 +88,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

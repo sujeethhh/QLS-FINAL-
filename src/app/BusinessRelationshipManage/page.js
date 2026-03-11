@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "Business Relationship Management Training | BRM | Edura",
+  title: "Business Relationship Management (BRM) Training in Hyderabad | QuickLearn Systems",
   description:
-    "Master Business Relationship Management (BRM) practices. Learn to build strong stakeholder relationships, align IT with business strategy, and deliver value-driven services.",
+    "Master Business Relationship Management (BRM) certification training in Hyderabad. QuickLearn Systems offers expert-led BRM training covering stakeholder relationships, IT-business alignment, and value-driven service delivery. Enroll today!",
   keywords:
-    "Business Relationship Management training, BRM certification, stakeholder management, IT-business alignment, service value",
+    "Business Relationship Management training Hyderabad, BRM certification Hyderabad, best BRM training institute Hyderabad, BRM course Hyderabad, business relationship management training India, Business Relationship Management training, BRM certification, stakeholder management, IT-business alignment, service value, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "Business Relationship Management (BRM) Training",
+    title: "Business Relationship Management (BRM) Training in Hyderabad | QuickLearn Systems",
     description:
-      "Strengthen IT and business alignment through effective relationship management practices",
+      "Expert-led Business Relationship Management certification training in Hyderabad by QuickLearn Systems",
     images: ["/brm.jpg"],
   },
 };
@@ -79,7 +79,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Sustainability in Digital IT",

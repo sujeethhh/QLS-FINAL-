@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "DevOps Foundation Certification Training | DevOps Institute | Edura",
-  description: "Master DevOps fundamentals with DevOps Foundation certification. Learn DevOps culture, practices, automation, and continuous delivery principles.",
-  keywords: "DevOps Foundation, DevOps certification, continuous integration, continuous delivery, automation, DevOps culture",
+  title: "DevOps Foundation Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master DevOps fundamentals with DevOps Foundation certification training in Hyderabad. QuickLearn Systems offers expert-led training covering DevOps culture, practices, automation, and continuous delivery principles. Enroll today!",
+  keywords: "DevOps Foundation training Hyderabad, DevOps Foundation certification Hyderabad, best DevOps training institute Hyderabad, DevOps certification course Hyderabad, DevOps training India, DevOps Foundation, DevOps certification, continuous integration, continuous delivery, automation, DevOps culture, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "DevOps Foundation Certification Training",
-    description: "Master DevOps culture, practices, and tools for continuous delivery",
+    title: "DevOps Foundation Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led DevOps Foundation certification training in Hyderabad by QuickLearn Systems",
     images: ["/Devops.jpg"],
   },
 };
@@ -68,7 +68,7 @@ const courseData = {
       duration: "2 Days",
       level: "Foundation",
       badge: "SRE",
-      badgeColor: "bg-red-600"
+      badgeColor: "bg-blue-500"
     },
     {
       title: "DevOps Master",

@@ -34,7 +34,7 @@ export default function Clients({ clients = [] }) {
                 transition={{ duration: 0.5, delay: 0.1 }}
                 className="inline-block mb-4"
               >
-                <span className="bg-gradient-to-r from-[#9F2D2D] to-indigo-600 bg-clip-text text-transparent text-sm font-semibold tracking-wide uppercase">
+                <span className="bg-gradient-to-r from-[#3B82F6] to-indigo-600 bg-clip-text text-transparent text-sm font-semibold tracking-wide uppercase">
                   Trusted Worldwide
                 </span>
               </motion.div>

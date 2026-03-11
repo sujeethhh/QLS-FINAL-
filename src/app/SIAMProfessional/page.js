@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "SIAM Professional Training | Advanced Service Integration | QuickLearn",
+  title: "SIAM Professional Certification Training in Hyderabad | QuickLearn Systems",
   description:
-    "Advance your career with SIAM Professional certification. Master end-to-end service integration, governance, and multi-supplier management for complex IT environments.",
+    "Master SIAM Professional certification training in Hyderabad. QuickLearn Systems offers expert-led advanced Service Integration and Management training covering multi-supplier governance and ITSM integration. Enroll today!",
   keywords:
-    "SIAM Professional, Service Integration and Management, advanced SIAM, multi-supplier management, service governance, ITSM integration, vendor coordination",
+    "SIAM Professional training Hyderabad, SIAM Professional certification Hyderabad, best SIAM training institute Hyderabad, SIAM Professional course Hyderabad, service integration management training India, SIAM Professional, Service Integration and Management, advanced SIAM, multi-supplier management, service governance, ITSM integration, vendor coordination, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "SIAM Professional Training",
+    title: "SIAM Professional Certification Training in Hyderabad | QuickLearn Systems",
     description:
-      "Become an expert in managing and integrating multiple service providers through advanced SIAM principles and practices.",
+      "Expert-led SIAM Professional certification training in Hyderabad by QuickLearn Systems",
     images: ["/SIAMProfessional.jpg"],
   },
 };
@@ -81,7 +81,7 @@ const courseData = {
       duration: "2 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Service Level Management",
@@ -91,7 +91,7 @@ const courseData = {
       duration: "3 Days",
       level: "Intermediate",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

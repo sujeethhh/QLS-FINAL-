@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "DevOps Master Certification Training | QLS",
+  title: "DevOps Master Certification Training in Hyderabad | QuickLearn Systems",
   description:
-    "Become a DevOps Master. Learn advanced DevOps practices including CI/CD, automation, DevSecOps, cloud-native architecture, and enterprise DevOps transformation.",
+    "Become a DevOps Master with advanced certification training in Hyderabad. QuickLearn Systems offers expert-led DevOps Master training covering CI/CD, automation, DevSecOps, cloud-native architecture, and enterprise DevOps transformation. Enroll today!",
   keywords:
-    "DevOps Master training, DevOps certification, CI/CD, DevSecOps, automation, cloud DevOps, enterprise DevOps",
+    "DevOps Master training Hyderabad, DevOps Master certification Hyderabad, best DevOps training institute Hyderabad, DevOps Master course Hyderabad, DevOps training India, DevOps Master training, DevOps certification, CI/CD, DevSecOps, automation, cloud DevOps, enterprise DevOps, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "DevOps Master Certification | QLS",
+    title: "DevOps Master Certification Training in Hyderabad | QuickLearn Systems",
     description:
-      "Lead enterprise DevOps transformation with advanced automation and cloud-native practices",
+      "Expert-led DevOps Master certification training in Hyderabad by QuickLearn Systems",
     images: ["/devops.jpg"],
   },
 };
@@ -99,7 +99,7 @@ const courseData = {
       duration: "2 Days",
       level: "Professional",
       badge: "SAFe®",
-      badgeColor: "bg-red-600"
+      badgeColor: "bg-blue-500"
     }
   ]
 };

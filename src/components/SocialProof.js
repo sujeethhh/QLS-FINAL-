@@ -228,7 +228,7 @@ export default function SocialProof() {
                     <div className="relative z-10 flex flex-col h-full">
                       {/* Icon - Better positioning */}
                       <motion.div
-                        className="w-18 h-18 lg:w-20 lg:h-20 bg-gradient-to-br from-[#9F2D2D] to-blue-600 rounded-2xl lg:rounded-3xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500 shadow-lg"
+                        className="w-18 h-18 lg:w-20 lg:h-20 bg-gradient-to-br from-[#3B82F6] to-blue-600 rounded-2xl lg:rounded-3xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500 shadow-lg"
                         whileHover={{ rotate: 8 }}
                       >
                         <IconComponent className="w-9 h-9 lg:w-10 lg:h-10 text-white" />
@@ -236,7 +236,7 @@ export default function SocialProof() {
 
                       {/* Number - Enhanced typography */}
                       <motion.div
-                        className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 mb-4 group-hover:text-[#9F2D2D] transition-colors duration-500 leading-none"
+                        className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 mb-4 group-hover:text-[#3B82F6] transition-colors duration-500 leading-none"
                         initial={{ scale: 0 }}
                         whileInView={{ scale: 1 }}
                         viewport={{ once: true }}

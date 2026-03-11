@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "SAFe® for Teams Training | Scaled Agile Framework | Edura",
+  title: "SAFe for Teams Certification Training in Hyderabad | QuickLearn Systems",
   description:
-    "Master SAFe® for Teams and become a certified SAFe® Practitioner. Learn Agile Release Train collaboration, PI planning, and Lean-Agile principles.",
+    "Master SAFe® for Teams and become a certified SAFe® Practitioner with expert-led training in Hyderabad. QuickLearn Systems offers SAFe for Teams training covering Agile Release Train collaboration, PI planning, and Lean-Agile principles. Enroll today!",
   keywords:
-    "SAFe for Teams training, SAFe Practitioner certification, Scaled Agile Framework, Agile Release Train, PI Planning",
+    "SAFe for Teams training Hyderabad, SAFe Practitioner certification Hyderabad, best SAFe training institute Hyderabad, SAFe for Teams course Hyderabad, SAFe training India, SAFe for Teams training, SAFe Practitioner certification, Scaled Agile Framework, Agile Release Train, PI Planning, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "SAFe® for Teams Certification Training",
+    title: "SAFe for Teams Certification Training in Hyderabad | QuickLearn Systems",
     description:
-      "Learn how Agile teams collaborate and deliver value within the Scaled Agile Framework (SAFe®)",
+      "Expert-led SAFe for Teams certification training in Hyderabad by QuickLearn Systems",
     images: ["/safe.jpg"],
   },
 };
@@ -79,7 +79,7 @@ const courseData = {
       duration: "2 Days",
       level: "Advanced",
       badge: "SAFe®",
-      badgeColor: "bg-red-600"
+      badgeColor: "bg-blue-500"
     },
     {
       title: "SAFe® Scrum Master",
@@ -89,7 +89,7 @@ const courseData = {
       duration: "2 Days",
       level: "Professional",
       badge: "SAFe®",
-      badgeColor: "bg-red-600"
+      badgeColor: "bg-blue-500"
     },
     {
       title: "PMP Certification",

@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "Agile Business Analysis Training | QLS",
+  title: "Agile Business Analysis Certification Training in Hyderabad | QuickLearn Systems",
   description:
-    "Master Agile Business Analysis techniques. Learn how to deliver value in Agile environments through effective stakeholder collaboration, backlog management, and adaptive requirements.",
+    "Master Agile Business Analysis certification training in Hyderabad. QuickLearn Systems offers expert-led Agile BA training covering stakeholder collaboration, backlog management, and adaptive requirements. Enroll today!",
   keywords:
-    "Agile Business Analysis training, Agile BA certification, Agile requirements, backlog management, Scrum business analyst",
+    "Agile Business Analysis training Hyderabad, Agile BA certification Hyderabad, best Agile BA training institute Hyderabad, Agile BA course Hyderabad, Agile business analyst training India, Agile BA training, Agile BA certification, Agile requirements, backlog management, Scrum business analyst, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "Agile Business Analysis Certification | QLS",
+    title: "Agile Business Analysis Certification Training in Hyderabad | QuickLearn Systems",
     description:
-      "Develop Business Analysis skills tailored for Agile and Scrum environments",
+      "Expert-led Agile Business Analysis certification training in Hyderabad by QuickLearn Systems",
     images: ["/agile-ba.jpg"],
   },
 };
@@ -99,7 +99,7 @@ const courseData = {
       duration: "2 Days",
       level: "Professional",
       badge: "SAFe®",
-      badgeColor: "bg-red-600"
+      badgeColor: "bg-blue-500"
     }
   ]
 };

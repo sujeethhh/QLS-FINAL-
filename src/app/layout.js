@@ -13,10 +13,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "QuickLearn - Professional Training & Certification",
+  title: "QuickLearn Systems | Best IT Training Institute in Hyderabad",
   description:
-    "Master IT Service Management, Project Management, Agile, and more with QuickLearn's expert-led training programs.",
+    "QuickLearn Systems is a leading IT training and certification institute in Hyderabad, India. We offer ITIL, PMP, Prince2, Agile, Scrum, DevOps, SAFe, SIAM, and 50+ professional courses with expert-led training and globally recognised certifications.",
+  keywords:
+    "QuickLearn Systems, IT training institute Hyderabad, best IT training Hyderabad, professional certification training Hyderabad, ITIL training Hyderabad, PMP training Hyderabad, Agile training Hyderabad, Scrum training Hyderabad, DevOps training Hyderabad, SAFe training Hyderabad, PRINCE2 training Hyderabad, SIAM training Hyderabad, IT certification courses Hyderabad, training institute in Hyderabad, certification courses Hyderabad India, IT training India, professional development courses Hyderabad",
   metadataBase: new URL('https://quicklearnsys.com'),
+  openGraph: {
+    title: "QuickLearn Systems | Best IT Training Institute in Hyderabad",
+    description: "Leading IT training and certification institute in Hyderabad offering ITIL, PMP, Agile, DevOps, SAFe, PRINCE2, SIAM and 50+ professional certification courses.",
+    url: "https://quicklearnsys.com",
+    siteName: "QuickLearn Systems",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "QuickLearn Systems | Best IT Training Institute in Hyderabad",
+    description: "Leading IT training and certification institute in Hyderabad offering ITIL, PMP, Agile, DevOps, SAFe, PRINCE2, SIAM and 50+ professional certification courses.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export const viewport = {
@@ -64,16 +82,16 @@ export default function RootLayout({ children }) {
   data-base-api-url="https://ai.zylosys.in/api/embed"
   data-position="bottom-right"
   data-assistant-name="QuickLearn Assistant"
-  data-brand-image-url="/LOGO.png"
+  data-brand-image-url="/QLSLOGO.png"
   data-chat-icon="support"
-  data-button-color="#2563eb"
-  data-user-bg-color="#2563eb"
+  data-button-color="#3B82F6"
+  data-user-bg-color="#3B82F6"
   data-assistant-bg-color="#f3f4f6"
   data-window-width="380px"
   data-window-height="500px"
   data-text-size="14"
   data-greeting="Hi! I'm your QuickLearn assistant. How can I help you today?"
-  data-default-messages="What certifications do you offer?,Tell me about ITIL training,Do you offer online classes?,What is the course fee?"
+  data-default-messages="What certifications do you offer?,Tell me about ITIL training,Do you offer online classes?,How do I contact your team?"
   data-send-message-text="Type your question..."
   data-reset-chat-text="Start new conversation"
   data-no-sponsor="true"

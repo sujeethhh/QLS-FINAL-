@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "Site Reliability Engineering (SRE) Practitioner Training | QLS",
+  title: "SRE Practitioner Certification Training in Hyderabad | QuickLearn Systems",
   description:
-    "Master Site Reliability Engineering (SRE) practices. Learn reliability engineering, SLOs, error budgets, observability, and DevOps principles for high-performing digital services.",
+    "Master Site Reliability Engineering (SRE) Practitioner certification training in Hyderabad. QuickLearn Systems offers expert-led SRE Practitioner training covering SLOs, error budgets, observability, and DevOps reliability. Enroll today!",
   keywords:
-    "SRE Practitioner, Site Reliability Engineering training, SLO, SLA, error budgets, DevOps reliability, observability",
+    "SRE Practitioner training Hyderabad, Site Reliability Engineering Practitioner certification Hyderabad, best SRE training institute Hyderabad, SRE Practitioner course Hyderabad, SRE training India, SRE Practitioner, Site Reliability Engineering training, SLO, SLA, error budgets, DevOps reliability, observability, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "Site Reliability Engineering (SRE) Practitioner Certification | QLS",
+    title: "SRE Practitioner Certification Training in Hyderabad | QuickLearn Systems",
     description:
-      "Build scalable, reliable and resilient systems using SRE principles and practices",
+      "Expert-led SRE Practitioner certification training in Hyderabad by QuickLearn Systems",
     images: ["/sre.jpg"],
   },
 };
@@ -89,7 +89,7 @@ const courseData = {
       duration: "3 Days",
       level: "Advanced",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Site Reliability Engineering Foundation",

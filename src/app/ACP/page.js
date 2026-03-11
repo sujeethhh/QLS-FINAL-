@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL 4 Specialist: Acquiring & Managing Cloud Services | Cloud Strategy | Edura",
+  title: "ITIL 4 Acquiring & Managing Cloud Services Training in Hyderabad | QuickLearn Systems",
   description:
-    "Master ITIL 4 Acquiring and Managing Cloud Services to build cloud strategies, manage suppliers, and optimize service value. Learn governance, risk, and financial management for cloud environments.",
+    "Master ITIL 4 Acquiring and Managing Cloud Services certification training in Hyderabad. QuickLearn Systems offers expert-led ACP training covering cloud strategies, governance, risk, and financial management for cloud environments. Enroll today!",
   keywords:
-    "ITIL 4 Specialist, Acquiring and Managing Cloud Services, ITIL ACP, Cloud Strategy, Cloud Governance, Cloud Procurement, ITSM, Cloud Service Management, Cloud Financial Management",
+    "ITIL 4 ACP training Hyderabad, Acquiring Managing Cloud Services Hyderabad, ITIL ACP certification Hyderabad, best ITIL cloud training institute Hyderabad, cloud service management course Hyderabad, ITIL training India, ITIL 4 Specialist, Acquiring and Managing Cloud Services, ITIL ACP, Cloud Strategy, Cloud Governance, Cloud Procurement, ITSM, Cloud Service Management, Cloud Financial Management, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ITIL 4 Specialist: Acquiring & Managing Cloud Services Training",
+    title: "ITIL 4 Acquiring & Managing Cloud Services Training in Hyderabad | QuickLearn Systems",
     description:
-      "Learn to effectively acquire, govern, and manage cloud services with ITIL 4 ACP. Build cloud strategies and ensure alignment with business goals.",
+      "Expert-led ITIL 4 ACP certification training in Hyderabad by QuickLearn Systems",
     images: ["/AcquiringManagingCloud.jpg"],
   },
 };
@@ -72,7 +72,7 @@ const courseData = {
       duration: "3 Days",
       level: "Intermediate",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "ITIL 4 Strategist: Direct, Plan & Improve",

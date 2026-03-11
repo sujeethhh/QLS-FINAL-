@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "PRINCE2 Agile Practitioner Training | Advanced Project Management | Edura",
+  title: "PRINCE2 Agile Practitioner Certification Training in Hyderabad | QuickLearn Systems",
   description:
-    "Master PRINCE2 Agile Practitioner to manage complex projects with governance, flexibility, and agile delivery. Learn how to tailor PRINCE2 for agile environments and ensure successful project outcomes.",
+    "Master PRINCE2 Agile Practitioner certification training in Hyderabad. QuickLearn Systems offers expert-led training covering tailoring PRINCE2 for agile environments, risk management, and complex project delivery. Enroll today!",
   keywords:
-    "PRINCE2 Agile Practitioner, PRINCE2 Practitioner, Advanced Project Management, Agile Project Management, PRINCE2 Agile, Project Governance, Agile Delivery, Risk Management, Tailoring PRINCE2, IT Project Management",
+    "PRINCE2 Agile Practitioner training Hyderabad, PRINCE2 Agile Practitioner certification Hyderabad, best PRINCE2 training institute Hyderabad, PRINCE2 Agile Practitioner course Hyderabad, PRINCE2 training India, PRINCE2 Agile Practitioner, PRINCE2 Practitioner, Advanced Project Management, Agile Project Management, PRINCE2 Agile, Project Governance, Agile Delivery, Risk Management, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "PRINCE2 Agile Practitioner Training",
+    title: "PRINCE2 Agile Practitioner Certification Training in Hyderabad | QuickLearn Systems",
     description:
-      "Learn to apply PRINCE2 Agile principles and practices in complex projects. Tailor governance and agile techniques to achieve project success.",
+      "Expert-led PRINCE2 Agile Practitioner certification training in Hyderabad by QuickLearn Systems",
     images: ["/PRINCE2AgilePractitioner.jpg"],
   },
 };
@@ -73,7 +73,7 @@ const courseData = {
       duration: "2 Days",
       level: "Foundation",
       badge: "PRINCE2",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Agile Project Management",

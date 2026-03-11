@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "SAFe Scrum Master Certification Training | Scaled Agile | Edura",
-  description: "Master SAFe Scrum Master role in scaled Agile environments. Learn to facilitate Agile teams, PI planning, and continuous improvement in SAFe.",
-  keywords: "SAFe Scrum Master, Scaled Agile Framework, Agile teams, PI planning, SAFe certification, Scrum at scale",
+  title: "SAFe Scrum Master Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master SAFe Scrum Master certification training in Hyderabad. QuickLearn Systems offers expert-led training covering Agile team facilitation, PI planning, and continuous improvement in the Scaled Agile Framework. Enroll today!",
+  keywords: "SAFe Scrum Master training Hyderabad, SAFe Scrum Master certification Hyderabad, best SAFe training institute Hyderabad, SAFe Scrum Master course Hyderabad, SAFe training India, SAFe Scrum Master, Scaled Agile Framework, Agile teams, PI planning, SAFe certification, Scrum at scale, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "SAFe Scrum Master Certification Training",
-    description: "Master Scrum Master role in Scaled Agile Framework environments",
+    title: "SAFe Scrum Master Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led SAFe Scrum Master certification training in Hyderabad by QuickLearn Systems",
     images: ["/SCRUMM.jpg"],
   },
 };
@@ -78,7 +78,7 @@ const courseData = {
       duration: "2 Days",
       level: "Professional",
       badge: "Scrum.org",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "SAFe Advanced Scrum Master",

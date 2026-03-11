@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "SAFe® Advanced Scrum Master (SASM) Training | QLS",
+  title: "SAFe Advanced Scrum Master (SASM) Certification Training in Hyderabad | QuickLearn Systems",
   description:
-    "Become a certified SAFe® Advanced Scrum Master (SASM). Learn advanced facilitation, Agile coaching, cross-team collaboration, and enterprise agility practices.",
+    "Become a certified SAFe® Advanced Scrum Master (SASM) with expert-led training in Hyderabad. QuickLearn Systems offers SASM certification courses covering advanced facilitation, Agile coaching, and enterprise agility. Enroll today!",
   keywords:
-    "SAFe Advanced Scrum Master, SASM certification, SAFe Scrum Master advanced, Agile coaching, Scaled Agile Framework",
+    "SAFe Advanced Scrum Master training Hyderabad, SASM certification Hyderabad, best SAFe training institute Hyderabad, SAFe Advanced Scrum Master course Hyderabad, SAFe training India, SAFe Advanced Scrum Master, SASM certification, SAFe Scrum Master advanced, Agile coaching, Scaled Agile Framework, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "SAFe® Advanced Scrum Master (SASM) Certification Training | QLS",
+    title: "SAFe Advanced Scrum Master (SASM) Certification Training in Hyderabad | QuickLearn Systems",
     description:
-      "Master advanced Scrum Master skills and Agile team facilitation within the Scaled Agile Framework (SAFe®)",
+      "Expert-led SAFe Advanced Scrum Master (SASM) certification training in Hyderabad by QuickLearn Systems",
     images: ["/safe.jpg"],
   },
 };
@@ -79,7 +79,7 @@ const courseData = {
       duration: "2 Days",
       level: "Foundation",
       badge: "SAFe®",
-      badgeColor: "bg-red-600"
+      badgeColor: "bg-blue-500"
     },
     {
       title: "Leading SAFe®",
@@ -89,7 +89,7 @@ const courseData = {
       duration: "2 Days",
       level: "Advanced",
       badge: "SAFe®",
-      badgeColor: "bg-red-600"
+      badgeColor: "bg-blue-500"
     },
     {
       title: "SAFe® Scrum Master",
@@ -99,7 +99,7 @@ const courseData = {
       duration: "2 Days",
       level: "Professional",
       badge: "SAFe®",
-      badgeColor: "bg-red-600"
+      badgeColor: "bg-blue-500"
     }
   ]
 };

@@ -110,7 +110,7 @@ export default function LiveChat() {
             {/* FAB Button */}
             <motion.button
               onClick={toggleChat}
-              className="relative bg-[#9F2D2D] text-white w-14 h-14 rounded-full shadow-lg flex items-center justify-center hover:shadow-xl transition-shadow"
+              className="relative bg-[#3B82F6] text-white w-14 h-14 rounded-full shadow-lg flex items-center justify-center hover:shadow-xl transition-shadow"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               style={{ touchAction: "manipulation" }}
@@ -135,7 +135,7 @@ export default function LiveChat() {
             style={{ height: "min(580px, 85vh)" }}
           >
             {/* Header */}
-            <div className="bg-[#9F2D2D] text-white px-4 py-3 flex items-center justify-between flex-shrink-0">
+            <div className="bg-[#3B82F6] text-white px-4 py-3 flex items-center justify-between flex-shrink-0">
               <div className="flex items-center gap-2.5">
                 <div className="w-9 h-9 bg-white/20 rounded-full flex items-center justify-center text-xs font-bold">
                   QS
@@ -204,7 +204,7 @@ export default function LiveChat() {
                       placeholder="Your name *"
                       value={emailForm.name}
                       onChange={(e) => handleEmailChange("name", e.target.value)}
-                      className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#9F2D2D]/30 focus:border-[#9F2D2D] outline-none transition-all"
+                      className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#3B82F6]/30 focus:border-[#3B82F6] outline-none transition-all"
                     />
                     <input
                       type="email"
@@ -214,7 +214,7 @@ export default function LiveChat() {
                       onChange={(e) =>
                         handleEmailChange("email", e.target.value)
                       }
-                      className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#9F2D2D]/30 focus:border-[#9F2D2D] outline-none transition-all"
+                      className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#3B82F6]/30 focus:border-[#3B82F6] outline-none transition-all"
                     />
                     <input
                       type="text"
@@ -223,7 +223,7 @@ export default function LiveChat() {
                       onChange={(e) =>
                         handleEmailChange("subject", e.target.value)
                       }
-                      className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#9F2D2D]/30 focus:border-[#9F2D2D] outline-none transition-all"
+                      className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#3B82F6]/30 focus:border-[#3B82F6] outline-none transition-all"
                     />
                     <textarea
                       required
@@ -233,7 +233,7 @@ export default function LiveChat() {
                       onChange={(e) =>
                         handleEmailChange("message", e.target.value)
                       }
-                      className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#9F2D2D]/30 focus:border-[#9F2D2D] outline-none transition-all resize-none"
+                      className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#3B82F6]/30 focus:border-[#3B82F6] outline-none transition-all resize-none"
                     />
 
                     {/* Status messages */}
@@ -252,7 +252,7 @@ export default function LiveChat() {
                     <button
                       type="submit"
                       disabled={emailStatus === "loading"}
-                      className="w-full bg-[#9F2D2D] text-white py-2.5 rounded-lg text-sm font-medium hover:bg-[#8a2626] transition-colors disabled:opacity-60 flex items-center justify-center gap-2"
+                      className="w-full bg-[#3B82F6] text-white py-2.5 rounded-lg text-sm font-medium hover:bg-[#8a2626] transition-colors disabled:opacity-60 flex items-center justify-center gap-2"
                     >
                       {emailStatus === "loading" ? (
                         <>

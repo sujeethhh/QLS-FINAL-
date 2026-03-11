@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL Problem Management Certification Training | Edura",
-  description: "Master ITIL Problem Management practices to identify and resolve root causes of incidents. Expert-led training with hands-on experience and certification preparation.",
-  keywords: "ITIL Problem Management, root cause analysis, incident prevention, ITSM, problem solving, ITIL certification",
+  title: "ITIL Problem Management Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master ITIL Problem Management certification training in Hyderabad. QuickLearn Systems offers expert-led training covering root cause analysis, incident prevention, and problem resolution. Enroll today!",
+  keywords: "ITIL Problem Management training Hyderabad, problem management certification Hyderabad, best ITIL training institute Hyderabad, problem management course Hyderabad, ITIL problem management training India, ITIL Problem Management, root cause analysis, incident prevention, ITSM, problem solving, ITIL certification, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ITIL Problem Management Certification Training",
-    description: "Master Problem Management practices to prevent recurring incidents",
+    title: "ITIL Problem Management Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led ITIL Problem Management certification training in Hyderabad by QuickLearn Systems",
     images: ["/problemmanage.jpg"],
   },
 };
@@ -68,7 +68,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Incident Management",
@@ -78,7 +78,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Service Desk",
@@ -88,7 +88,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

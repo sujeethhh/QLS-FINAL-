@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "SIAM Foundation Certification Training | Service Integration | Edura",
-  description: "Master Service Integration and Management (SIAM) fundamentals for multi-vendor environments. Learn SIAM methodology, governance, and best practices.",
-  keywords: "SIAM Foundation, Service Integration and Management, multi-vendor management, service integration, SIAM methodology",
+  title: "SIAM Foundation Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master SIAM Foundation certification training in Hyderabad. QuickLearn Systems offers expert-led Service Integration and Management training covering multi-vendor environments, governance, and best practices. Enroll today!",
+  keywords: "SIAM Foundation training Hyderabad, SIAM certification Hyderabad, best SIAM training institute Hyderabad, service integration management course Hyderabad, SIAM training India, SIAM Foundation, Service Integration and Management, multi-vendor management, service integration, SIAM methodology, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "SIAM Foundation Certification Training",
-    description: "Master Service Integration and Management for multi-vendor environments",
+    title: "SIAM Foundation Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led SIAM Foundation certification training in Hyderabad by QuickLearn Systems",
     images: ["/SIAM.jpg"],
   },
 };
@@ -78,7 +78,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Relationship Management",
@@ -88,7 +88,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

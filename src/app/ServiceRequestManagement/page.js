@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL Service Request Management Training | Edura",
-  description: "Master Service Request Management to handle user requests efficiently. Learn best practices for request fulfillment and service delivery.",
-  keywords: "ITIL Service Request Management, request fulfillment, service delivery, ITSM, user requests, service catalog",
+  title: "ITIL Service Request Management Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master Service Request Management certification training in Hyderabad. QuickLearn Systems offers expert-led training covering request fulfillment, service catalog management, and service delivery. Enroll today!",
+  keywords: "ITIL Service Request Management training Hyderabad, request management certification Hyderabad, best ITIL training institute Hyderabad, service request management course Hyderabad, ITSM request training India, ITIL Service Request Management, request fulfillment, service delivery, ITSM, user requests, service catalog, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ITIL Service Request Management Training",
-    description: "Master Service Request Management for efficient request fulfillment",
+    title: "ITIL Service Request Management Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led ITIL Service Request Management certification training in Hyderabad by QuickLearn Systems",
     images: ["/Servicereq.jpg"],
   },
 };
@@ -68,7 +68,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Service Level Management",
@@ -78,7 +78,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Service Configuration Management",
@@ -88,7 +88,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "Monitor Support Fulfil Training | IT Service Operations | Edura",
+  title: "Monitor Support Fulfil Certification Training in Hyderabad | QuickLearn Systems",
   description:
-    "Master Monitor, Support and Fulfil practices in IT Service Management. Learn incident handling, request fulfilment, service monitoring and operational excellence.",
+    "Master Monitor, Support and Fulfil (MSF) certification training in Hyderabad. QuickLearn Systems offers expert-led training covering incident handling, request fulfilment, and service monitoring. Enroll today!",
   keywords:
-    "Monitor Support Fulfil, IT service operations, service desk, incident management, request fulfilment, ITSM training",
+    "Monitor Support Fulfil training Hyderabad, MSF certification Hyderabad, best ITSM training institute Hyderabad, monitor support fulfil course Hyderabad, ITSM operations training India, Monitor Support Fulfil, IT service operations, service desk, incident management, request fulfilment, ITSM training, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "Monitor Support Fulfil Training",
+    title: "Monitor Support Fulfil Certification Training in Hyderabad | QuickLearn Systems",
     description:
-      "Strengthen IT operations through monitoring, support and service fulfilment best practices",
+      "Expert-led Monitor Support Fulfil certification training in Hyderabad by QuickLearn Systems",
     images: ["/itl4.jpg"],
   },
 };
@@ -79,7 +79,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "ITIL® 4 Specialist Create, Deliver and Support",
@@ -89,7 +89,7 @@ const courseData = {
       duration: "3 Days",
       level: "Professional",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "SIAM Foundation",

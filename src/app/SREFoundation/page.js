@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "SRE Foundation Certification Training | Site Reliability Engineering | Edura",
-  description: "Master Site Reliability Engineering (SRE) fundamentals. Learn reliability principles, monitoring, incident response, and automation practices.",
-  keywords: "SRE Foundation, Site Reliability Engineering, system reliability, monitoring, incident response, automation",
+  title: "SRE Foundation Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master Site Reliability Engineering (SRE) Foundation certification training in Hyderabad. QuickLearn Systems offers expert-led SRE training covering reliability principles, monitoring, incident response, and automation. Enroll today!",
+  keywords: "SRE Foundation training Hyderabad, Site Reliability Engineering certification Hyderabad, best SRE training institute Hyderabad, SRE Foundation course Hyderabad, SRE training India, SRE Foundation, Site Reliability Engineering, system reliability, monitoring, incident response, automation, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "SRE Foundation Certification Training",
-    description: "Master Site Reliability Engineering for system reliability and performance",
+    title: "SRE Foundation Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led SRE Foundation certification training in Hyderabad by QuickLearn Systems",
     images: ["/Sre.jpg"],
   },
 };
@@ -78,7 +78,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "SRE",
-      badgeColor: "bg-red-600"
+      badgeColor: "bg-blue-500"
     },
     {
       title: "Monitoring & Event Management",
@@ -88,7 +88,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

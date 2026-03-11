@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL® 4 Specialist: Acquiring and Managing Cloud Services (AMCS) | Cloud Governance & Service Management | Edura",
+  title: "ITIL 4 Acquiring and Managing Cloud Services (AMCS) Training in Hyderabad | QuickLearn Systems",
   description:
-    "Master ITIL® 4 Specialist: Acquiring and Managing Cloud Services to effectively evaluate, procure, and manage cloud-based solutions. Learn governance, risk management, and integration strategies for hybrid environments.",
+    "Master ITIL® 4 Specialist: Acquiring and Managing Cloud Services (AMCS) certification training in Hyderabad. QuickLearn Systems offers expert-led training covering cloud evaluation, procurement, governance, and hybrid IT integration. Enroll today!",
   keywords:
-    "ITIL 4 Specialist, Acquiring and Managing Cloud Services, ITIL AMCS, cloud service management, cloud governance, ITSM, cloud procurement, hybrid IT, cloud strategy, service integration",
+    "ITIL 4 AMCS training Hyderabad, Acquiring Managing Cloud Services certification Hyderabad, ITIL AMCS course Hyderabad, best ITIL cloud training Hyderabad, ITIL training institute Hyderabad, cloud service management Hyderabad, ITIL training India, ITIL 4 Specialist, Acquiring and Managing Cloud Services, ITIL AMCS, cloud governance, ITSM, cloud procurement, hybrid IT, cloud strategy, service integration, QuickLearn Systems, IT training Hyderabad",
   openGraph: {
-    title: "ITIL® 4 Specialist: Acquiring and Managing Cloud Services (AMCS)",
+    title: "ITIL 4 Acquiring and Managing Cloud Services (AMCS) Training in Hyderabad | QuickLearn Systems",
     description:
-      "Learn how to acquire, govern, and manage cloud services efficiently with ITIL® 4 AMCS. Bridge the gap between ITSM and modern cloud ecosystems.",
+      "Expert-led ITIL 4 AMCS certification training in Hyderabad by QuickLearn Systems",
     images: ["/ITIL4AMCS.jpg"],
   },
 };
@@ -70,7 +70,7 @@ const courseData = {
       duration: "2 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "ITIL® 4 Specialist: Drive Stakeholder Value (DSV)",
@@ -80,7 +80,7 @@ const courseData = {
       duration: "3 Days",
       level: "Intermediate",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "ITIL® 4 Strategist: Direct, Plan and Improve (DPI)",
@@ -90,7 +90,7 @@ const courseData = {
       duration: "3 Days",
       level: "Intermediate",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

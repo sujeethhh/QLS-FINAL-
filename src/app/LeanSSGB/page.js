@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "Lean Six Sigma Green Belt Certification Training | Edura",
-  description: "Master Lean Six Sigma Green Belt methodology for process improvement. Learn DMAIC, statistical tools, and project management with expert training.",
-  keywords: "Lean Six Sigma Green Belt, DMAIC, process improvement, quality management, statistical analysis, project management",
+  title: "Lean Six Sigma Green Belt Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master Lean Six Sigma Green Belt certification training in Hyderabad. QuickLearn Systems offers expert-led LSSGB training covering DMAIC methodology, statistical tools, and process improvement. Enroll today!",
+  keywords: "Lean Six Sigma Green Belt training Hyderabad, LSSGB certification Hyderabad, best Six Sigma training institute Hyderabad, Six Sigma Green Belt course Hyderabad, Lean Six Sigma training India, Lean Six Sigma Green Belt, DMAIC, process improvement, quality management, statistical analysis, project management, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "Lean Six Sigma Green Belt Certification Training",
-    description: "Master Lean Six Sigma for process improvement and quality excellence",
+    title: "Lean Six Sigma Green Belt Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led Lean Six Sigma Green Belt certification training in Hyderabad by QuickLearn Systems",
     images: ["/SigmaBB.jpg"],
   },
 };

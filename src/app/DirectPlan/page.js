@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL® 4 Strategist: Direct, Plan and Improve (DPI) Training | Strategy & Governance | Edura",
+  title: "ITIL 4 Direct, Plan and Improve (DPI) Training in Hyderabad | QuickLearn Systems",
   description:
-    "Gain the skills to lead IT and digital transformation with ITIL® 4 Strategist: Direct, Plan and Improve. Learn governance, continual improvement, and strategy execution across all service management levels.",
+    "Master ITIL® 4 Strategist: Direct, Plan and Improve (DPI) certification training in Hyderabad. QuickLearn Systems offers expert-led DPI training covering governance, continual improvement, and strategy execution. Enroll today!",
   keywords:
-    "ITIL 4 Strategist, Direct Plan and Improve, ITIL DPI, continual improvement, IT strategy, governance, service management, leadership, Agile ITSM, DevOps alignment",
+    "ITIL 4 DPI training Hyderabad, Direct Plan Improve certification Hyderabad, best ITIL training institute Hyderabad, ITIL DPI course Hyderabad, ITIL strategist training India, ITIL 4 Strategist, Direct Plan and Improve, ITIL DPI, continual improvement, IT strategy, governance, service management, leadership, Agile ITSM, DevOps alignment, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ITIL® 4 Strategist: Direct, Plan and Improve (DPI) Training",
+    title: "ITIL 4 Direct, Plan and Improve (DPI) Training in Hyderabad | QuickLearn Systems",
     description:
-      "Master ITIL® 4 DPI to align strategic direction, planning, and continual improvement across IT and digital organizations.",
+      "Expert-led ITIL 4 DPI certification training in Hyderabad by QuickLearn Systems",
     images: ["/ITIL4DPI.jpg"],
   },
 };
@@ -70,7 +70,7 @@ const courseData = {
       duration: "2 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "ITIL® 4 Specialist: Create, Deliver and Support (CDS)",
@@ -80,7 +80,7 @@ const courseData = {
       duration: "3 Days",
       level: "Intermediate",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "ITIL® 4 Specialist: High Velocity IT (HVIT)",
@@ -90,7 +90,7 @@ const courseData = {
       duration: "3 Days",
       level: "Intermediate",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

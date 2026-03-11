@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "Service Desk Training | IT Support & Service Operations | Edura",
+  title: "Service Desk Certification Training in Hyderabad | QuickLearn Systems",
   description:
-    "Master Service Desk operations and best practices. Learn incident handling, request management, communication skills, and service excellence in IT environments.",
+    "Master Service Desk operations with expert-led certification training in Hyderabad. QuickLearn Systems offers Service Desk training covering incident handling, request management, and service excellence. Enroll today!",
   keywords:
-    "Service Desk training, IT support training, service desk operations, incident management, request fulfilment, ITSM",
+    "Service Desk training Hyderabad, IT support training Hyderabad, best ITSM training institute Hyderabad, service desk course Hyderabad, IT service desk training India, Service Desk training, IT support training, service desk operations, incident management, request fulfilment, ITSM, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "Service Desk Training",
+    title: "Service Desk Certification Training in Hyderabad | QuickLearn Systems",
     description:
-      "Develop professional service desk skills for effective IT support and operational excellence",
+      "Expert-led Service Desk certification training in Hyderabad by QuickLearn Systems",
     images: ["/serviceDesk.jpg"],
   },
 };
@@ -79,7 +79,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Monitor Support Fulfil",

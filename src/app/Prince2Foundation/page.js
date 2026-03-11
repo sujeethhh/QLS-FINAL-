@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "PRINCE2 Foundation Certification Training | Project Management | Edura",
-  description: "Master PRINCE2 Foundation methodology for structured project management. Learn principles, themes, and processes with expert-led training and certification prep.",
-  keywords: "PRINCE2 Foundation, project management, PRINCE2 certification, structured methodology, project control",
+  title: "PRINCE2 Foundation Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master PRINCE2 Foundation certification training in Hyderabad. QuickLearn Systems offers expert-led training covering PRINCE2 principles, themes, and processes for structured project management. Enroll today!",
+  keywords: "PRINCE2 Foundation training Hyderabad, PRINCE2 Foundation certification Hyderabad, best PRINCE2 training institute Hyderabad, PRINCE2 Foundation course Hyderabad, project management training India, PRINCE2 Foundation, project management, PRINCE2 certification, structured methodology, project control, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "PRINCE2 Foundation Certification Training",
-    description: "Master PRINCE2 Foundation for structured project management excellence",
+    title: "PRINCE2 Foundation Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led PRINCE2 Foundation certification training in Hyderabad by QuickLearn Systems",
     images: ["/PMPC.jpg"],
   },
 };

@@ -596,7 +596,7 @@ export default  function IT4Management(){
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">ITIL® 4 Foundation</h3>
                     </div>
                   </div>
@@ -613,7 +613,7 @@ export default  function IT4Management(){
                           <span className="font-medium text-sm">Foundation</span>
                         </div>
                       </div>
-                      <Link href="/courses/itil-foundation" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/courses/itil-foundation" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -640,7 +640,7 @@ export default  function IT4Management(){
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">ITIL® 4 Practice Manager</h3>
                     </div>
                   </div>
@@ -657,7 +657,7 @@ export default  function IT4Management(){
                           <span className="font-medium text-sm">Advanced</span>
                         </div>
                       </div>
-                      <Link href="/courses/itil-practice-manager" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/courses/itil-practice-manager" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -684,7 +684,7 @@ export default  function IT4Management(){
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">SIAM</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">SIAM</span>
                       <h3 className="text-xl font-bold text-white mt-2">SIAM Foundation</h3>
                     </div>
                   </div>
@@ -701,7 +701,7 @@ export default  function IT4Management(){
                           <span className="font-medium text-sm">Foundation</span>
                         </div>
                       </div>
-                      <Link href="/courses/siam-foundation" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/courses/siam-foundation" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -728,7 +728,7 @@ export default  function IT4Management(){
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">ITIL® 4 Strategist</h3>
                     </div>
                   </div>
@@ -745,7 +745,7 @@ export default  function IT4Management(){
                           <span className="font-medium text-sm">Advanced</span>
                         </div>
                       </div>
-                      <Link href="/courses/itil-strategist" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/courses/itil-strategist" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -772,7 +772,7 @@ export default  function IT4Management(){
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">ITIL® 4 Managing Professional</h3>
                     </div>
                   </div>
@@ -789,7 +789,7 @@ export default  function IT4Management(){
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/courses/itil-managing-professional" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/courses/itil-managing-professional" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -815,7 +815,7 @@ export default  function IT4Management(){
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">ITIL® 4 Managing Professional</h3>
                     </div>
                   </div>
@@ -832,7 +832,7 @@ export default  function IT4Management(){
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/courses/itil-managing-professional" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/courses/itil-managing-professional" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -858,7 +858,7 @@ export default  function IT4Management(){
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">ITIL® 4 Managing Professional</h3>
                     </div>
                   </div>
@@ -875,7 +875,7 @@ export default  function IT4Management(){
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/courses/itil-managing-professional" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/courses/itil-managing-professional" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -901,7 +901,7 @@ export default  function IT4Management(){
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">ITIL® 4 Managing Professional</h3>
                     </div>
                   </div>
@@ -918,7 +918,7 @@ export default  function IT4Management(){
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/courses/itil-managing-professional" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/courses/itil-managing-professional" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -944,7 +944,7 @@ export default  function IT4Management(){
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">ITIL® 4 Managing Professional</h3>
                     </div>
                   </div>
@@ -961,7 +961,7 @@ export default  function IT4Management(){
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/courses/itil-managing-professional" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/courses/itil-managing-professional" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -987,7 +987,7 @@ export default  function IT4Management(){
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">ITIL® 4 Managing Professional</h3>
                     </div>
                   </div>
@@ -1004,7 +1004,7 @@ export default  function IT4Management(){
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/courses/itil-managing-professional" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/courses/itil-managing-professional" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

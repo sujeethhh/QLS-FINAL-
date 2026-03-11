@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "Lean Six Sigma Black Belt Certification Training | Edura",
-  description: "Master Lean Six Sigma Black Belt for advanced process improvement leadership. Learn advanced statistics, project management, and organizational change.",
-  keywords: "Lean Six Sigma Black Belt, advanced process improvement, statistical analysis, project leadership, organizational change",
+  title: "Lean Six Sigma Black Belt Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master Lean Six Sigma Black Belt certification training in Hyderabad. QuickLearn Systems offers expert-led LSSBB training covering advanced statistics, process improvement leadership, and organizational change. Enroll today!",
+  keywords: "Lean Six Sigma Black Belt training Hyderabad, LSSBB certification Hyderabad, best Six Sigma training institute Hyderabad, Six Sigma Black Belt course Hyderabad, Lean Six Sigma training India, Lean Six Sigma Black Belt, advanced process improvement, statistical analysis, project leadership, organizational change, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "Lean Six Sigma Black Belt Certification Training",
-    description: "Master advanced process improvement and lead organizational transformation",
+    title: "Lean Six Sigma Black Belt Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led Lean Six Sigma Black Belt certification training in Hyderabad by QuickLearn Systems",
     images: ["/SigmaBB.jpg"],
   },
 };
@@ -78,7 +78,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "DevOps Foundation",

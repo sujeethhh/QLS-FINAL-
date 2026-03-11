@@ -51,7 +51,7 @@ export async function POST(request) {
       subject: "Welcome to QuickLearn Newsletter!",
       html: `
         <div style="max-width: 600px; margin: 0 auto; font-family: Arial, sans-serif;">
-          <div style="background: #4C0519; padding: 30px; text-align: center;">
+          <div style="background: #3B82F6; padding: 30px; text-align: center;">
             <h1 style="color: white; margin: 0;">QuickLearn Systems</h1>
             <p style="color: #f9a8d4; margin: 5px 0 0;">Learn. Certify. Excel.</p>
           </div>

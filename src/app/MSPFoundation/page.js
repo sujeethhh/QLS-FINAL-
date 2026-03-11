@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "MSP Foundation Certification Training | Programme Management | Edura",
-  description: "Master MSP Foundation for effective programme management. Learn MSP principles, governance, and transformational flow for successful programmes.",
-  keywords: "MSP Foundation, Managing Successful Programmes, programme management, MSP certification, transformational flow",
+  title: "MSP Foundation Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master MSP Foundation certification training in Hyderabad. QuickLearn Systems offers expert-led Managing Successful Programmes Foundation training covering MSP principles, governance, and transformational flow. Enroll today!",
+  keywords: "MSP Foundation training Hyderabad, Managing Successful Programmes certification Hyderabad, best MSP training institute Hyderabad, MSP Foundation course Hyderabad, programme management training India, MSP Foundation, Managing Successful Programmes, programme management, MSP certification, transformational flow, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "MSP Foundation Certification Training",
-    description: "Master Managing Successful Programmes (MSP) for effective programme leadership",
+    title: "MSP Foundation Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led MSP Foundation certification training in Hyderabad by QuickLearn Systems",
     images: ["/Agile.jpg"],
   },
 };

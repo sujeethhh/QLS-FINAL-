@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL Deployment Management Training | Software Deployment | Edura",
-  description: "Master ITIL Deployment Management for safe and efficient software deployments. Learn deployment planning, execution, and rollback strategies.",
-  keywords: "ITIL Deployment Management, software deployment, deployment planning, rollback strategies, ITSM",
+  title: "ITIL Deployment Management Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master ITIL Deployment Management certification training in Hyderabad. QuickLearn Systems offers expert-led training covering deployment planning, execution, and rollback strategies. Enroll today!",
+  keywords: "ITIL Deployment Management training Hyderabad, software deployment certification Hyderabad, best ITIL training institute Hyderabad, deployment management course Hyderabad, ITIL deployment training India, ITIL Deployment Management, software deployment, deployment planning, rollback strategies, ITSM, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ITIL Deployment Management Training",
-    description: "Master Deployment Management for safe and efficient software deployments",
+    title: "ITIL Deployment Management Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led ITIL Deployment Management certification training in Hyderabad by QuickLearn Systems",
     images: ["/PRINCE2.jpg"],
   },
 };
@@ -68,7 +68,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Change Enablement",
@@ -78,7 +78,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "DevOps Foundation",

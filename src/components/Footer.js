@@ -5,6 +5,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGooglePlusG } from "react-icons
 import { FaPaypal, FaUniversity } from "react-icons/fa";
 import { SiVisa, SiMastercard } from "react-icons/si";
 import Link from "next/link";
+import CourseListings from "./CourseListings";
 
 export default function Footer() {
   const [formData, setFormData] = useState({
@@ -55,7 +56,9 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#4C0519] text-white ">
+    <>
+      <CourseListings />
+      <footer className="bg-[#1D4ED8] text-white">
       <div className="w-full px-6 sm:px-10 lg:px-30 py-12 sm:py-16 ">
 
 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
@@ -155,7 +158,7 @@ export default function Footer() {
               <p className="text-gray-300 text-sm mb-4">Cash, Cheque, Online Transfer & Credit Cards</p>
               <div className="flex gap-2 flex-wrap">
                 <div className="w-12 h-8 bg-white rounded flex items-center justify-center shadow-sm">
-                  <SiVisa className="w-8 h-5 text-[#9F2D2D]" />
+                  <SiVisa className="w-8 h-5 text-[#3B82F6]" />
                 </div>
                 <div className="w-12 h-8 bg-white rounded flex items-center justify-center shadow-sm">
                   <SiMastercard className="w-8 h-5 text-red-500" />
@@ -164,7 +167,7 @@ export default function Footer() {
                   <FaUniversity className="w-5 h-4 text-gray-700" />
                 </div>
                 <div className="w-12 h-8 bg-white rounded flex items-center justify-center shadow-sm">
-                  <FaPaypal className="w-6 h-4 text-[#9F2D2D]" />
+                  <FaPaypal className="w-6 h-4 text-[#3B82F6]" />
                 </div>
               </div>
             </div>
@@ -178,7 +181,7 @@ export default function Footer() {
                 href="https://www.facebook.com/quicklearnsystems"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 hover:bg-[#9F2D2D] rounded-lg flex items-center justify-center transition-all duration-300"
+                className="w-10 h-10 bg-gray-800 hover:bg-[#3B82F6] rounded-lg flex items-center justify-center transition-all duration-300"
                 aria-label="Facebook"
               >
                 <FaFacebookF className="w-4 h-4 text-white" />
@@ -194,7 +197,7 @@ export default function Footer() {
               </a>
               <a
                 href="#"
-                className="w-10 h-10 bg-gray-800 hover:bg-red-600 rounded-lg flex items-center justify-center transition-all duration-300"
+                className="w-10 h-10 bg-gray-800 hover:bg-blue-500 rounded-lg flex items-center justify-center transition-all duration-300"
                 aria-label="Google Plus"
               >
                 <FaGooglePlusG className="w-4 h-4 text-white" />
@@ -203,7 +206,7 @@ export default function Footer() {
                 href="https://www.linkedin.com/in/quicklearn-systems-1494ba12a"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 hover:bg-blue-700 rounded-lg flex items-center justify-center transition-all duration-300"
+                className="w-10 h-10 bg-gray-800 hover:bg-blue-500 rounded-lg flex items-center justify-center transition-all duration-300"
                 aria-label="LinkedIn"
               >
                 <FaLinkedinIn className="w-4 h-4 text-white" />
@@ -264,6 +267,7 @@ export default function Footer() {
           </p>
         </div>
       </div>
-    </footer>
+      </footer>
+    </>
   );
 }

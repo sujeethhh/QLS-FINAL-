@@ -27,7 +27,7 @@ const slides = [
     title: "Quality Management",
     subtitle: "Master process improvement and efficiency using Lean Six Sigma methodologies. Gain Green Belt and Black Belt certifications to reduce waste and optimize quality.",
     image: "/slider_safe_cap.png",
-    accent: "from-orange-500 to-red-500",
+    accent: "from-blue-500 to-blue-700",
   },
   {
     title: "DevOps & Business Analysis",
@@ -147,7 +147,7 @@ export default function Hero({ onCategorySelect }) {
                   whileTap={{ scale: 0.98 }}
                   onClick={() => onCategorySelect(slides[currentSlide].title)}
                 >
-                  <motion.div className="absolute inset-0 bg-gradient-to-r from-[#7A1E2D] to-[#5C1522] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <motion.div className="absolute inset-0 bg-gradient-to-r from-[#2563EB] to-[#1D4ED8] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
                   <span className="relative z-10 group-hover:text-white transition-colors duration-300 flex items-center gap-2">
                     Get Started

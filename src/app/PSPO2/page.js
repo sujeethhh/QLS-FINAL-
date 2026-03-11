@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "Professional Scrum Product Owner™ II (PSPO II) Training | QLS",
+  title: "Professional Scrum Product Owner II (PSPO II) Training in Hyderabad | QuickLearn Systems",
   description:
-    "Advance your Product Ownership expertise with Professional Scrum Product Owner™ II (PSPO II). Strengthen stakeholder management, product strategy, and value-driven delivery skills.",
+    "Master Professional Scrum Product Owner II (PSPO II) certification training in Hyderabad. QuickLearn Systems offers expert-led PSPO II training covering advanced product ownership, stakeholder management, and value-driven delivery. Enroll today!",
   keywords:
-    "PSPO II, Professional Scrum Product Owner 2, advanced Product Owner certification, Scrum Product Owner training, Agile product strategy",
+    "PSPO II training Hyderabad, Professional Scrum Product Owner 2 certification Hyderabad, best Scrum training institute Hyderabad, PSPO II course Hyderabad, Scrum Product Owner training India, PSPO II, Professional Scrum Product Owner 2, advanced Product Owner certification, Scrum Product Owner training, Agile product strategy, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "Professional Scrum Product Owner™ II (PSPO II) Certification | QLS",
+    title: "Professional Scrum Product Owner II (PSPO II) Training in Hyderabad | QuickLearn Systems",
     description:
-      "Enhance advanced Product Ownership skills and maximize product value delivery",
+      "Expert-led PSPO II certification training in Hyderabad by QuickLearn Systems",
     images: ["/scrum.jpg"],
   },
 };
@@ -99,7 +99,7 @@ const courseData = {
       duration: "2 Days",
       level: "Professional",
       badge: "SAFe®",
-      badgeColor: "bg-red-600"
+      badgeColor: "bg-blue-500"
     }
   ]
 };

@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "Sustainability in Digital IT Training | Green IT | Edura",
+  title: "Sustainability in Digital & AI Training in Hyderabad | QuickLearn Systems",
   description:
-    "Learn how to integrate sustainability into digital IT strategies. Master green IT practices, energy efficiency, carbon reduction, and responsible digital transformation.",
+    "Master Sustainability in Digital IT and AI training in Hyderabad. QuickLearn Systems offers expert-led training covering green IT practices, energy efficiency, carbon reduction, and responsible digital transformation. Enroll today!",
   keywords:
-    "Sustainability in Digital IT, Green IT training, sustainable IT practices, carbon reduction IT, ESG IT strategy",
+    "Sustainability in Digital AI training Hyderabad, Green IT certification Hyderabad, best IT training institute Hyderabad, sustainable IT course Hyderabad, green IT training India, Sustainability in Digital IT, Green IT training, sustainable IT practices, carbon reduction IT, ESG IT strategy, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "Sustainability in Digital IT Training",
+    title: "Sustainability in Digital & AI Training in Hyderabad | QuickLearn Systems",
     description:
-      "Integrate sustainable practices into digital IT operations and strategy",
+      "Expert-led Sustainability in Digital & AI training in Hyderabad by QuickLearn Systems",
     images: ["/digital-sustainability.jpg"],
   },
 };
@@ -89,7 +89,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Monitor Support Fulfil",

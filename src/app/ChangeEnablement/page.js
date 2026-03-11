@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL Change Enablement Training | Change Management | Edura",
-  description: "Master ITIL Change Enablement to manage changes safely and efficiently. Learn change assessment, authorization, and implementation best practices.",
-  keywords: "ITIL Change Enablement, change management, change control, ITSM, change assessment, change authorization",
+  title: "ITIL Change Enablement Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master ITIL Change Enablement certification training in Hyderabad. QuickLearn Systems offers expert-led training covering change assessment, authorization, and implementation best practices. Enroll today!",
+  keywords: "ITIL Change Enablement training Hyderabad, change management certification Hyderabad, best ITIL training institute Hyderabad, change enablement course Hyderabad, ITIL change management training India, ITIL Change Enablement, change management, change control, ITSM, change assessment, change authorization, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ITIL Change Enablement Training",
-    description: "Master Change Enablement for safe and efficient change management",
+    title: "ITIL Change Enablement Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led ITIL Change Enablement certification training in Hyderabad by QuickLearn Systems",
     images: ["/blog3.jpg"],
   },
 };
@@ -68,7 +68,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Deployment Management",
@@ -78,7 +78,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Service Configuration Management",
@@ -88,7 +88,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

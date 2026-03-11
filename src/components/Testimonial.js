@@ -117,7 +117,7 @@ export default function Testimonial({ testimonials }) {
           <h2 className="text-4xl font-bold text-gray-900 mb-2">
             What Enterprises Are Saying
           </h2>
-          <div className="w-16 h-1 bg-[#9F2D2D] mx-auto" />
+          <div className="w-16 h-1 bg-[#3B82F6] mx-auto" />
         </motion.div>
 
         {/* Auto-scrolling Testimonials Container with Navigation */}
@@ -131,7 +131,7 @@ export default function Testimonial({ testimonials }) {
           {/* Left Arrow */}
           <motion.button
             onClick={scrollLeft}
-            className="absolute left-0 sm:left-2 top-1/2 transform -translate-y-1/2 z-20 p-2 sm:p-3 rounded-full bg-white shadow-lg hover:shadow-xl text-gray-700 hover:text-[#9F2D2D] transition-all duration-300 border border-gray-200"
+            className="absolute left-0 sm:left-2 top-1/2 transform -translate-y-1/2 z-20 p-2 sm:p-3 rounded-full bg-white shadow-lg hover:shadow-xl text-gray-700 hover:text-[#3B82F6] transition-all duration-300 border border-gray-200"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
@@ -141,7 +141,7 @@ export default function Testimonial({ testimonials }) {
           {/* Right Arrow */}
           <motion.button
             onClick={scrollRight}
-            className="absolute right-0 sm:right-2 top-1/2 transform -translate-y-1/2 z-20 p-2 sm:p-3 rounded-full bg-white shadow-lg hover:shadow-xl text-gray-700 hover:text-[#9F2D2D] transition-all duration-300 border border-gray-200"
+            className="absolute right-0 sm:right-2 top-1/2 transform -translate-y-1/2 z-20 p-2 sm:p-3 rounded-full bg-white shadow-lg hover:shadow-xl text-gray-700 hover:text-[#3B82F6] transition-all duration-300 border border-gray-200"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
@@ -167,7 +167,7 @@ export default function Testimonial({ testimonials }) {
               {/* Duplicate testimonials for seamless loop */}
               {[...testimonials, ...testimonials].map((testimonial, index) => {
                 const isExpanded = expandedCards[index];
-                
+
                 return (
                   <motion.div
                     key={`${testimonial.id || index}-${index}`}
@@ -178,7 +178,7 @@ export default function Testimonial({ testimonials }) {
                     whileHover={{ y: -5, transition: { duration: 0.2 } }}
                   >
                     <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 h-full w-80 sm:w-96 flex-shrink-0 p-6">
-                      
+
                       {/* Stars */}
                       {renderStars(testimonial.rating)}
 
@@ -187,7 +187,7 @@ export default function Testimonial({ testimonials }) {
                         <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
                           {isExpanded ? testimonial.message : truncateText(testimonial.message)}
                         </p>
-                        
+
                         {testimonial.message.length > 120 && (
                           <button
                             onClick={() => toggleExpanded(index)}

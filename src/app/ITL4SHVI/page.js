@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL® 4 Specialist: High Velocity IT (HVIT) Training | Agile ITSM | QuickLearn",
+  title: "ITIL 4 High Velocity IT (HVIT) Certification Training in Hyderabad | QuickLearn Systems",
   description:
-    "Accelerate your IT performance with ITIL® 4 Specialist: High Velocity IT. Learn how to apply Agile, Lean, and DevOps concepts to deliver digital products and services rapidly and reliably.",
+    "Master ITIL® 4 Specialist: High Velocity IT (HVIT) certification training in Hyderabad. QuickLearn Systems offers expert-led HVIT training covering Agile, Lean, and DevOps for digital transformation. Enroll today!",
   keywords:
-    "ITIL 4 Specialist, High Velocity IT, ITIL HVIT, Agile ITSM, DevOps, Lean IT, Digital Transformation, ITIL 4 certification, service management, cloud agility",
+    "ITIL 4 HVIT training Hyderabad, High Velocity IT certification Hyderabad, best ITIL training institute Hyderabad, ITIL HVIT course Hyderabad, ITIL 4 specialist training India, ITIL 4 Specialist, High Velocity IT, ITIL HVIT, Agile ITSM, DevOps, Lean IT, Digital Transformation, ITIL 4 certification, service management, cloud agility, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ITIL® 4 Specialist: High Velocity IT (HVIT) Training",
+    title: "ITIL 4 High Velocity IT (HVIT) Certification Training in Hyderabad | QuickLearn Systems",
     description:
-      "Master the digital mindset with ITIL® 4 HVIT. Learn how to combine Agile, Lean, and DevOps principles for high-performing IT and digital organizations.",
+      "Expert-led ITIL 4 HVIT certification training in Hyderabad by QuickLearn Systems",
     images: ["/ITIL4.jpg"],
   },
 };
@@ -71,7 +71,7 @@ const courseData = {
       duration: "2 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "ITIL® 4 Specialist: Create, Deliver and Support (CDS)",
@@ -81,7 +81,7 @@ const courseData = {
       duration: "3 Days",
       level: "Intermediate",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "ITIL® 4 Strategist: Direct, Plan and Improve (DPI)",
@@ -91,7 +91,7 @@ const courseData = {
       duration: "3 Days",
       level: "Intermediate",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

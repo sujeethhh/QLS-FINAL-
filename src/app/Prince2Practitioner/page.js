@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "PRINCE2 Practitioner Certification Training | Advanced Project Management | Edura",
-  description: "Master PRINCE2 Practitioner for advanced project management skills. Learn to apply and tailor PRINCE2 methodology in real-world scenarios.",
-  keywords: "PRINCE2 Practitioner, advanced project management, PRINCE2 application, project tailoring, project leadership",
+  title: "PRINCE2 Practitioner Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master PRINCE2 Practitioner certification training in Hyderabad. QuickLearn Systems offers expert-led training covering PRINCE2 application, tailoring, and advanced project management skills. Enroll today!",
+  keywords: "PRINCE2 Practitioner training Hyderabad, PRINCE2 Practitioner certification Hyderabad, best PRINCE2 training institute Hyderabad, PRINCE2 Practitioner course Hyderabad, project management training India, PRINCE2 Practitioner, advanced project management, PRINCE2 application, project tailoring, project leadership, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "PRINCE2 Practitioner Certification Training",
-    description: "Master advanced PRINCE2 application and project leadership skills",
+    title: "PRINCE2 Practitioner Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led PRINCE2 Practitioner certification training in Hyderabad by QuickLearn Systems",
     images: ["/Agile.jpg"],
   },
 };

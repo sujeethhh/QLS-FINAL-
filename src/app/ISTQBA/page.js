@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ISTQB Advanced Level Certification Training | Software Testing | Edura",
-  description: "Master advanced software testing with ISTQB Advanced Level certification. Learn test automation, advanced techniques, and testing leadership.",
-  keywords: "ISTQB Advanced, advanced software testing, test automation, testing leadership, advanced test techniques",
+  title: "ISTQB Advanced Level Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master ISTQB Advanced Level certification training in Hyderabad. QuickLearn Systems offers expert-led advanced software testing training covering test automation, advanced techniques, and testing leadership. Enroll today!",
+  keywords: "ISTQB Advanced training Hyderabad, ISTQB Advanced certification Hyderabad, best ISTQB training institute Hyderabad, advanced software testing course Hyderabad, ISTQB training India, ISTQB Advanced, advanced software testing, test automation, testing leadership, advanced test techniques, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ISTQB Advanced Level Certification Training",
-    description: "Master advanced software testing techniques and automation with ISTQB Advanced",
+    title: "ISTQB Advanced Level Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led ISTQB Advanced Level certification training in Hyderabad by QuickLearn Systems",
     images: ["/TestAuto.jpg"],
   },
 };
@@ -68,7 +68,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ISTQB",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "DevOps Foundation",

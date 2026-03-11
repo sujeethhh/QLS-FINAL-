@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "MSP Practitioner Training | Managing Successful Programmes | Edura",
+  title: "MSP Practitioner Certification Training in Hyderabad | QuickLearn Systems",
   description:
-    "Master MSP Practitioner to manage complex programs effectively. Learn to coordinate multiple projects, manage benefits, and deliver strategic outcomes using MSP framework.",
+    "Master MSP Practitioner certification training in Hyderabad. QuickLearn Systems offers expert-led Managing Successful Programmes Practitioner training covering program coordination, benefits management, and strategic outcomes. Enroll today!",
   keywords:
-    "MSP Practitioner, Managing Successful Programmes, MSP, Program Management, Benefits Management, Project Coordination, Governance, Strategic Programmes, MSP Certification",
+    "MSP Practitioner training Hyderabad, Managing Successful Programmes certification Hyderabad, best MSP training institute Hyderabad, MSP Practitioner course Hyderabad, programme management training India, MSP Practitioner, Managing Successful Programmes, MSP, Program Management, Benefits Management, Project Coordination, Governance, Strategic Programmes, MSP Certification, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "MSP Practitioner Training",
+    title: "MSP Practitioner Certification Training in Hyderabad | QuickLearn Systems",
     description:
-      "Learn to apply MSP principles and practices to deliver complex programs successfully, ensuring strategic alignment and benefits realization.",
+      "Expert-led MSP Practitioner certification training in Hyderabad by QuickLearn Systems",
     images: ["/MSPPractitioner.jpg"],
   },
 };
@@ -73,7 +73,7 @@ const courseData = {
       duration: "2 Days",
       level: "Foundation",
       badge: "MSP",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "PRINCE2 Practitioner",
@@ -84,7 +84,7 @@ const courseData = {
       duration: "3 Days",
       level: "Advanced",
       badge: "PRINCE2",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "MoP Practitioner",

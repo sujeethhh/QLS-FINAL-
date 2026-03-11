@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL® 4 Specialist Drive Stakeholder Value Training | Edura",
-  description: "Master ITIL® 4 Specialist Drive Stakeholder Value module. Learn customer journey mapping, stakeholder engagement, and value co-creation.",
-  keywords: "ITIL 4 Specialist, Drive Stakeholder Value, customer journey, stakeholder engagement, value creation, ITSM",
+  title: "ITIL 4 Drive Stakeholder Value (DSV) Training in Hyderabad | QuickLearn Systems",
+  description: "Master ITIL® 4 Specialist: Drive Stakeholder Value (DSV) certification training in Hyderabad. QuickLearn Systems offers expert-led training covering customer journey mapping, stakeholder engagement, and value co-creation. Enroll today!",
+  keywords: "ITIL 4 DSV training Hyderabad, Drive Stakeholder Value certification Hyderabad, best ITIL training institute Hyderabad, ITIL DSV course Hyderabad, ITIL 4 specialist training India, ITIL 4 Specialist, Drive Stakeholder Value, customer journey, stakeholder engagement, value creation, ITSM, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ITIL® 4 Specialist Drive Stakeholder Value Training",
-    description: "Master stakeholder value creation with ITIL® 4 Specialist training",
+    title: "ITIL 4 Drive Stakeholder Value (DSV) Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led ITIL 4 DSV certification training in Hyderabad by QuickLearn Systems",
     images: ["/itl4.jpg"],
   },
 };
@@ -68,7 +68,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Relationship Management",
@@ -78,7 +78,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Service Level Management",
@@ -88,7 +88,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };

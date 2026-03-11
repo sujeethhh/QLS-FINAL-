@@ -9,12 +9,12 @@ import Script from "next/script";
 
 // Server-side metadata for SEO
 export const metadata = {
-  title: "PMP Certification Training | Project Management Professional | Edura",
-  description: "Become a certified Project Management Professional (PMP) with our comprehensive training program. Expert instructors, exam prep, and hands-on experience.",
-  keywords: "PMP certification, Project Management Professional, PMI training, project management course, PMP exam prep",
+  title: "PMP Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Become a certified Project Management Professional (PMP) with expert-led PMP training in Hyderabad. QuickLearn Systems offers comprehensive PMP certification courses with exam prep, hands-on experience, and expert instructors. Enroll today!",
+  keywords: "PMP training Hyderabad, PMP certification Hyderabad, best PMP training institute Hyderabad, Project Management Professional course Hyderabad, PMP exam prep Hyderabad, PMP training India, PMP certification, Project Management Professional, PMI training, project management course, PMP exam prep, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "PMP Certification Training - Project Management Professional",
-    description: "Become a certified Project Management Professional with comprehensive training and exam preparation",
+    title: "PMP Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led PMP certification training in Hyderabad by QuickLearn Systems",
     images: ["/PMPC.jpg"],
   },
 };

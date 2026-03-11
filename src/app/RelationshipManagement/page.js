@@ -5,12 +5,12 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL Relationship Management Training | Stakeholder Management | Edura",
-  description: "Master ITIL Relationship Management to build strong stakeholder relationships. Learn customer engagement, communication, and relationship strategies.",
-  keywords: "ITIL Relationship Management, stakeholder management, customer engagement, business relationships, ITSM",
+  title: "ITIL Relationship Management Certification Training in Hyderabad | QuickLearn Systems",
+  description: "Master ITIL Relationship Management certification training in Hyderabad. QuickLearn Systems offers expert-led training covering stakeholder engagement, customer relationships, and communication strategies. Enroll today!",
+  keywords: "ITIL Relationship Management training Hyderabad, relationship management certification Hyderabad, best ITIL training institute Hyderabad, relationship management course Hyderabad, ITSM relationship training India, ITIL Relationship Management, stakeholder management, customer engagement, business relationships, ITSM, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ITIL Relationship Management Training",
-    description: "Master Relationship Management for effective stakeholder engagement",
+    title: "ITIL Relationship Management Certification Training in Hyderabad | QuickLearn Systems",
+    description: "Expert-led ITIL Relationship Management certification training in Hyderabad by QuickLearn Systems",
     images: ["/SIAM.jpg"],
   },
 };
@@ -68,7 +68,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Business Relationship Management",
@@ -78,7 +78,7 @@ const courseData = {
       duration: "3 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "SIAM Foundation",

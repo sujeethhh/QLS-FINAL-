@@ -599,7 +599,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">ITIL® 4 Foundation</h3>
                     </div>
                   </div>
@@ -616,7 +616,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Foundation</span>
                         </div>
                       </div>
-                      <Link href="/ITL4Management" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/ITL4Management" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -643,7 +643,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Problem Management</h3>
                     </div>
                   </div>
@@ -660,7 +660,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Advanced</span>
                         </div>
                       </div>
-                      <Link href="/ProblemManagement" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/ProblemManagement" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -687,7 +687,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">SIAM</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">SIAM</span>
                       <h3 className="text-xl font-bold text-white mt-2">SIAM Foundation</h3>
                     </div>
                   </div>
@@ -704,7 +704,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Foundation</span>
                         </div>
                       </div>
-                      <Link href="/SIAMFoundation" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/SIAMFoundation" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -731,7 +731,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Incident Management</h3>
                     </div>
                   </div>
@@ -748,7 +748,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Advanced</span>
                         </div>
                       </div>
-                      <Link href="/IncidentManagement" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/IncidentManagement" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -775,7 +775,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Service Request Management</h3>
                     </div>
                   </div>
@@ -792,7 +792,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/ServiceRequestManagement" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/ServiceRequestManagement" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -818,7 +818,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Monitoring & Event Management</h3>
                     </div>
                   </div>
@@ -835,7 +835,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/MonitoringEventManagement" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/MonitoringEventManagement" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -861,7 +861,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Change Enablement</h3>
                     </div>
                   </div>
@@ -878,7 +878,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/ChangeEnablement" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/ChangeEnablement" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -904,7 +904,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Release Management</h3>
                     </div>
                   </div>
@@ -921,7 +921,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/ReleaseManagement" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/ReleaseManagement" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -947,7 +947,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Service Configuration Management</h3>
                     </div>
                   </div>
@@ -964,7 +964,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/ServiceConfiguration" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/ServiceConfiguration" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -990,7 +990,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Deployment Management</h3>
                     </div>
                   </div>
@@ -1007,7 +1007,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/DeploymentManagement" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/DeploymentManagement" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1033,7 +1033,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Service Desk</h3>
                     </div>
                   </div>
@@ -1050,7 +1050,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/ServiceDesk" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/ServiceDesk" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1076,7 +1076,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Continual improvement</h3>
                     </div>
                   </div>
@@ -1093,7 +1093,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/ContinuationImprovement" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/ContinuationImprovement" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1119,7 +1119,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Relationship Management</h3>
                     </div>
                   </div>
@@ -1136,7 +1136,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/RelationshipManagement" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/RelationshipManagement" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1162,7 +1162,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Service Level Management</h3>
                     </div>
                   </div>
@@ -1179,7 +1179,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/ServiceLevelManagement" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/ServiceLevelManagement" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1205,7 +1205,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Information Security Management</h3>
                     </div>
                   </div>
@@ -1222,7 +1222,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/InformationSecurityMan" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/InformationSecurityMan" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1248,7 +1248,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Supplier Management</h3>
                     </div>
                   </div>
@@ -1265,7 +1265,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/SupplierManagement" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/SupplierManagement" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1291,7 +1291,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">ITIL® 4 Specialist Create, Deliver and Support</h3>
                     </div>
                   </div>
@@ -1308,7 +1308,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/ITL4SCDS" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/ITL4SCDS" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1334,7 +1334,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">ITIL® 4 Specialist Drive Stakeholder value</h3>
                     </div>
                   </div>
@@ -1351,7 +1351,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/ITL4SDSV" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/ITL4SDSV" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1377,7 +1377,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">ITIL® 4 Specialist High Velocity IT</h3>
                     </div>
                   </div>
@@ -1394,7 +1394,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/ITL4SHVI" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/ITL4SHVI" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1420,7 +1420,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">ITIL® 4 Strategist Direct Plan & Improve</h3>
                     </div>
                   </div>
@@ -1437,7 +1437,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/ITL4SDPI" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/ITL4SDPI" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1463,7 +1463,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Create, Deliver and Support</h3>
                     </div>
                   </div>
@@ -1480,7 +1480,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/CreateDeliverSupport" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/CreateDeliverSupport" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1506,7 +1506,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Drive Stakeholder Valu</h3>
                     </div>
                   </div>
@@ -1523,7 +1523,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/DriveStakeholderValue" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/DriveStakeholderValue" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1550,7 +1550,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">High Velocity IT</h3>
                     </div>
                   </div>
@@ -1567,7 +1567,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/HighvelIt" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/HighvelIt" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1594,7 +1594,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Direct Plan & Improve</h3>
                     </div>
                   </div>
@@ -1611,7 +1611,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/DirectPlan" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/DirectPlan" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1637,7 +1637,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Acquring And Managing Cloud Service</h3>
                     </div>
                   </div>
@@ -1654,7 +1654,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/AcquringAndManagingCS" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/AcquringAndManagingCS" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1681,7 +1681,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Sustainability In Digital and IT</h3>
                     </div>
                   </div>
@@ -1698,7 +1698,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/SustainabilityInDigitalAI" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/SustainabilityInDigitalAI" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1724,7 +1724,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Business Relationship Management</h3>
                     </div>
                   </div>
@@ -1741,7 +1741,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/BusinessRelationshipManage" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/BusinessRelationshipManage" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1767,7 +1767,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">IT Asset Management</h3>
                     </div>
                   </div>
@@ -1784,7 +1784,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/ItAssetManage" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/ItAssetManage" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1810,7 +1810,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Monitor,Support and Fulfil</h3>
                     </div>
                   </div>
@@ -1827,7 +1827,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/MonitorSupportFulfil" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/MonitorSupportFulfil" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1853,7 +1853,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">Digital IT & Services</h3>
                     </div>
                   </div>
@@ -1870,7 +1870,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/DigitalItService" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/DigitalItService" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1897,7 +1897,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">SIAM Foundation</h3>
                     </div>
                   </div>
@@ -1914,7 +1914,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/SIAMFoundation" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/SIAMFoundation" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1940,7 +1940,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4">
-                      <span className="bg-[#9F2D2D] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
+                      <span className="bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">ITIL®</span>
                       <h3 className="text-xl font-bold text-white mt-2">SIAM Professional</h3>
                     </div>
                   </div>
@@ -1957,7 +1957,7 @@ Problem Management is a process within IT Service Management that focuses on ide
                           <span className="font-medium text-sm">Expert</span>
                         </div>
                       </div>
-                      <Link href="/SIAMProfessional" className="text-[#9F2D2D] hover:text-blue-800 font-medium text-sm flex items-center">
+                      <Link href="/SIAMProfessional" className="text-[#3B82F6] hover:text-blue-800 font-medium text-sm flex items-center">
                         Details
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

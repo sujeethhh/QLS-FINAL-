@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "PRINCE2 Agile Foundation Training | Project Management | Edura",
+  title: "PRINCE2 Agile Foundation Certification Training in Hyderabad | QuickLearn Systems",
   description:
-    "Master PRINCE2 Agile Foundation to deliver projects with flexibility, governance, and controlled risk. Learn agile project principles, roles, and frameworks.",
+    "Master PRINCE2 Agile Foundation certification training in Hyderabad. QuickLearn Systems offers expert-led training covering agile project principles, PRINCE2 governance, and hybrid project management. Enroll today!",
   keywords:
-    "PRINCE2 Agile, PRINCE2 Foundation, Agile Project Management, PRINCE2 Agile Foundation, Project Governance, Risk Management, Agile Delivery, IT Project Management, Hybrid Project Management",
+    "PRINCE2 Agile Foundation training Hyderabad, PRINCE2 Agile certification Hyderabad, best PRINCE2 training institute Hyderabad, PRINCE2 Agile Foundation course Hyderabad, PRINCE2 training India, PRINCE2 Agile, PRINCE2 Foundation, Agile Project Management, PRINCE2 Agile Foundation, Project Governance, Risk Management, Agile Delivery, IT Project Management, Hybrid Project Management, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "PRINCE2 Agile Foundation Training",
+    title: "PRINCE2 Agile Foundation Certification Training in Hyderabad | QuickLearn Systems",
     description:
-      "Learn to combine PRINCE2’s structured project management framework with agile delivery techniques for successful project outcomes.",
+      "Expert-led PRINCE2 Agile Foundation certification training in Hyderabad by QuickLearn Systems",
     images: ["/PRINCE2Agile.jpg"],
   },
 };
@@ -72,7 +72,7 @@ const courseData = {
       duration: "2 Days",
       level: "Foundation",
       badge: "PRINCE2",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "Agile Project Management",

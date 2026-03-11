@@ -5,15 +5,15 @@ import LiveChat from "@/components/LiveChat";
 import CoursePageTemplate from "@/components/CoursePageTemplate";
 
 export const metadata = {
-  title: "ITIL® 4 Specialist: Digital and IT Services (DITS) | Digital Transformation Leadership | Edura",
+  title: "ITIL 4 Digital and IT Services (DITS) Training in Hyderabad | QuickLearn Systems",
   description:
-    "Master ITIL® 4 Specialist: Digital and IT Services (DITS) to lead digital transformation, integrate technology with business strategy, and drive innovation across IT-enabled services.",
+    "Master ITIL® 4 Specialist: Digital and IT Services (DITS) certification training in Hyderabad. QuickLearn Systems offers expert-led training covering digital transformation, IT strategy, and innovation. Enroll today!",
   keywords:
-    "ITIL 4 Specialist, Digital and IT Services, ITIL DITS, IT strategy, digital transformation, service management, IT governance, innovation, IT leadership, technology alignment",
+    "ITIL 4 DITS training Hyderabad, Digital IT Services certification Hyderabad, best ITIL training institute Hyderabad, ITIL DITS course Hyderabad, digital transformation training India, ITIL 4 Specialist, Digital and IT Services, ITIL DITS, IT strategy, digital transformation, service management, IT governance, innovation, IT leadership, technology alignment, QuickLearn Systems, IT training Hyderabad, professional training Hyderabad",
   openGraph: {
-    title: "ITIL® 4 Specialist: Digital and IT Services (DITS)",
+    title: "ITIL 4 Digital and IT Services (DITS) Training in Hyderabad | QuickLearn Systems",
     description:
-      "Lead digital transformation and innovation with ITIL® 4 DITS. Learn how to align IT and business strategies to deliver value through digital services.",
+      "Expert-led ITIL 4 DITS certification training in Hyderabad by QuickLearn Systems",
     images: ["/ITIL4DITS.jpg"],
   },
 };
@@ -71,7 +71,7 @@ const courseData = {
       duration: "2 Days",
       level: "Foundation",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "ITIL® 4 Strategist: Direct, Plan and Improve (DPI)",
@@ -82,7 +82,7 @@ const courseData = {
       duration: "3 Days",
       level: "Intermediate",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     },
     {
       title: "ITIL® 4 Specialist: Drive Stakeholder Value (DSV)",
@@ -93,7 +93,7 @@ const courseData = {
       duration: "3 Days",
       level: "Intermediate",
       badge: "ITIL®",
-      badgeColor: "bg-[#9F2D2D]"
+      badgeColor: "bg-[#3B82F6]"
     }
   ]
 };
